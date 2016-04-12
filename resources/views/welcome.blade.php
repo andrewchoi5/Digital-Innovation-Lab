@@ -53,7 +53,9 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
                   </td>
                   <td style="width:55%"><h4>Ride Your Portfolio</h4>
-                      <p></p>
+                      <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
+                      you go up with it or go down with it.
+                      It is a fun virtual reality experience in banking.</p>
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
