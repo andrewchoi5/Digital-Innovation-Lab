@@ -36,22 +36,24 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
                             <source src="/video/Demo Video.mp4" type="video/mp4">
                         </video>
                     </div>
-                    </th>
+                  </td>
                   <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    <p>Gear VR app that puts the user in a virtual airplane to move around and select
+                      preferred seat.</p>
+                      <p>This app was created because we thought it would be great to add
+                        a virtual reality experience within an airline mobile app for seat selection
+                        and it would improve the user experience.</p>
+                      <p>  The application starts from the Android app and you have an option
+                        to go into virtual reality to reserve a seat. </p>
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
                 <tr>
                   <td style="width:35%">
-                    <div align="center" class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls>
-                            <source src="/video/Demo Video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    </th>
-                  <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
+                  </td>
+                  <td style="width:55%"><h4>Ride Your Portfolio</h4>
+                      <p></p>
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
