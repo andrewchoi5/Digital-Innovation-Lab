@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Coop at IBM</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src=”https://ajax.googleapis.
+com/ajax/libs/jquery/1.11.0/jquery.min.js”>
+</script>
     </head>
     <body>
+      @if (Session::has('message'))
+    	<div class="alert alert-success alert-dismissable">
+    		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
+    	</div>
+
+    @endif
         <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+          <div class="row">
+        		<div class="col-md-12">
+              <div class="well">
+                  <h1 class="intro" style="margin-bottom:0px;">IBM</h1>
+                  <h3 class="subtitle">CO-OP RESEARCH <br> LAB</h3>
+
+                </div>
             </div>
+
+            <div class="col-md-12" style="margin-bottom:20px;">
+                <a href="mailto:kjparkdavid@gmail.com" target="_blank"><span class="btn btn-md btn-primary pull-right">Submit Idea</span></a>
+            </div>
+            <div class="col-md-12">
+              <table class="table table-striped">
+                <tr>
+                  <th>
+                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" controls>
+                            <source src="/video/Demo Video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    </th>
+                  <th>Title</th>
+                  <th>Try It</th>
+                </tr>
+                <tr>
+                  <th>Some Image</th>
+                  <th>Title</th>
+                  <th>Try It</th>
+                </tr>
+              </table>
+            </div>
+        </div>
         </div>
     </body>
 </html>
