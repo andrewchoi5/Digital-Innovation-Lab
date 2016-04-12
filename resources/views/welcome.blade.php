@@ -43,13 +43,13 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
                         </video>
                     </div>
                     </th>
-                  <th>Title</th>
-                  <th>Try It</th>
+                  <th>Seat Selection in Virtual Reality (1:40)</th>
+                  <th><span class="btn btn-md btn-warning">Try It</span></th>
                 </tr>
                 <tr>
-                  <th>Some Image</th>
-                  <th>Title</th>
-                  <th>Try It</th>
+                  <th>Thumbnail</th>
+                  <th>Rollercoaster Virtual Reality</th>
+                  <th><span class="btn btn-md btn-warning">Try It</span></th>
                 </tr>
               </table>
             </div>
