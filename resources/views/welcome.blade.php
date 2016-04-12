@@ -14,12 +14,6 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
 </script>
     </head>
     <body>
-      @if (Session::has('message'))
-    	<div class="alert alert-success alert-dismissable">
-    		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
-    	</div>
-
-    @endif
         <div class="container">
           <div class="row">
         		<div class="col-md-12">
@@ -30,26 +24,36 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
                 </div>
             </div>
 
-            <div class="col-md-12" style="margin-bottom:20px;">
-                <a href="mailto:kjparkdavid@gmail.com" target="_blank"><span class="btn btn-md btn-primary pull-right">Submit Idea</span></a>
+            <div class="col-md-12 text-right" style="margin-bottom:20px;">
+                <a href="mailto:kjparkdavid@gmail.com" target="_blank"><span class="btn btn-md btn-primary" style="margin-right:20px">Submit Idea</span></a>
             </div>
             <div class="col-md-12">
               <table class="table table-striped">
                 <tr>
-                  <th>
+                  <td style="width:35%">
                     <div align="center" class="embed-responsive embed-responsive-16by9">
                         <video class="embed-responsive-item" controls>
                             <source src="/video/Demo Video.mp4" type="video/mp4">
                         </video>
                     </div>
                     </th>
-                  <th>Seat Selection in Virtual Reality (1:40)</th>
-                  <th><span class="btn btn-md btn-warning">Try It</span></th>
+                  <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                  </td>
+                  <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
                 <tr>
-                  <th>Thumbnail</th>
-                  <th>Rollercoaster Virtual Reality</th>
-                  <th><span class="btn btn-md btn-warning">Try It</span></th>
+                  <td style="width:35%">
+                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" controls>
+                            <source src="/video/Demo Video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    </th>
+                  <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                  </td>
+                  <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
               </table>
             </div>
