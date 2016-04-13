@@ -8,13 +8,34 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src=”https://ajax.googleapis.
-com/ajax/libs/jquery/1.11.0/jquery.min.js”>
-</script>
+
     </head>
     <body>
         <div class="container">
+          <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Submit Idea</h4>
+              </div>
+              <div class="modal-body">
+                <p>Make a form</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Content -->
           <div class="row">
         		<div class="col-md-12">
               <div class="well">
@@ -25,7 +46,8 @@ com/ajax/libs/jquery/1.11.0/jquery.min.js”>
             </div>
 
             <div class="col-md-12 text-right" style="margin-bottom:20px;">
-                <a href="mailto:kjparkdavid@gmail.com" target="_blank"><span class="btn btn-md btn-primary" style="margin-right:20px">Submit Idea</span></a>
+              <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="margin-right:20px">Submit Idea</button>
+
             </div>
             <div class="col-md-12">
               <table class="table table-striped">
