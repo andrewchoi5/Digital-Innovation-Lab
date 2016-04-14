@@ -15,4 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/seatselection', 'MainController@seatselection');
+
 Route::post('/submitidea', 'MainController@sendEmail');
+
+Route::get('/downloadBlueAirline', 'MainController@downloadSeatSelectionAndroidAPK');
+Route::get('/downloadSeatselctionVR', 'MainController@downloadSeatSelectionVRAPK');

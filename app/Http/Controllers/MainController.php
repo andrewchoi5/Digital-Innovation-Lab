@@ -27,6 +27,11 @@ class MainController extends Controller {
 		$this->middleware('guest');
 	}
 
+  public function seatselection()
+  {
+    return view('seatselection');
+  }
+
 
   //send email
   public function sendEmail(){
@@ -40,6 +45,19 @@ class MainController extends Controller {
     });
 
     return redirect('/')->with('message', 'Email has been sent!');
+  }
+
+  //download files
+  public function downloadSeatSelectionAndroidAPK()
+	{
+     $file = public_path('files/BlueAirline.apk');
+     return Response::download($file);
+  }
+  //download files
+  public function downloadSeatSelectionVRAPK()
+	{
+     $file = public_path('files/SeatSelection_final.apk');
+     return Response::download($file);
   }
 
 }

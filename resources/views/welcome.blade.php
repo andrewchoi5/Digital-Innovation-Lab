@@ -91,8 +91,13 @@
                       <p>  The application starts from the Android app and you have an option
                         to go into virtual reality to reserve a seat. </p>
                   </td>
-                  <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
+                  <td style="width:10%; vertical-align:middle">
+                    <a href="/seatselection">
+                        <span class="btn btn-md btn-warning">Try It</span>
+                    </a>
+                  </td>
                 </tr>
+
                 <tr>
                   <td style="width:35%">
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
@@ -104,9 +109,10 @@
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
+
                 <tr>
                   <td style="width:35%">
-                    <img src="/img/outofband.png" class="img-responsive" alt="ride portfolio">
+                    <img src="/img/outofband.png" class="img-responsive" alt="outofband">
                   </td>
                   <td style="width:55%"><h4>Out of Band Authentication </h4>
                       <p>Log in to your devices/applications from a single primary device by leveraging Apple's
@@ -121,6 +127,32 @@
                           they can verify your identity with TouchID.</p>
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
+                </tr>
+
+                <tr>
+                  <td style="width:35%">
+                    <img src="/img/sensortag.png" class="img-responsive" alt="sensortag">
+                  </td>
+                  <td style="width:55%"><h4>SensorTag Luggage Tracker (IoT)</h4>
+                    <p>You've just had a 10-hour, hectic flight from LAX to the Heathrow Airport,
+                       and can't wait to take a good couple hours of nap at your hotel.
+                       You are so exhausted that you cannot stand in front the carousel,
+                        searching for your baggages the old style. Why not just sit down
+                        and let the SensorTag Luggage Tracker show you where they are?</p>
+                      <p>Utilizing Texas Instrument's TI CC2650 SensorTag model, this small,
+                        Android prototype of this feature is built for airline customers.
+                        For this POC, we've used experimented with many different sensors and algorithms within
+                         this powerful chip from Texas Instrument. The concluding product is an ad hoc application
+                          that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
+                          The SensorTag Luggage Tracker is also an example of development within the Internet
+                          of Things (IoT) industry.</p>
+
+                  </td>
+                  <td style="width:10%; vertical-align:middle">
+                    <a href="/seatselection">
+                        <span class="btn btn-md btn-warning">Try It</span>
+                    </a>
+                  </td>
                 </tr>
               </table>
             </div>
