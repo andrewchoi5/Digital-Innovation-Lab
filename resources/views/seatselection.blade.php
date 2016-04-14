@@ -82,7 +82,7 @@
         <h4><li id ="create_content1">Signing the app for different devices: (current IBM device = Galaxy S6 Edge)</h4>
           <div class= "well">
 				<p> Guide Link: <a href="https://developer.oculus.com/osig/" target ="_blank">https://developer.oculus.com/osig/ </a> </p>
-        <p>Place the OSIG file in Project/Assets/Plugins/Android/assets/ from box sync folder</p>
+        <p>Place the OSIG file in Project/Assets/Plugins/Android/assets/</p>
           </div>
 				</li>
 
