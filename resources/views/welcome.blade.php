@@ -81,6 +81,24 @@
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
+                <tr>
+                  <td style="width:35%">
+                    <img src="/img/outofband.png" class="img-responsive" alt="ride portfolio">
+                  </td>
+                  <td style="width:55%"><h4>Out of Band Authentication </h4>
+                      <p>Log in to your devices/applications from a single primary device by leveraging Apple's
+                        powerful TouchID biometric authentication system!</p>
+
+                      <p>This application is a POC developed to demonstrate Out-Of-Band-Authentication (OBA)
+                        applied to a number of different channels. By using TouchID with the iOS application on a
+                        primary device, you can login to a Web Application, TvOS Application, and iPad application. </p>
+
+                        <p>An additional use case presented in this application is call centre identity verification.
+                          Instead of having a call centre agent ask you verbal questions to verify your identity,
+                          they can verify your identity with TouchID.</p>
+                  </td>
+                  <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
+                </tr>
               </table>
             </div>
         </div>
