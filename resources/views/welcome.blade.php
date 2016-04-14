@@ -71,7 +71,9 @@
               <div class="modal-body">
                 <div align="center" class="embed-responsive embed-responsive-16by9">
                     <video class="embed-responsive-item" controls>
-                        <source src="/video/Demo Video.mp4" type="video/mp4">
+                      <source src="/video/seatselection_demo.mov">
+
+                    Your browser does not support the video tag.
                     </video>
                 </div>
               </div>
