@@ -21,7 +21,7 @@
 
     @endif
         <div class="container">
-          <!-- Modal -->
+        <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
 
@@ -58,6 +58,47 @@
 
           </div>
         </div>
+
+
+        <div id="videoModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Seat Selection VR</h4>
+              </div>
+              <div class="modal-body">
+                <div align="center" class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" controls>
+                        <source src="/video/Demo Video.mp4" type="video/mp4">
+                    </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="videoModal1" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sensor Tag Demo</h4>
+              </div>
+              <div class="modal-body">
+                  <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls>
+                  <source src="/video/IOT_demo.mov">
+
+                Your browser does not support the video tag.
+                </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- Content -->
           <div class="row">
         		<div class="col-md-12">
@@ -76,7 +117,9 @@
               <table class="table table-striped">
                 <tr>
                   <td style="width:35%">
-                    <img src="/img/seatselection.png" class="img-responsive" alt="seatselection">
+                    <a href="#">
+                    <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
+                  </a>
                   </td>
                   <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
                     <p>Gear VR app that puts the user in a virtual airplane to move around and select
@@ -127,9 +170,11 @@
 
                 <tr>
                   <td style="width:35%">
-                    <img src="/img/sensortag.png" class="img-responsive" alt="sensortag">
+                    <a href="#">
+                    <img src="/img/sensortag_play.png" class="img-responsive" alt="sensortag" data-toggle="modal" data-target="#videoModal1">
+                    </a>
                   </td>
-                  <td style="width:55%"><h4>SensorTag Luggage Tracker (IoT)</h4>
+                  <td style="width:55%"><h4>SensorTag Luggage Tracker (IoT) (0:26)</h4>
                     <p>You've just had a 10-hour, hectic flight from LAX to the Heathrow Airport,
                        and can't wait to take a good couple hours of nap at your hotel.
                        You are so exhausted that you cannot stand in front the carousel,
@@ -144,7 +189,7 @@
                           of Things (IoT) industry.</p>
                   </td>
                   <td style="width:10%; vertical-align:middle">
-                    <a href="/seatselection">
+                    <a href="/sensortag">
                         <span class="btn btn-md btn-warning">Try It</span>
                     </a>
                   </td>
