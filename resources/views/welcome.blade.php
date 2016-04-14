@@ -155,10 +155,10 @@
                       <div class="row">
                         <div class="col-md-8"></div>
                         <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                          <img src="/img/david.png"  height="50" width="50" alt="seatselection" data-placement="top" data-toggle="tooltip"  title="David Park">
+                          <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                         </div>
                         <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
-                          <img src="/img/mehran.png"  height="50" width="50" alt="seatselection" data-toggle="tooltip"  title="Mehran Najafi">
+                          <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                         </div>
                       </div>
 
@@ -174,20 +174,26 @@
                   <td style="width:35%">
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
                   </td>
-                  <td style="width:55%"><h4>Ride Your Portfolio VR</h4>
-                      <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
-                      you go up with it or go down with it.
-                      It is a fun virtual reality experience in banking.</p>
+                  <td style="width:55%">
 
-                      <div class="row">
-                        <div class="col-md-8"></div>
-                        <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                          <img src="/img/david.png"  height="50" width="50" alt="seatselection" data-placement="top" data-toggle="tooltip"  title="David Park">
+              				  <h4>Ride Your Portfolio VR</h4>
+                        <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
+                        you go up with it or go down with it.
+                        It is a fun virtual reality experience in banking.</p>
+                        <div class="row" >
+                          <div class="col-md-8"></div>
+                          <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                          </div>
+                          <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                          </div>
                         </div>
-                        <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
-                          <img src="/img/mehran.png"  height="50" width="50" alt="seatselection" data-toggle="tooltip"  title="Mehran Najafi">
-                        </div>
-                      </div>
+
+
+
+
+
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
@@ -230,6 +236,16 @@
                           that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
                           The SensorTag Luggage Tracker is also an example of development within the Internet
                           of Things (IoT) industry.</p>
+
+                          <div class="row" >
+                            <div class="col-md-8"></div>
+                            <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
+                            </div>
+                            <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                            </div>
+                          </div>
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/sensortag">
