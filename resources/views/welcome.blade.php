@@ -76,11 +76,7 @@
               <table class="table table-striped">
                 <tr>
                   <td style="width:35%">
-                    <div align="center" class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls>
-                            <source src="/video/Demo Video.mp4" type="video/mp4">
-                        </video>
-                    </div>
+                    <img src="/img/seatselection.png" class="img-responsive" alt="seatselection">
                   </td>
                   <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
                     <p>Gear VR app that puts the user in a virtual airplane to move around and select
@@ -102,7 +98,7 @@
                   <td style="width:35%">
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
                   </td>
-                  <td style="width:55%"><h4>Ride Your Portfolio</h4>
+                  <td style="width:55%"><h4>Ride Your Portfolio VR</h4>
                       <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
                       you go up with it or go down with it.
                       It is a fun virtual reality experience in banking.</p>
