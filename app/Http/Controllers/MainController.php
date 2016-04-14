@@ -75,8 +75,10 @@ class MainController extends Controller {
 
   //send email
   public function sendEmail(){
-    $data = Input::all();
-    Mail::send('emails.demo', $data, function($message)
+    $name = Input::get('name');
+    $email = Input::get('email');
+    $subject = Input::get('subject');
+    Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
     {
         $message->to('davidp@ca.ibm.com', 'Kijung Park')
         //->to('kjparkdavid@gmail.com')
@@ -85,7 +87,7 @@ class MainController extends Controller {
         ->subject('IBM Coop Research Lab');
     });
 
-    return 'success';
+    return redirect('/')->with('message', 'Email has been sent!');
   }
 
   /** Theme 1 **/

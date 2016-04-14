@@ -120,33 +120,17 @@ padding: 20px;" bgcolor="#f6f6f6">
 				<tr>
 					<td>
 
-						<h1>Welcome to OfficeWork! {!$data->name!}</h1>
-						<p>Before you can start using our services, you need to confirm your email address. To get started, just confirm your email address by clicking the link below:</p>
+						<h3>From: <?php echo $name; ?></h3>
+						<p>Email: {!!$email !!}</p>
+            <br>
 
-						<table style = "width: 100%;">
-							<tr>
-								<td class="padding">
-									<p><a href="" class="btn-primary" style = "text-decoration: none;
-                	color: #FFF;
-                	background-color: #348eda;
-                	border: solid #348eda;
-                	border-width: 10px 20px;
-                	line-height: 2;
-                	font-weight: bold;
-                	margin-right: 10px;
-                	text-align: center;
-                	cursor: pointer;
-                	display: inline-block;
-                	border-radius: 25px;">Verify email address</a></p>
-								</td>
-							</tr>
-						</table>
-						<p>Check out the services we provide:</p>
+            <p>{!! $subject !!}</p>
+
             <br>
-            <p>If you have questions, get in touch with us at link </p>
+
             <br>
-						<p>Best regards,</p>
-						<p>The OfficeWork Team</p>
+
+						<p>Submitted Idea from Coop Rearch Lab Website</p>
 					</td>
 				</tr>
 			</table>
