@@ -81,7 +81,7 @@
 
         <h4><li id ="create_content1">Signing the app for different devices: (current IBM device = Galaxy S6 Edge)</h4>
           <div class= "well">
-				<p> Guide Link: https://developer.oculus.com/osig/ </p>
+				<p> Guide Link: <a href="https://developer.oculus.com/osig/" target ="_blank">https://developer.oculus.com/osig/ </a> </p>
         <p>Place the OSIG file in Project/Assets/Plugins/Android/assets/ from box sync folder</p>
           </div>
 				</li>
@@ -89,6 +89,11 @@
 			</ol>
 
       </li>
+
+      <h3><li>Source Code: </li></h3>
+          <p>Android App: <a href="http://atldcyz082170.red.ihost.com/najafi/BlueAirline/tree/airline_android" target ="_blank">http://atldcyz082170.red.ihost.com/najafi/BlueAirline/tree/airline_android</a></p>
+          <p>VR App: <a href="http://atldcyz082170.red.ihost.com/najafi/BlueAirline/tree/seatselection_vr" target ="_blank">http://atldcyz082170.red.ihost.com/najafi/BlueAirline/tree/seatselection_vr</a></p>
+
       </ul>
   </div>
             </div>
