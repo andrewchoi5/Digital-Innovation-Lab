@@ -146,7 +146,6 @@
                           that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
                           The SensorTag Luggage Tracker is also an example of development within the Internet
                           of Things (IoT) industry.</p>
-
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/seatselection">

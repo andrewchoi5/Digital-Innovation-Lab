@@ -30,8 +30,9 @@
             </div>
             <div class="col-md-12">
               <ul>
-              <h3 id ="create_content"><li>App Installation</h3>
-				 <ol type="A">
+              <h3 id ="app-install"><li>App Installation</h3>
+
+		 <ol type="A">
 
 				<p>For full installation, an Android app and Virtual reality app must be installed.</p>
         <p>Gear VR and Android device that fits Gear VR are required to run the virtual reality app.</p>
@@ -47,33 +48,51 @@
           <a href="/downloadSeatselctionVR" target="_blank"><span class="btn btn-sm btn-success">Download APK 28.3MB</span></a>
   		</div>
 
-        </div>
+
 
 				</li>
 
+        <h4><li id ="create_content1">Installation in development environments</h4>
 
-        <h4><li id ="create_content1"> Installation in development environment</h4>
 
-
-				<p> Download APK files and install on Android device.  </p>
+				<h5>- Android Development Environment  </h5>
         <div class= "well">
-          <h5> - Android app APK</h5>
-          <a href="/downloadBlueAirline" target="_blank"><span class="btn btn-sm btn-success">Download APK 28.1MB</span></a>
-          <h5> - Virtual Reality app APK</h5>
-          <a href="/downloadSeatselctionVR" target="_blank"><span class="btn btn-sm btn-success">Download APK 28.3MB</span></a>
-		    </div>
+          <ol>
+            <li>Import project from Android Studio</li>
+            <li>Build and run from emulator or actual phone</li>
+          </ol>
+    		</div>
 
-        
-
+        <h5>- Virtual Reality Development Environment (Unity)  </h5>
+        <div class= "well">
+          <ol>
+            <li>Start Unity and select open project (Install Unity Version 5.3)</li>
+            <li>Select the project folder</li>
+            <li>Go to file -> build settings</li>
+            <li>Select Android and click switch platform</li>
+            <li>Click Player Settings
+                <img src="/img/vrguide.png" class="img-responsive" alt="vrguide">
+            </li>
+            <li>Make sure virtual reality support is checked</li>
+            <li>Click “Build and Run”</li>
+          </ol>
+    		</div>
 				</li>
 
-				</ol>
+        <h4><li id ="create_content1">Signing the app for different devices: (current IBM device = Galaxy S6 Edge)</h4>
+          <div class= "well">
+				<p> Guide Link: https://developer.oculus.com/osig/ </p>
+        <p>Place the OSIG file in Project/Assets/Plugins/Android/assets/ from box sync folder</p>
+          </div>
+				</li>
+
+			</ol>
 
       </li>
-</ul>
-
+      </ul>
+  </div>
             </div>
         </div>
-        </div>
+
     </body>
 </html>
