@@ -25,10 +25,26 @@
                 <h4 class="modal-title">Submit Idea</h4>
               </div>
               <div class="modal-body">
-                <p>Make a form</p>
+                  {!! Form::open(array('action' => array('MainController@sendEmail'), 'method' => 'post', 'class' => 'form-horizontal','id' => 'submit-idea','role' => 'form')) !!}
+                  <div class = "form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::text('name', null, array('class' => 'form-control', 'id' => 'name', 'placeholder' => "Name", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::text('email', null, array('class' => 'form-control', 'id' => 'email', 'placeholder' => "Email", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::textarea('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                    </div>
+                  </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                {!! Form::submit('Submit', array('class' => 'btn btn-success')) !!}
+                {!! Form::close() !!}
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
