@@ -26,52 +26,7 @@ class MainController extends Controller {
 	{
 		$this->middleware('guest');
 	}
-	/**
-	 * Show the application welcome screen to the user.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-			 $courses = Course::all();
-			 return view('welcome', ['courses' => $courses]);
-	}
-	public function resume()
-	{
-		return view('resume');
-	}
-	/** Portfolio **/
-	public function portfolio()
-	{
-		return view('portfolio');
-	}
-	//download demo apk
-  public function downloadDemo()
-	{
-     $file = public_path('download/BattleDodgeballDemo.apk');
-     return Response::download($file);
-  }
-	public function skill()
-	{
-		return view('skill');
-	}
-	public function contact()
-	{
-		return view('contact');
-	}
-	/** Footprint **/
-	public function footprint()
-	{
-		$footprint = Footprint::all();
-		return view('footprint')->with('footprint',$footprint);
-	}
-	//create DC with form
-	public function createDC(){
-		$data = Input::all();
-		$course = new Course($data);
-		$course->save();
-		return redirect('/')->with('message', 'Course Saved!');
-	}
+
 
   //send email
   public function sendEmail(){
@@ -80,36 +35,11 @@ class MainController extends Controller {
     $subject = Input::get('subject');
     Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
     {
-        $message->to('davidp@ca.ibm.com', 'Kijung Park')
-        //->to('kjparkdavid@gmail.com')
-        //->to('cw2park@uwaterloo.ca')
-        //->to('jw3an@uwaterloo.ca')
+        $message->to('mehranna@ca.ibm.com', 'Mehran Najafi')
         ->subject('IBM Coop Research Lab');
     });
 
     return redirect('/')->with('message', 'Email has been sent!');
   }
 
-  /** Theme 1 **/
-  public function theme()
-	{
-		return view('theme.theme');
-	}
-
-  public function theme_resume()
-	{
-		return view('theme.resume');
-	}
-
-  public function theme_portfolio()
-	{
-		return view('theme.portfolio');
-	}
-
-
-  /** Theme 2 **/
-   public function theme2()
-	{
-		return view('theme2.theme2');
-	}
 }
