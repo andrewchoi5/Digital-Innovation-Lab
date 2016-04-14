@@ -101,6 +101,26 @@
             </div>
           </div>
         </div>
+        <div id="videoModal2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Watson Family Banking Demo</h4>
+              </div>
+              <div class="modal-body">
+                  <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls>
+                  <source src="/video/familybanking_demo.mov">
+
+                Your browser does not support the video tag.
+                </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- Content -->
           <div class="row">
         		<div class="col-md-12">
@@ -192,6 +212,30 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/sensortag">
+                        <span class="btn btn-md btn-warning">Try It</span>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="width:35%">
+                    <a href="#">
+                    <img src="/img/familybanking_play.png" class="img-responsive" alt="familybanking" data-toggle="modal" data-target="#videoModal2">
+                    </a>
+                  </td>
+                  <td style="width:55%"><h4>Watson Family Banking</h4>
+                    <p>Regardless of your income, your financial management always has a room to improve.
+                       Whether that be reducing the monthly interest payments or searching for a better
+                       credit card which better meets your financial requirements, Watson Family Banking
+                       can only serve in a positive way, in an efficient manner.</p>
+                      <p>The Watson Family Banking Application utilizes IBM Watson services and APIs in order
+                        to optimize and enhance your family financial management. Using SDK for Node.js as well
+                         as Watson's Dialog API, Watson engages in a conversation with you to fulfil your
+                         financial management needs. It is built on Bluemix, utilizing the Cloud Foundry,
+                          an open source cloud service (PaaS).</p>
+                  </td>
+                  <td style="width:10%; vertical-align:middle">
+                    <a href="/familybanking">
                         <span class="btn btn-md btn-warning">Try It</span>
                     </a>
                   </td>
