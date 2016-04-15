@@ -148,9 +148,9 @@
                   </a>
                   </td>
                   <td style="width:55%">
-                    <h4>Seat Selection in Virtual Reality</h4>
-                    <h5 class="subtitle">Technologies: Virtual Reality, Unity, Android</h5>
-                    <h5 class="subtitle">Industry: Transportation, Entertainment</h5>
+                    <h4 class="title">Seat Selection in Virtual Reality</h4>
+                    <p class="subtitle">Technologies: Virtual Reality, Unity, Android</p>
+                    <p class="subtitle">Industry: Transportation, Entertainment</p>
                     <br>
                     <p>Gear VR app that puts the user in a virtual airplane to move around and select
                       preferred seat.
@@ -174,11 +174,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/seatselection">
-                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:150px"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -187,9 +187,9 @@
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
                   </td>
                   <td style="width:55%">
-              				  <h4>Ride Your Portfolio VR</h4>
-                        <h5 class="subtitle">Technologies: Virtual Reality, Unity, Android</h5>
-                        <h5 class="subtitle">Industry: Banking, Entertainment</h5>
+              				  <h4 class="title">Ride Your Portfolio VR</h4>
+                        <p class="subtitle">Technologies: Virtual Reality, Unity, Android</p>
+                        <p class="subtitle">Industry: Banking, Entertainment</p>
                         <br>
                         <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
                         you go up with it or go down with it.
@@ -207,10 +207,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="#">
-                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                      <span class="btn btn-md btn-success">Feedback</span>
 
+
+                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -219,9 +220,9 @@
                     <img src="/img/outofband.png" class="img-responsive" alt="outofband">
                   </td>
                   <td style="width:55%">
-                    <h4>Out of Band Authentication </h4>
-                    <h5 class="subtitle">Technologies: IOS, Web</h5>
-                    <h5 class="subtitle">Industry: Banking</h5>
+                    <h4 class="title">Out of Band Authentication </h4>
+                    <p class="subtitle">Technologies: IOS, Web</p>
+                    <p class="subtitle">Industry: Banking</p>
                     <br>
                       <p>Log in to your devices/applications from a single primary device by leveraging Apple's
                         powerful TouchID biometric authentication system!This application is a POC developed to demonstrate Out-Of-Band-Authentication (OBA)
@@ -233,11 +234,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="#">
-                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-primary" style="margin-bottom:15px">Presentation</span>
-                      <span class="btn btn-md btn-success">Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -248,9 +249,9 @@
                     </a>
                   </td>
                   <td style="width:55%">
-                    <h4>SensorTag Luggage Tracker</h4>
-                    <h5 class="subtitle">Technologies: IOT, Android</h5>
-                    <h5 class="subtitle">Industry: Transportation</h5>
+                    <h4 class="title">SensorTag Luggage Tracker</h4>
+                    <p class="subtitle">Technologies: IOT, Android</p>
+                    <p class="subtitle">Industry: Transportation</p>
                     <br>
                     <p>You've just had a 10-hour, hectic flight from LAX to the Heathrow Airport,
                        and can't wait to take a good couple hours of nap at your hotel.
@@ -278,11 +279,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="#">
-                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-primary" style="margin-bottom:15px">Presentation</span>
-                      <span class="btn btn-md btn-success">Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -293,9 +294,9 @@
                     </a>
                   </td>
                   <td style="width:55%">
-                    <h4>Watson Family Banking</h4>
-                    <h5 class="subtitle">Technologies: IOS, Web, Watson</h5>
-                    <h5 class="subtitle">Industry: Banking</h5>
+                    <h4 class="title">Watson Family Banking</h4>
+                    <p class="subtitle">Technologies: IOS, Web, Watson</p>
+                    <p class="subtitle">Industry: Banking</p>
                     <br>
                     <p>Regardless of your income, your financial management always has a room to improve.
                        Whether that be reducing the monthly interest payments or searching for a better
@@ -309,10 +310,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="#">
-                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-success">Feedback</span>
+
+                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
               </table>
