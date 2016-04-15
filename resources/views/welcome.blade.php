@@ -76,7 +76,6 @@
                 <div align="center" class="embed-responsive embed-responsive-16by9">
                     <video class="embed-responsive-item" controls>
                       <source src="/video/seatselection_demo.mov">
-
                     Your browser does not support the video tag.
                     </video>
                 </div>
@@ -175,11 +174,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/seatselection">
-                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-primary" style="margin-bottom:15px">Presentation</span>
-                      <span class="btn btn-md btn-success">Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:150px"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
