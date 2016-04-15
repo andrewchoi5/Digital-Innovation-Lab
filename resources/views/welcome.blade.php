@@ -161,9 +161,11 @@
                         to go into virtual reality to reserve a seat. </p>
                       <div class="row">
                         <div class ="col-md-4">
+                          <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
                           <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                             <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                           </div>
+                          </a>
                           <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                             <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
@@ -196,9 +198,11 @@
                         It is a fun virtual reality experience in banking.</p>
                         <div class="row">
                           <div class ="col-md-4">
+                            <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
                             <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                               <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                             </div>
+                            </a>
                             <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
@@ -209,8 +213,6 @@
                     <a href="#">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-
-
                       <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
