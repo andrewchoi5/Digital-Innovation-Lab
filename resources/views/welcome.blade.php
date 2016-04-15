@@ -135,12 +135,14 @@
                 </div>
             </div>
 
-            <div class="col-md-12 text-right" style="margin-bottom:20px;">
-              <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="margin-right:20px">Submit Idea</button>
 
-            </div>
             <div class="col-md-12">
               <table class="table table-striped">
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:98%;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></td>
+                </tr>
                 <tr>
                   <td style="width:35%; vertical-align:middle">
                     <a href="#">
@@ -181,8 +183,8 @@
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -217,7 +219,7 @@
                     <a href="#">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -243,8 +245,8 @@
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Out of Band Authentication"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Out of Band Authentication"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -274,9 +276,11 @@
 
                           <div class="row">
                             <div class ="col-md-4">
+                              <a href="https://www.linkedin.com/in/a24choi" target="_blank">
                               <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                                 <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
                               </div>
+                              </a>
                                 <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
                               <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
@@ -290,8 +294,8 @@
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%"  data-toggle="modal" data-target="#myModal" data-email="Feedback for SensorTag Luggage Tracker"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      <span class="btn btn-md btn-info" style="width:98%;text-align:left"  data-toggle="modal" data-target="#myModal" data-email="Feedback for SensorTag Luggage Tracker"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -322,7 +326,7 @@
                     </a>
 
 
-                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Watson Family Banking"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Watson Family Banking"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
                   </td>
                 </tr>
               </table>
