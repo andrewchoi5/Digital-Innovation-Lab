@@ -5,16 +5,16 @@
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<style>
-.subtitle {margin-bottom:0; margin-top: 0;}
-.title {margin-bottom:0; }
-</style>
+        <style>
+        .subtitle {margin-bottom:0; margin-top: 0;}
+        .title {margin-bottom:0; }
+        </style>
     </head>
     <body>
 
@@ -22,9 +22,9 @@
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
       </div>
+      @endif
 
-    @endif
-        <div class="container">
+      <div class="container">
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
@@ -33,7 +33,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Submit Idea</h4>
+                <h4 class="modal-title" id ="email-title">Submit Idea</h4>
               </div>
               <div class="modal-body">
                   {!! Form::open(array('action' => array('MainController@sendEmail'), 'method' => 'post', 'class' => 'form-horizontal','id' => 'submit-idea','role' => 'form')) !!}
@@ -178,7 +178,7 @@
                     </a>
 
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -211,7 +211,7 @@
                     </a>
 
 
-                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -238,7 +238,7 @@
                     </a>
 
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Out of Band Authentication"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -283,7 +283,7 @@
                     </a>
 
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%"  data-toggle="modal" data-target="#myModal" data-email="Feedback for SensorTag Luggage Tracker"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </td>
                 </tr>
 
@@ -310,11 +310,11 @@
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="#">
-                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"  ><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
 
 
-                      <span class="btn btn-md btn-info" style="width:98%"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="width:98%" data-toggle="modal" data-target="#myModal" data-email="Feedback for Watson Family Banking"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
                   </td>
                 </tr>
               </table>
@@ -326,6 +326,15 @@
     <script>
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
+
+        $('#myModal').on('shown.bs.modal', function (e) {
+          var $invoker = $(e.relatedTarget);
+          $('#email-title').html($invoker.data('email'));
+        });
+        $('#myModal').on('hidden.bs.modal', function (e) {
+
+          $('#email-title').html("Submit Idea");
+        });
     });
     </script>
 </html>
