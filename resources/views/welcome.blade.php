@@ -11,6 +11,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+<style>
+.subtitle {margin-bottom:0; margin-top: 0;}
+.title {margin-bottom:0; }
+</style>
     </head>
     <body>
 
@@ -139,34 +143,43 @@
             <div class="col-md-12">
               <table class="table table-striped">
                 <tr>
-                  <td style="width:35%">
+                  <td style="width:35%; vertical-align:middle">
                     <a href="#">
                     <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
                   </a>
                   </td>
-                  <td style="width:55%"><h4>Seat Selection in Virtual Reality (1:40)</h4>
+                  <td style="width:55%">
+                    <h4 class ="title">Seat Selection in Virtual Reality</h4>
+                    <h5 class="subtitle">Technologies: Virtual Reality, Unity, Android</h5>
+                    <h5 class="subtitle">Industry: Transportation, Entertainment</h5>
+                    <br>
                     <p>Gear VR app that puts the user in a virtual airplane to move around and select
-                      preferred seat.</p>
-                      <p>This app was created because we thought it would be great to add
+                      preferred seat.
+                      This app was created because we thought it would be great to add
                         a virtual reality experience within an airline mobile app for seat selection
-                        and it would improve the user experience.</p>
-                      <p>  The application starts from the Android app and you have an option
+                        and it would improve the user experience.
+                       The application starts from the Android app and you have an option
                         to go into virtual reality to reserve a seat. </p>
                       <div class="row">
-                        <div class="col-md-8"></div>
-                        <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                          <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                        <div class ="col-md-4">
+                          <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                          </div>
+                          <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                          </div>
                         </div>
-                        <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
-                          <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
-                        </div>
+
                       </div>
 
                   </td>
                   <td style="width:10%; vertical-align:middle">
                     <a href="/seatselection">
-                        <span class="btn btn-md btn-warning">Try It</span>
+                        <span class="btn btn-md btn-warning" style="margin-bottom:15px">Installation Guide</span>
                     </a>
+
+                      <span class="btn btn-md btn-primary" style="margin-bottom:15px">Presentation</span>
+                      <span class="btn btn-md btn-success">Feedback</span>
                   </td>
                 </tr>
 
@@ -175,25 +188,23 @@
                     <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
                   </td>
                   <td style="width:55%">
-
-              				  <h4>Ride Your Portfolio VR</h4>
+              				  <h4 class="title">Ride Your Portfolio VR</h4>
+                        <h5 class="subtitle">Technologies: Virtual Reality, Unity, Android</h5>
+                        <h5 class="subtitle">Industry: Banking, Entertainment</h5>
+                        <br>
                         <p>Ride rollercoaster in virtual reality with your portfolio.  If the stock price goes up
                         you go up with it or go down with it.
                         It is a fun virtual reality experience in banking.</p>
-                        <div class="row" >
-                          <div class="col-md-8"></div>
-                          <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
-                          </div>
-                          <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
-                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                        <div class="row">
+                          <div class ="col-md-4">
+                            <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                            </div>
+                            <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                            </div>
                           </div>
                         </div>
-
-
-
-
-
                   </td>
                   <td style="width:10%; vertical-align:middle"><span class="btn btn-md btn-warning">Try It</span></td>
                 </tr>
@@ -223,7 +234,7 @@
                     <img src="/img/sensortag_play.png" class="img-responsive" alt="sensortag" data-toggle="modal" data-target="#videoModal1">
                     </a>
                   </td>
-                  <td style="width:55%"><h4>SensorTag Luggage Tracker (IoT) (0:26)</h4>
+                  <td style="width:55%"><h4>SensorTag Luggage Tracker (IoT)</h4>
                     <p>You've just had a 10-hour, hectic flight from LAX to the Heathrow Airport,
                        and can't wait to take a good couple hours of nap at your hotel.
                        You are so exhausted that you cannot stand in front the carousel,
@@ -237,13 +248,14 @@
                           The SensorTag Luggage Tracker is also an example of development within the Internet
                           of Things (IoT) industry.</p>
 
-                          <div class="row" >
-                            <div class="col-md-8"></div>
-                            <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                              <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
-                            </div>
-                            <div class="col-md-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
-                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                          <div class="row">
+                            <div class ="col-md-4">
+                              <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                                <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
+                              </div>
+                              <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                                <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                              </div>
                             </div>
                           </div>
                   </td>
