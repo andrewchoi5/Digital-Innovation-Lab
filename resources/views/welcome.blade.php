@@ -166,9 +166,11 @@
                             <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                           </div>
                           </a>
+                          <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
                           <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                             <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
+                          </a>
                         </div>
 
                       </div>
@@ -203,9 +205,11 @@
                               <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                             </div>
                             </a>
+                              <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
                             <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
+                              </a>
                           </div>
                         </div>
                   </td>
@@ -273,9 +277,11 @@
                               <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                                 <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
                               </div>
+                                <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
                               <div class="col-md-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                               </div>
+                              </a>
                             </div>
                           </div>
                   </td>
