@@ -19,6 +19,8 @@ Route::get('/', function () {
 Route::get('/seatselection', 'MainController@seatselection');
 Route::get('/rideportfolio', 'MainController@rideportfolio');
 Route::get('/seatselection_presentation', 'MainController@seatselection_presentation');
+Route::get('/OBA_presentation', 'MainController@OBA_presentation');
+Route::get('/sensortag_presentation', 'MainController@sensortag_presentation');
 
 Route::post('/submitidea', 'MainController@sendEmail');
 

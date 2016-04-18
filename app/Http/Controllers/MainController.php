@@ -39,7 +39,14 @@ class MainController extends Controller {
   {
     return view('seatselection_presentation');
   }
-
+	public function OBA_presentation()
+	{
+		return view('OBA_presentation');
+	}
+	public function sensortag_presentation()
+  {
+    return view('sensortag_presentation');
+  }
 
   //send email
   public function sendEmail(){
