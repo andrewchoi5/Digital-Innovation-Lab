@@ -31,6 +31,14 @@ class MainController extends Controller {
   {
     return view('seatselection');
   }
+	public function rideportfolio()
+  {
+    return view('rideportfolio');
+  }
+	public function seatselection_presentation()
+  {
+    return view('seatselection_presentation');
+  }
 
 
   //send email
@@ -57,6 +65,17 @@ class MainController extends Controller {
   public function downloadSeatSelectionVRAPK()
 	{
      $file = public_path('files/SeatSelection_final.apk');
+     return Response::download($file);
+  }
+
+	public function downloadPortfolioAndroidAPK()
+	{
+     $file = public_path('files/stock_app.apk');
+     return Response::download($file);
+  }
+	public function downloadPortfolioVRAPK()
+	{
+     $file = public_path('files/RollercoasterVR_final.apk');
      return Response::download($file);
   }
 

@@ -17,8 +17,12 @@ Route::get('/', function () {
 
 
 Route::get('/seatselection', 'MainController@seatselection');
+Route::get('/rideportfolio', 'MainController@rideportfolio');
+Route::get('/seatselection_presentation', 'MainController@seatselection_presentation');
 
 Route::post('/submitidea', 'MainController@sendEmail');
 
 Route::get('/downloadBlueAirline', 'MainController@downloadSeatSelectionAndroidAPK');
 Route::get('/downloadSeatselctionVR', 'MainController@downloadSeatSelectionVRAPK');
+Route::get('/downloadStockApp', 'MainController@downloadPortfolioAndroidAPK');
+Route::get('/downloadPortfolioVR', 'MainController@downloadPortfolioVRAPK');
