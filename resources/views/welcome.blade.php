@@ -183,7 +183,7 @@
                     <a href="/seatselection">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-  <a href="/seatselection_presentation">
+  <a href="/seatselection_presentation" target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:98%;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
 </a>
                       <span class="btn btn-md btn-info" style="width:98%;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
