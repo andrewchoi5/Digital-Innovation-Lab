@@ -125,6 +125,25 @@
             </div>
           </div>
         </div>
+        <div id="videoModal3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Ride Your Portfolio VR</h4>
+              </div>
+              <div class="modal-body">
+                  <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls>
+                  <source src="/video/RollercoasterVR_DEMO.mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Content -->
           <div class="row">
@@ -192,7 +211,9 @@
 
                 <tr>
                   <td style="width:35%">
-                    <img src="/img/rideportfolio.png" class="img-responsive" alt="ride portfolio">
+                    <a href="#">
+                    <img src="/img/rideportfolio_play.png" class="img-responsive" alt="ride portfolio" data-toggle="modal" data-target="#videoModal3">
+                    </a>
                   </td>
                   <td style="width:55%">
               				  <h4 class="title">Ride Your Portfolio VR</h4>
