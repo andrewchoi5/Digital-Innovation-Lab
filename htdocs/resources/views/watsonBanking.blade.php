@@ -64,7 +64,7 @@ body {
         <h4><li id ="create_content1">Installation within IBM Bluemix</h4>
 
 
-				<h5>- Android Development Environment (ADE)  </h5>
+				<h5>- Web Development Environment  </h5>
         <div class= "well">
           <ol>
             <li>Create a Bluemix Account</li>
@@ -109,7 +109,7 @@ body {
       </li>
 
       <h3><li>Source Code: </li></h3>
-          <p>Android App: <a href="https://hub.jazz.net/git/achoi/dialog-nodejs-achoi" target ="_blank">https://hub.jazz.net/git/achoi/dialog-nodejs-achoi</a></p>
+          <p>Web Application: <a href="https://hub.jazz.net/git/achoi/dialog-nodejs-achoi" target ="_blank">https://hub.jazz.net/git/achoi/dialog-nodejs-achoi</a></p>
 
 
       </ul>
