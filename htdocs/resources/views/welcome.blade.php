@@ -537,6 +537,7 @@
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });
 
+
         // $( '.item' ).each(function( index ) {
         //     $(this).children("div").setAllToMaxHeight();
         //     // $('.item > div').setAllToMaxHeight();
