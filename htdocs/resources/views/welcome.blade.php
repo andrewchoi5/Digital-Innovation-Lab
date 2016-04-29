@@ -45,6 +45,8 @@
           position: absolute;
           top: 0;
           right: 0;
+          padding-left: 15px;
+          padding-right: 15px
         }
         ul.nav a:hover { background-color: #708FAB !important; }
 
@@ -207,9 +209,10 @@
         <div class="row ">
           <div class="col-md-12 header">
               <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2>
+              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >n Lab</h2>
               <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
-              <div class="menu">
+
+              <div class="menu row">
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -223,11 +226,13 @@
                         </li>
                     </ul>
                 </div>
+
               </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
 
           </div>
         </div>
+
+
 
 
 
@@ -265,14 +270,14 @@
                       </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
-                        <div class ="col-sm-4 profile">
+                        <div class ="col-xs-4 profile">
                           <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-                          <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                             <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                           </div>
                           </a>
                           <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                          <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                             <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
                           </a>
@@ -310,14 +315,14 @@
                           </div><a href="#">Read more</a>
                         </div>
                         <div class="row">
-                          <div class ="col-sm-4 profile">
+                          <div class ="col-xs-4 profile">
                             <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-                            <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                               <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                             </div>
                             </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                            <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
                               </a>
@@ -357,19 +362,19 @@
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
 
                         <div class="row profile_margin">
-                          <div class ="col-sm-5 profile">
+                          <div class ="col-xs-5 profile">
                             <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
-                              <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                                 <img src="/img/andrewF.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Frolkin">
                               </div>
                             </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                                <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                                <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                                   <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                                 </div>
                               </a>
                               <a href="https://ca.linkedin.com/in/jeremyaleung" target="_blank">
-                            <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                            <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
                               <img src="/img/jeremy.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Jeremy Leung">
                             </div>
                             </a>
@@ -418,19 +423,19 @@
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
 
                           <div class="row profile_margin">
-                            <div class ="col-sm-5 profile">
+                            <div class ="col-xs-5 profile">
                               <a href="https://www.linkedin.com/in/a24choi" target="_blank">
-                              <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                                 <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
                               </div>
                               </a>
                                 <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                              <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                               </div>
                               </a>
                               <a href="https://ca.linkedin.com/in/jeremyaleung" target="_blank">
-                            <div class="col-sm-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                            <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
                               <img src="/img/jeremy.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Jeremy Leung">
                             </div>
                             </a>
@@ -477,14 +482,14 @@
                         </div>
 
                         <div class="row">
-                          <div class ="col-sm-4 profile">
+                          <div class ="col-xs-4 profile">
                             <a href="https://www.linkedin.com/in/a24choi" target="_blank">
-                            <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
                               <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
                             </div>
                             </a>
                             <a href="#" target="_blank">
-                            <div class="col-sm-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Architect & Idea">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Architect & Idea">
                               <img src="/img/imad.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Imad Obeid">
                             </div>
                             </a>
@@ -531,6 +536,7 @@
             $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });
+
 
         // $( '.item' ).each(function( index ) {
         //     $(this).children("div").setAllToMaxHeight();
