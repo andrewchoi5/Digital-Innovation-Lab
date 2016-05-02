@@ -347,7 +347,7 @@
                   </div>
                 <div class ="col-md-6">
                     <h4 class="title">Out of Band Authentication </h4>
-                    <p class="subtitle">Technologies: IOS, Web</p>
+                    <p class="subtitle">Technologies: iOS, Web</p>
                     <p class="subtitle">Industry: Banking</p>
                     <br>
                     <div class="wrapper">
@@ -403,7 +403,7 @@
                   </div>
                 <div class ="col-md-6">
                     <h4 class="title">SensorTag Luggage Tracker</h4>
-                    <p class="subtitle">Technologies: IOT, Android</p>
+                    <p class="subtitle">Technologies: IoT, Android</p>
                     <p class="subtitle">Industry: Transportation</p>
                     <br>
                     <div class="wrapper">
@@ -465,7 +465,7 @@
                   <div class ="col-md-6">
                     <h4 class="title">IBM Family Financial Advisor</h4>
                     <p class="subtitle">Technologies: iOS, Web, Watson</p>
-                    <p class="subtitle">Industry: Banking</p>
+                    <p class="subtitle">Industry: Finance, Banking</p>
                     <br>
                     <div class="wrapper">
                       <div class="small_div">

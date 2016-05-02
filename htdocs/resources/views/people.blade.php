@@ -55,6 +55,14 @@
             }
         }
         .img-responsive{width:100%;}
+
+        .alignleft {
+          float: left;
+        }
+        .alignright {
+          float: right;
+        }
+
         </style>
     </head>
     <body>
@@ -72,7 +80,7 @@
         <div class="row ">
           <div class="col-md-12 header">
               <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2>
+              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo">vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2>
               <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
               <div class="menu">
                 <div class="collapse navbar-collapse">
@@ -96,7 +104,10 @@
 
         <div class="row">
             <div class="col-md-12">
-                <h3 class="subtitle">People</h3>
+                <!-- <p class="subtitle alighleft">People  </p> -->
+                <!-- <p class="subtitle alignright" align="right">Click on the profile image to get redirected to LinkedIn profile.</p> -->
+
+              <p style="text-align:left; font-size:180%">People<span style="float:right; font-size:54%">*Click on the profile image to get redirected to LinkedIn profile.</span></p>
             </div>
         </div>
 
@@ -112,15 +123,14 @@
         <div class="row ">
           <div class="col-md-1 "></div>
 
-          <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/in/a24choi" target="_blank">
-              <img src="/img/andrew.png" height="150" width="150" alt="profile" >
+          <div class="col-md-2 text-center" >
+              <a href="https://ca.linkedin.com/in/msashek" target="_blank" >
+              <img src="/img/ashek.png" height="150" width="150" alt="profile" >
             </a>
-            <p class="title name">Andrew Choi </p>
-            <p>University of Waterloo, Co-op</p>
-            <p>iOS, Internet of Things</p>
-            <p>achoi@ca.ibm.com</p>
-          </div>
+            <p class=" name">Mahmood (M.S.) Ashek</p>
+            <p>Executive Sponsor</p>
+            <a href="mailto:mashek@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">mashek@ca.ibm.com</a>
+          </div>          
 
           <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
@@ -130,7 +140,7 @@
             <p class="name">Najafi, PhD</p>
             <p class="title">Lab Supervisor,</p>
             <p>Solution Architect</p>
-            <p>mehranna@ca.ibm.com</p>
+            <a href="mailto:mehranna@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">mehranna@ca.ibm.com</a>
           </div>
 
           <div class="col-md-2 text-center">
@@ -141,7 +151,7 @@
             <p class="name">Maheswaramoorthy</p>
             <p class="title">Solution Architect</p>
             <p>Co-op Coordinator</p>
-            <p>subashan@ca.ibm.com</p>
+            <a href="mailto:subashan@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">subashan@ca.ibm.com</a>
           </div>
 
           <div class="col-md-2 text-center">
@@ -149,48 +159,48 @@
               <img src="/img/imad.png" height="150" width="150"  alt="profile" >
             </a>
             <p class=" name">Imad Obeid </p>
-
             <p>Solution Architect</p>
-            <p>imad@ca.ibm.com</p>
+            <a href="mailto:imad@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">imad@ca.ibm.com</a>
           </div>
+
+           <div class="col-md-2 text-center">
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src="/img/radu.png" height="150" width="150" alt="profile" >
+            </a>
+            <p class=" name">Radu Bolboceanu </p>
+            <p>Graphic Designer</p>
+            <a href="mailto:radub@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">radub@ca.ibm.com</a>
+          </div>
+
+          <div class="col-md-1 "></div>
+        </div>
+
+
+        <div class="row ">
+          <div class="col-md-1 "></div>
 
           <div class="col-md-2 text-center">
             <a href="https://ca.linkedin.com/in/jeremyaleung" target="_blank">
               <img src="/img/jeremy.png" height="150" width="150" alt="profile" >
             </a>
             <p class=" name">Jeremy Leung</p>
-
             <p>Graphic Designer</p>
-            <p>jeremy@ca.ibm.com</p>
+            <a href="mailto:leung@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">leung@ca.ibm.com</a>
           </div>
-
-          <div class="col-md-1 "></div>
-        </div>
-
-        <div class="row ">
-
-          <div class="col-md-1 "></div>
+         
 
           <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/" target="_blank">
-              <img src="/img/radu.png" height="150" width="150" alt="profile" >
+            <a href="https://www.linkedin.com/in/a24choi" target="_blank">
+              <img src="/img/andrew.png" height="150" width="150" alt="profile" >
             </a>
-            <p class=" name">Radu Bolboceanu </p>
-            <p>Graphic Designer</p>
-            <p>radu@ca.ibm.com</p>
+            <p class="title name">Andrew Choi </p>
+            <p>uWaterloo, Co-op</p>
+            <p>iOS, Internet of Things</p>
+            <a href="mailto:achoi@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">achoi@ca.ibm.com</a>
           </div>
-
-          <div class="col-md-2 text-center" >
-              <a href="https://ca.linkedin.com/in/msashek" target="_blank" >
-              <img src="/img/ashek.jpg" height="150" width="105" alt="profile" >
-            </a>
-            <p class=" name">Mahmood (M.S.) Ashek</p>
-            <p>Executive Sponsor</p>
-            <p>mashek@ca.ibm.com</p>
-          </div>
+          
 
           <div class="col-md-2 text-center">
-
           </div>
 
           <div class="col-md-1 "></div>
@@ -215,7 +225,7 @@
             <p class="title name">David Park </p>
             <p>University of Waterloo, Co-op</p>
             <p>Virtual Reality</p>
-            <p>davidp@ca.ibm.com</p>
+            <a href="mailto:davidp@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">davidp@ca.ibm.com</a>
           </div>
 
           <div class="col-md-2 text-center">
@@ -225,7 +235,7 @@
             <p class="title name">Andrew Frolkin</p>
             <p>University of Waterloo, Co-op</p>
             <p>iOS</p>
-            <p>andrewf@ca.ibm.com</p>
+            <a href="mailto:andrewf@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">andrewf@ca.ibm.com</a>
           </div>
 
 
