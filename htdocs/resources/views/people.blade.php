@@ -110,9 +110,17 @@
         </div>
 
         <div class="row ">
-
-
           <div class="col-md-1 "></div>
+
+          <div class="col-md-2 text-center">
+            <a href="https://www.linkedin.com/in/a24choi" target="_blank">
+              <img src="/img/andrew.png" height="150" width="150" alt="profile" >
+            </a>
+            <p class="title name">Andrew Choi </p>
+            <p>University of Waterloo, Co-op</p>
+            <p>iOS, Internet of Things</p>
+            <p>achoi@ca.ibm.com</p>
+          </div>
 
           <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
@@ -124,6 +132,7 @@
             <p>Solution Architect</p>
             <p>mehranna@ca.ibm.com</p>
           </div>
+
           <div class="col-md-2 text-center">
             <a href="#" target="_blank">
               <img src="/img/subashan.png" height="150" width="150" alt="profile" >
@@ -134,25 +143,17 @@
             <p>Co-op Coordinator</p>
             <p>subashan@ca.ibm.com</p>
           </div>
+
           <div class="col-md-2 text-center">
             <a href="#" target="_blank">
               <img src="/img/imad.png" height="150" width="150"  alt="profile" >
             </a>
             <p class=" name">Imad Obeid </p>
 
-
             <p>Solution Architect</p>
             <p>imad@ca.ibm.com</p>
           </div>
-          <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-              <img src="/img/radu.png" height="150" width="150" alt="profile" >
-            </a>
-            <p class=" name">Radu Bolboceanu </p>
 
-            <p>Graphic Designer</p>
-            <p>radu@ca.ibm.com</p>
-          </div>
           <div class="col-md-2 text-center">
             <a href="https://ca.linkedin.com/in/jeremyaleung" target="_blank">
               <img src="/img/jeremy.png" height="150" width="150" alt="profile" >
@@ -166,44 +167,28 @@
           <div class="col-md-1 "></div>
         </div>
 
-
         <div class="row ">
 
           <div class="col-md-1 "></div>
 
           <div class="col-md-2 text-center">
-            <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-              <img src="/img/david.png" height="150" width="150" alt="profile" >
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src="/img/radu.png" height="150" width="150" alt="profile" >
             </a>
-            <p class="title name">David Park </p>
-
-            <p>University of Waterloo, Coop</p>
-            <p>Virtual Reality</p>
-            <p>davidp@ca.ibm.com</p>
+            <p class=" name">Radu Bolboceanu </p>
+            <p>Graphic Designer</p>
+            <p>radu@ca.ibm.com</p>
           </div>
-          <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
-              <img src="/img/andrewF.png" height="150" width="150" alt="profile" >
+
+          <div class="col-md-2 text-center" >
+              <a href="https://ca.linkedin.com/in/msashek" target="_blank" >
+              <img src="/img/ashek.jpg" height="150" width="105" alt="profile" >
             </a>
-            <p class="title name">Andrew Frolkin</p>
-
-            <p>University of Waterloo, Coop</p>
-            <p>iOS</p>
-            <p>andrewf@ca.ibm.com</p>
+            <p class=" name">Mahmood (M.S.) Ashek</p>
+            <p>Executive Sponsor</p>
+            <p>mashek@ca.ibm.com</p>
           </div>
-          <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/in/a24choi" target="_blank">
-              <img src="/img/andrew.png" height="150" width="150" alt="profile" >
-            </a>
-            <p class="title name">Andrew Choi </p>
 
-            <p>University of Waterloo, Coop</p>
-            <p>IOT</p>
-            <p>achoi@ca.ibm.com</p>
-          </div>
-          <div class="col-md-2 text-center">
-
-          </div>
           <div class="col-md-2 text-center">
 
           </div>
@@ -222,26 +207,52 @@
 
           <div class="col-md-1 "></div>
 
+
+                <div class="col-md-2 text-center">
+            <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
+              <img src="/img/david.png" height="150" width="150" alt="profile" >
+            </a>
+            <p class="title name">David Park </p>
+            <p>University of Waterloo, Co-op</p>
+            <p>Virtual Reality</p>
+            <p>davidp@ca.ibm.com</p>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
+              <img src="/img/andrewF.png" height="150" width="150" alt="profile" >
+            </a>
+            <p class="title name">Andrew Frolkin</p>
+            <p>University of Waterloo, Co-op</p>
+            <p>iOS</p>
+            <p>andrewf@ca.ibm.com</p>
+          </div>
+
+
+
+
           <div class="col-md-2 text-center">
 
           </div>
+
           <div class="col-md-2 text-center">
 
           </div>
+
           <div class="col-md-2 text-center">
 
           </div>
-          <div class="col-md-2 text-center">
 
-          </div>
           <div class="col-md-2 text-center">
 
           </div>
 
           <div class="col-md-1 "></div>
+
         </div>
 
       </div>
+
     </body>
 
     <script>

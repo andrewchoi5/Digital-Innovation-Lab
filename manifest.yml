@@ -4,6 +4,6 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: digital innovation lab
-  host: digital-innovation lab
+  host: digital-innovation-lab
   disk_quota: 1024M
   buildpack: https://github.com/cloudfoundry/php-buildpack#v4.3.10
