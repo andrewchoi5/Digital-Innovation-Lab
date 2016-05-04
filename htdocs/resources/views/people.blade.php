@@ -80,7 +80,9 @@
         <div class="row ">
           <div class="col-md-12 header">
               <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo">vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2>
+              <!-- <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo">vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2> -->
+              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >n Lab</h2>
+
               <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
               <div class="menu">
                 <div class="collapse navbar-collapse">
@@ -125,9 +127,10 @@
 
           <div class="col-md-2 text-center" >
               <a href="https://ca.linkedin.com/in/msashek" target="_blank" >
-              <img src="/img/ashek.png" height="150" width="150" alt="profile" >
+              <img src="/img/Ashek.png" height="150" width="150" alt="profile" >
             </a>
-            <p class=" name">Mahmood (M.S.) Ashek</p>
+            <p class="title name">Mahmood (M.S.)</p>
+            <p class=" name">Ashek</p>
             <p>Executive Sponsor</p>
             <a href="mailto:mashek@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">mashek@ca.ibm.com</a>
           </div>          
@@ -136,7 +139,7 @@
             <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
               <img src="/img/mehran.png" height="150" width="150" alt="profile" >
             </a>
-            <p class="title name">Mehran </p>
+            <p class="title name">Mehran</p>
             <p class="name">Najafi, PhD</p>
             <p class="title">Lab Supervisor,</p>
             <p>Solution Architect</p>
@@ -147,7 +150,7 @@
             <a href="#" target="_blank">
               <img src="/img/subashan.png" height="150" width="150" alt="profile" >
             </a>
-            <p class="title name">Subashan S </p>
+            <p class="title name">Subashan</p>
             <p class="name">Maheswaramoorthy</p>
             <p class="title">Solution Architect</p>
             <p>Co-op Coordinator</p>
@@ -223,7 +226,7 @@
               <img src="/img/david.png" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">David Park </p>
-            <p>University of Waterloo, Co-op</p>
+            <p>uWaterloo, Co-op</p>
             <p>Virtual Reality</p>
             <a href="mailto:davidp@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">davidp@ca.ibm.com</a>
           </div>
@@ -233,7 +236,7 @@
               <img src="/img/andrewF.png" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">Andrew Frolkin</p>
-            <p>University of Waterloo, Co-op</p>
+            <p>uWaterloo, Co-op</p>
             <p>iOS</p>
             <a href="mailto:andrewf@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">andrewf@ca.ibm.com</a>
           </div>

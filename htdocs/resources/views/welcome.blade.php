@@ -246,6 +246,7 @@
 
                 <hr>
 
+
                 <div class="row item">
                   <div class="col-md-4">
                     <a href="#">
@@ -266,7 +267,6 @@
                         and it would improve the user experience.
                        The application starts from the Android app and you have an option
                         to go into virtual reality to reserve a seat. </p>
-
                       </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
@@ -282,10 +282,9 @@
                           </div>
                           </a>
                         </div>
-
                       </div>
-
                   </div>
+
                     <div class="col-md-2 text-center">
                     <a href="/seatselection">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
@@ -296,9 +295,12 @@
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
+
+
                 <hr>
 
-                  <div class="row item">
+
+                <div class="row item">
                   <div class="col-md-4 ">
                     <a href="#">
                     <img src="/img/rideportfolio_play.png" class="img-responsive" alt="ride portfolio" data-toggle="modal" data-target="#videoModal3">
@@ -480,7 +482,6 @@
                           an open source cloud service (PaaS).</p>
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
                         </div>
-
                         <div class="row">
                           <div class ="col-xs-4 profile">
                             <a href="https://www.linkedin.com/in/a24choi" target="_blank">
@@ -506,6 +507,7 @@
         </div>
 
         <hr>
+
         <div style="height:50px">
         </div>
     </body>

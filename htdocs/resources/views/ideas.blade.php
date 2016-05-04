@@ -108,7 +108,9 @@
         <div class="row ">
           <div class="col-md-12 header">
               <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2>
+              <!-- <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2> -->
+              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >n Lab</h2>
+
               <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
               <div class="menu">
                 <div class="collapse navbar-collapse">
@@ -141,45 +143,79 @@
 
         <hr>
 
+    
         <div class="row item">
           <div class="col-md-4">
-            <img src="/img/imageholder.png" class="img-responsive" alt="img" style="height:200px">
+            <img src="/img/mojio.png" class="img-responsive" alt="img" style="height:200px; ">
           </div>
             <div class="col-md-6">
-            <h4 class="title">Idea Name</h4>
+            <h4 class="title">Moj.io</h4>
 
             <br>
             <div class="wrapper">
-              <p>Brief Description </p>
+              <p>Explore Moj.io (<a href="https://www.moj.io/">https://www.moj.io/</a>) which enables IoT for cars. </p>
+                          <ul>
+                    <li>Push alert in evening when driving home for "fuel will not be enough to drive to work tomorrow!" </li>
+                    <li>Alerts for oil problems or engine issues</li>
+                    <li>Push an offer to users and measure if users are stopping at station even when not empty on fuel yet</li>
+                    <li>Determine set of default gas stations a user passes by over a few months driving ... use this for personalized offers</li>
+                    <li>Correlate weather data with fuel consumption per kilometer or with time needed per kilometer</li>
+                    <li>Correlate ttc twitter feed with offers and driving behavior</li>
+                    <li>Categorize driver type e. g.  strong accelerate/break cycles, or steady driving & max speeds</li>
+                    <li>Fleet monitoring, management and dispatch</li>
+                    <li>Correlate with parking data and reserve parking api</li>
+                    <li>Sharing you live driving track with family in real time</li>
+                    </ul>
             </div>
 
           </div>
           <div class="col-md-2 text-center">
-            <p>Mr x, x@ca.ibm.com </p>
+            <p>Christian Menkens, <a href="cmenkens@ca.ibm.com">cmenkens@ca.ibm.com</a> </p>
           </div>
         </div>
 
         <hr>
 
+
         <div class="row item">
           <div class="col-md-4">
-            <img src="/img/imageholder.png" class="img-responsive" alt="img" style="height:200px">
+            <img src="/img/mobileappbuilder.png" class="img-responsive" alt="img" style="height:200px; width:285px">
           </div>
             <div class="col-md-6">
-            <h4 class="title">Idea Name</h4>
+            <h4 class="title">Mobile App Builder</h4>
 
             <br>
             <div class="wrapper">
-              <p>Brief Description </p>
+              <p>How truly useful is this Mobile App Builder? Can it be used for any quick demos to clients, or is it very basic to be of any use.</p>
             </div>
 
           </div>
           <div class="col-md-2 text-center">
-            <p>Mr x, x@ca.ibm.com </p>
+            <p>Paul Beliavsky, <a href="pbeliav@ca.ibm.com">pbeliav@ca.ibm.com</a></p>
           </div>
         </div>
 
+        <hr>
 
+    <div class="row item">
+          <div class="col-md-4">
+            <img src="/img/workplace.png" class="img-responsive" alt="img" style="height:200px; width:340px">
+          </div>
+            <div class="col-md-6">
+            <h4 class="title">Workplace Reservation App</h4>
+
+            <br>
+            <div class="wrapper">
+              <p>Enabled IBMers to reserve their desk using a mobile app.</p>
+            </div>
+
+          </div>
+          <div class="col-md-2 text-center">
+            <p>Alon M. Kronenberg, &nbsp <a href="alonk@ca.ibm.com">alonk@ca.ibm.com</a></p>
+          </div>
+        </div>
+
+        <hr>
 
       </div>
     </body>
