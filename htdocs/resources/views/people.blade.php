@@ -127,7 +127,7 @@
 
           <div class="col-md-2 text-center" >
               <a href="https://ca.linkedin.com/in/msashek" target="_blank" >
-              <img src="/img/Ashek.png" height="150" width="150" alt="profile" >
+              <img src="/img/ashek.png" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">Mahmood (M.S.)</p>
             <p class=" name">Ashek</p>
@@ -147,7 +147,7 @@
           </div>
 
           <div class="col-md-2 text-center">
-            <a href="#" target="_blank">
+            <a href="https://ca.linkedin.com/in/subashanm" target="_blank">
               <img src="/img/subashan.png" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">Subashan</p>
@@ -158,7 +158,7 @@
           </div>
 
           <div class="col-md-2 text-center">
-            <a href="#" target="_blank">
+            <a href="https://ca.linkedin.com/in/imad-m-obeid-meng-pmp-46866734" target="_blank">
               <img src="/img/imad.png" height="150" width="150"  alt="profile" >
             </a>
             <p class=" name">Imad Obeid </p>
@@ -167,7 +167,7 @@
           </div>
 
            <div class="col-md-2 text-center">
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a href="https://ca.linkedin.com/in/radu-bolboceanu-07aa2244" target="_blank">
               <img src="/img/radu.png" height="150" width="150" alt="profile" >
             </a>
             <p class=" name">Radu Bolboceanu </p>
