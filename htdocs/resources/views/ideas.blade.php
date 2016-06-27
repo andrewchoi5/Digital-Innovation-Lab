@@ -105,32 +105,8 @@
 
 
         <!-- Content -->
-        <div class="row ">
-          <div class="col-md-12 header">
-              <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <!-- <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block" alt="IBM_logo" >n Lab</h2> -->
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >n Lab</h2>
-
-              <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
-              <div class="menu">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                          <a href="/" style="color:#DDDEE0">Projects</a>
-                        </li>
-                        <li>
-                          <a href="/people" style="color:#DDDEE0">People</a>
-                        </li>
-                        <li>
-                          <a href="/ideas" style="color:#DDDEE0">Ideas</a>
-                        </li>
-                    </ul>
-                </div>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-
-          </div>
-        </div>
+         
+       <?php include('../resources/views/menuBar.blade.php');?>
 
         <div class="row">
           <div class="col-md-4">
@@ -146,14 +122,16 @@
     
         <div class="row item">
           <div class="col-md-4">
-            <img src="/img/mojio.png" class="img-responsive" alt="img" style="height:200px; ">
+            <a target="_blank" href="https://www.moj.io/"><img src="/img/mojio.png" class="img-responsive" alt="img" style="height:200px; "></a>
           </div>
             <div class="col-md-6">
             <h4 class="title">Moj.io</h4>
 
             <br>
             <div class="wrapper">
-              <p>Explore Moj.io (<a href="https://www.moj.io/">https://www.moj.io/</a>) which enables IoT for cars. </p>
+              <div class="small_div">
+              <p>Explore Moj.io (<a target="_blank" href="https://www.moj.io/">https://www.moj.io/</a>) which enables IoT for cars. </p>
+              <p>List of the features for Moj.io application for vehicles include: </p>
                           <ul>
                     <li>Push alert in evening when driving home for "fuel will not be enough to drive to work tomorrow!" </li>
                     <li>Alerts for oil problems or engine issues</li>
@@ -166,38 +144,20 @@
                     <li>Correlate with parking data and reserve parking api</li>
                     <li>Sharing you live driving track with family in real time</li>
                     </ul>
+              </div>
+              <a href="#" style="margin-bottom:50px;">Read more</a>
             </div>
-
           </div>
           <div class="col-md-2 text-center">
-            <p>Christian Menkens, <a href="cmenkens@ca.ibm.com">cmenkens@ca.ibm.com</a> </p>
+            <p>Christian Menkens <a href="cmenkens@ca.ibm.com">cmenkens@ca.ibm.com</a> </p>
           </div>
         </div>
 
-        <hr>
 
+
+        <hr>
 
         <div class="row item">
-          <div class="col-md-4">
-            <img src="/img/mobileappbuilder.png" class="img-responsive" alt="img" style="height:200px; width:285px">
-          </div>
-            <div class="col-md-6">
-            <h4 class="title">Mobile App Builder</h4>
-
-            <br>
-            <div class="wrapper">
-              <p>How truly useful is this Mobile App Builder? Can it be used for any quick demos to clients, or is it very basic to be of any use.</p>
-            </div>
-
-          </div>
-          <div class="col-md-2 text-center">
-            <p>Paul Beliavsky, <a href="pbeliav@ca.ibm.com">pbeliav@ca.ibm.com</a></p>
-          </div>
-        </div>
-
-        <hr>
-
-    <div class="row item">
           <div class="col-md-4">
             <img src="/img/workplace.png" class="img-responsive" alt="img" style="height:200px; width:340px">
           </div>
@@ -211,23 +171,118 @@
 
           </div>
           <div class="col-md-2 text-center">
-            <p>Alon M. Kronenberg, &nbsp <a href="alonk@ca.ibm.com">alonk@ca.ibm.com</a></p>
+            <p>Alon M. Kronenberg &nbsp <a href="alonk@ca.ibm.com">alonk@ca.ibm.com</a></p>
           </div>
         </div>
 
         <hr>
 
+        <div class="row item">
+          <div class="col-md-4">
+            <img src="/img/watson_analytics.png" class="img-responsive" alt="img" style="height:200px; width:340px">
+          </div>
+            <div class="col-md-6">
+            <h4 class="title">Watson Analytics Web Tool</h4>
+
+            <br>
+            <div class="wrapper">
+              <p>IBM Analytics Web Tool that let's one run all types of Machine Learning and Statistics algorithms found in Papers etc on structured and a bit of unstructured data:
+                      https://watson.analytics.ibmcloud.com/product </p>
+                      <p>Try importing large dataset and see if it is capable of extracting interesting patterns.</p>
+            </div>
+
+          </div>
+          <div class="col-md-2 text-center">
+            <p>Christian Menkens &nbsp <a href="cmenkens@ca.ibm.com">cmenkens@ca.ibm.com</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row item">
+          <div class="col-md-4">
+            <img src="/img/android_instant.png" class="img-responsive" alt="img" style="height:200px; width:340px">
+          </div>
+            <div class="col-md-6">
+            <h4 class="title">Native on Demand App</h4>
+
+            <br>
+            <div class="wrapper">
+              <p>Android Instant Apps, introduced in Google I/O 2016, enables Android apps to run instantly, without requiring installation.  </p>
+
+            <ol>
+              <li>Booking a workstation or meeting room</li>
+
+            <li>Get bank mortgage/interest rates. </li>
+
+            <li>Airline check-in/ boarding passes </li>
+            </ol>
+
+            </div>
+
+          </div>
+          <div class="col-md-2 text-center">
+            <p>Paul Beliavsky &nbsp <a href="pbeliav@ca.ibm.com">pbeliav@ca.ibm.com</a></p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+<hr>
       </div>
     </body>
 
     <script>
     $(document).ready(function(){
+        $.fn.setAllToMaxHeight = function(){
+          return this.height(
+             Math.max.apply(
+                   this, $.map(this, function(e){
+                    return $(e).height()
+                   }) 
+                )
+            );
+        }
+        $('[data-toggle="tooltip"]').tooltip();
+        $('#myModal').on('shown.bs.modal', function (e) {
+          var $invoker = $(e.relatedTarget);
+          $('#email-title').html($invoker.data('email'));
+        });
+        $('#myModal').on('hidden.bs.modal', function (e) {
 
-        // $( '.item' ).each(function( index ) {
-        //     $(this).children("div").setAllToMaxHeight();
-        //     // $('.item > div').setAllToMaxHeight();
-        // });
-
+          $('#email-title').html("Submit Idea");
+        });
+        $('a[href="#"]').on('click', function (e) {
+            e.preventDefault();
+        });
+        $('.wrapper').find('a[href="#"]').on('click', function (e) {
+            e.preventDefault();
+            this.expand = !this.expand;
+            $(this).text(this.expand?"Collapse":"Read more"); 
+            $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        });
+        $('.wrapper').find('a[href="#"]').on('click', function (e) {
+            e.preventDefault();
+            this.expand = !this.expand;
+            $(this).text(this.expand?"Collapse":"Read more");
+            $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        });
+        $('.wrapper').find('a[href="#moreProjects"]').on('click', function (e) {
+            e.preventDefault();
+            this.expand = !this.expand;
+            $(this).text(this.expand?"Collapse":"Display More Projects");
+            $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        });
     });
     </script>
 </html>

@@ -1,0 +1,39 @@
+ 
+<div class="row ">
+  <div class="col-md-12 header">
+    <a href="/">
+      <img src="/img/icon/dil.svg" class="img-responsive" style="width:18%; length:18%" alt="IBM_logo" >
+    </a>
+    <!-- <br> -->
+
+
+    <div class="menu row">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="/" style="color:#DDDEE0">Projects</a>
+          </li>
+          <li>
+            <a href="/groups" style="color:#DDDEE0">Groups</a>
+          </li>
+          <li>
+            <a href="/ideas" style="color:#DDDEE0">Ideas</a>
+          </li>
+          <li>
+            <a href="/proposals" style="color:#DDDEE0">Proposals</a>
+          </li>
+          <li>
+            <a href="/news" style="color:#DDDEE0">News</a>
+          </li>
+          
+        </ul>
+        <h5 style="margin:0; color:#DDDEE0" align="right">Innovations that matter. &nbsp;&nbsp;&nbsp;</h5>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</div>

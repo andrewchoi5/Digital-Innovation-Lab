@@ -16,6 +16,11 @@ Route::get('/', function () {
 });
 Route::get('/people', 'MainController@people');
 Route::get('/ideas', 'MainController@ideas');
+Route::get('/groups', 'MainController@groups');
+Route::get('/proposals', 'MainController@proposals');
+Route::get('/news', 'MainController@news');
+
+Route::get('/menuBar', 'MainController@menuBar');
 
 
 Route::get('/seatselection', 'MainController@seatselection');

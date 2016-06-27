@@ -1,62 +1,21 @@
+<?php
+$chelsea = 'iOS Developer'; 
+$chelseaLinkedin = 'https://www.linkedin.com/in/chelsea-thiel-jones-679357a2';
+$andrew = 'Mobile App Developer';
+$subashan = 'Ideas & Architect';
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>IBM Digital Innovation Lab</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <style>
-        .subtitle {margin-bottom:0; margin-top: 0;}
-        .title {margin-bottom:0; }
-        body {
-          font-family: Lato;
-        }
-        .small_div {
-            height: 60px;
-            overflow:hidden;
-        }
-        .big_div {
-            height: auto;
-        }
-        .profile_margin {
-          margin-top: 15%;
-        }
-        .no_profile_margin {
-            margin-top: 0;
-        }
-        .vert_center {
-            display: flex;
-            align-items: center;
-        }
-        .header{
-          background-color: #708FAB;
-          padding-top:15px;
-          padding-bottom:15px;
-          margin-bottom: 20px;
-        }
-        .menu{
-          position: absolute;
-          top: 0;
-          right: 0;
-          padding-left: 15px;
-          padding-right: 15px
-        }
-        ul.nav a:hover { background-color: #708FAB !important; }
-
-        @media only screen and (max-width : 992px) {
-            .profile{
-              margin-bottom: 15px;
-            }
-        }
-        .img-responsive{width:100%;}
-        </style>
+        <link href='originalStyle.css' rel='stylesheet' type='text/css'>
+        
     </head>
     <body>
 
@@ -204,47 +163,43 @@
             </div>
           </div>
         </div>
-
-        <!-- Content -->
-        <div class="row ">
-          <div class="col-md-12 header">
-              <img src="/img/ibm.png" class="img-responsive" style="width:5%" alt="IBM_logo" >
-              <h2 style="margin:0;color:#FFFFFF">Digital Inn<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >vati<img src="/img/watson_white.png" class="img-responsive" style="width:30px;display:inline-block;margin-bottom: 7px;" alt="IBM_logo" >n Lab</h2>
-              <h5 style="margin:0; color:#DDDEE0">Innovations that matter</h5>
-
-              <div class="menu row">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                          <a href="/" style="color:#DDDEE0">Projects</a>
-                        </li>
-                        <li>
-                          <a href="/people" style="color:#DDDEE0">People</a>
-                        </li>
-                        <li>
-                          <a href="/ideas" style="color:#DDDEE0">Ideas</a>
-                        </li>
-                    </ul>
-                </div>
-
+        <div id="videoModal5" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Confidence </h4>
               </div>
-
+              <div class="modal-body">
+                  <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls>
+                  <source src="/video/confidence.mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
+        <!-- Content -->
+      
+
+       
+       <?php include('../resources/views/menuBar.blade.php');?>
 
 
-
-
-              <div class="row">
+                <div class="row">
                   <div class="col-md-4">
-                    <h3 class="subtitle">Projects</h3>
+                    <h3 class="subtitle">Featured Projects</h3>
                   </div>
                   <div class="col-md-6"></div>
                   <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div>
                 </div>
 
                 <hr>
+
 
 
                 <div class="row item">
@@ -258,16 +213,17 @@
                     <p class="subtitle">Technologies: Virtual Reality, Unity, Android</p>
                     <p class="subtitle">Industry: Transportation, Entertainment</p>
                     <br>
-                    <div class="wrapper">
-                      <div class="small_div">
-                    <p>Gear VR app that puts the user in a virtual airplane to move around and select
-                      preferred seat.
-                      This app was created because we thought it would be great to add
-                        a virtual reality experience within an airline mobile app for seat selection
-                        and it would improve the user experience.
-                       The application starts from the Android app and you have an option
-                        to go into virtual reality to reserve a seat. </p>
-                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                     <div class="wrapper">
+                        <div class="small_div">
+                        <p>Gear VR app that puts the user in a virtual airplane to move around and select
+                        preferred seat.
+                        This app was created because we thought it would be great to add
+                          a virtual reality experience within an airline mobile app for seat selection
+                          and it would improve the user experience.
+                         The application starts from the Android app and you have an option
+                          to go into virtual reality to reserve a seat. </p>
+                        </div>
+                        <a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
@@ -284,7 +240,6 @@
                         </div>
                       </div>
                   </div>
-
                     <div class="col-md-2 text-center">
                     <a href="/seatselection">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
@@ -339,6 +294,7 @@
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
+
                 <hr>
 
               <div class ="row item">
@@ -395,7 +351,14 @@
                   </div>
                 </div>
 
+
+
+
+                
+                
+                
                 <hr>
+                  
 
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
@@ -405,19 +368,19 @@
                   </div>
                 <div class ="col-md-6">
                     <h4 class="title">SensorTag Luggage Tracker</h4>
-                    <p class="subtitle">Technologies: IoT, Android</p>
+                    <p class="subtitle">Technologies: Android, IoT, SensorTag</p>
                     <p class="subtitle">Industry: Transportation</p>
                     <br>
                     <div class="wrapper">
                       <div class="small_div">
-                    <p>You've just had a 10-hour, hectic flight from LAX to the Heathrow Airport,
+                    <p>You've just had a ten-hour, hectic flight from LAX to the Heathrow Airport,
                        and can't wait to take a good couple hours of nap at your hotel.
                        You are so exhausted that you cannot stand in front the carousel,
                         searching for your baggages the old style. Why not just sit down
                         and let the SensorTag Luggage Tracker show you where they are?
                         Utilizing Texas Instrument's TI CC2650 SensorTag model, this small_div,
                         Android prototype of this feature is built for airline customers.
-                        For this POC, we've used experimented with many different sensors and algorithms within
+                        For this PoC, we've used experimented with many different sensors and algorithms within
                          this powerful chip from Texas Instrument. The concluding product is an ad hoc application
                           that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
                           The SensorTag Luggage Tracker is also an example of development within the Internet
@@ -455,6 +418,7 @@
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"  data-toggle="modal" data-target="#myModal" data-email="Feedback for SensorTag Luggage Tracker"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
+
                 <hr>
 
 
@@ -502,24 +466,167 @@
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"  ><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Watson Family Banking"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
-                  </div>
                 </div>
-        </div>
+              </div>
 
-        <hr>
+              <hr>
+
+
+              <div class="row item">
+                  <div class="col-md-4">
+                    <a href="#">
+                    <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#">
+                    </a>
+                  </div>
+                    <div class="col-md-6">
+                    <h4 class="title">Innovation Lab Portal</h4>
+                    <p class="subtitle">Technologies: Web, PHP, Laravel</p>
+                    <p class="subtitle">Industry: Technology, IBM</p>
+                    <br>
+                    <div class="wrapper">
+                      <div class="small_div">
+                    <p>Innovation Lab Portal Web Application utilizes PHP (+Laravel Framework) to display and exhibit projects completed or ideas proposed by co-ops
+                    as well as full-time IBMers. Projects section displays all the projects that are in completion stage. People section lists current and past IBMers
+                    as well as co-ops who have had contributions to any of the projects. Ideas section contains all the upcoming exciting projects as proposed by full-time employees
+                   and interns at IBM.</p>
+                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                      <div class="row">     
+                        <div class ="col-xs-5 profile">
+                          <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                          </div>
+                          </a>
+                          <a href="https://www.linkedin.com/in/a24choi" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Mobile App Developer">
+                            <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Choi">
+                          </div>
+                          </a>
+                          <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                          </div>
+                          </a>
+                         </div>
+                        <div class ="col-xs-1">
+                           <a class="display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
+                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
+                            <img src="/img/subashan.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Subashan Maheswaramoorthy">
+                          </div>
+                          </a>
+                          </div>
+                        <div class ="col-xs-5">
+                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
+                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
+                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-md-2 text-center">
+                    <a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                    </a>
+                    <a target="_blank">
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                    </a>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row item">
+                  <div class="col-md-4">
+                    <a href="#">
+                    <img src="/img/icon/.svg" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal5">
+                    </a>
+                  </div>
+                    <div class="col-md-6">
+                    <h4 class="title">Confidence: Identity Verification</h4>
+                    <p class="subtitle">Technologies: iOS, OCR</p>
+                    <p class="subtitle">Industry: Banking</p>
+                    <br>
+                    <div class="wrapper">
+                      <div class="small_div">
+                    <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
+                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                      <div class="row">     
+                        <div class ="col-xs-5 profile">
+                          <a href="https://ca.linkedin.com/in/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                            <img src="/img/.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
+                          </div>
+                          </a>
+                          <a href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                            <img src="/img/kevin.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Kevin Northrup">
+                          </div>
+                          </a>
+                          <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
+                          </div>
+                          </a>
+                         </div>
+                        <div class ="col-xs-1">
+                           <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
+                          </div>
+                          </a>
+                          </div>
+                        <div class ="col-xs-5">
+                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
+                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
+                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-md-2 text-center">
+                    <a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                    </a>
+                    <a target="_blank">
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                    </a>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                    </div>
+                </div>
+
+
+
+                <div class="wrapper">
+                  <div class="small_div"><br><br>
+                  </div>
+                        <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>
+                </div>
+              <br><br>
+              </div>
 
         <div style="height:50px">
         </div>
-    </body>
 
+
+
+    </body>
     <script>
     $(document).ready(function(){
         $.fn.setAllToMaxHeight = function(){
-          return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );
+          return this.height(
+             Math.max.apply(
+                   this, $.map(this, function(e){
+                    return $(e).height()
+                   }) 
+                )
+            );
         }
-
         $('[data-toggle="tooltip"]').tooltip();
-
         $('#myModal').on('shown.bs.modal', function (e) {
           var $invoker = $(e.relatedTarget);
           $('#email-title').html($invoker.data('email'));
@@ -534,17 +641,24 @@
         $('.wrapper').find('a[href="#"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
+            $(this).text(this.expand?"Collapse":"Read more"); 
+            $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        });
+        $('.wrapper').find('a[href="#"]').on('click', function (e) {
+            e.preventDefault();
+            this.expand = !this.expand;
             $(this).text(this.expand?"Collapse":"Read more");
             $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });
-
-
-        // $( '.item' ).each(function( index ) {
-        //     $(this).children("div").setAllToMaxHeight();
-        //     // $('.item > div').setAllToMaxHeight();
-        // });
-
+        $('.wrapper').find('a[href="#moreProjects"]').on('click', function (e) {
+            e.preventDefault();
+            this.expand = !this.expand;
+            $(this).text(this.expand?"Collapse":"Display More Projects");
+            $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        });
     });
     </script>
 </html>

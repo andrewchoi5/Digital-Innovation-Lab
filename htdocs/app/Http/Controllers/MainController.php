@@ -34,6 +34,20 @@ class MainController extends Controller {
   {
     return view('ideas');
   }
+  public function groups()
+  {
+    return view('groups');
+  }
+  public function proposals(){
+    return view('proposals');
+  }
+  public function news(){
+    return view('news');
+  }
+  
+  public function menuBar(){
+    return view('menuBar');
+  }
 
   public function seatselection()
   {
