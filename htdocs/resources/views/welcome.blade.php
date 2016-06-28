@@ -1,5 +1,5 @@
 <?php
-$chelsea = 'iOS Developer'; 
+$chelsea = 'iOS Developer';
 $chelseaLinkedin = 'https://www.linkedin.com/in/chelsea-thiel-jones-679357a2';
 $andrew = 'Mobile App Developer';
 $subashan = 'Ideas & Architect';
@@ -15,7 +15,9 @@ $subashan = 'Ideas & Architect';
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
-        
+        <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+        <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+
     </head>
     <body>
 
@@ -65,9 +67,8 @@ $subashan = 'Ideas & Architect';
         </div>
 
 
-        <div id="videoModal" class="modal fade" role="dialog">
+        <!-- <div id="videoModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -84,10 +85,8 @@ $subashan = 'Ideas & Architect';
             </div>
           </div>
         </div>
-
         <div id="videoModal1" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -107,7 +106,6 @@ $subashan = 'Ideas & Architect';
         </div>
         <div id="videoModal2" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -127,7 +125,6 @@ $subashan = 'Ideas & Architect';
         </div>
         <div id="videoModal3" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -146,7 +143,6 @@ $subashan = 'Ideas & Architect';
         </div>
         <div id="videoModal4" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -165,7 +161,6 @@ $subashan = 'Ideas & Architect';
         </div>
         <div id="videoModal5" class="modal fade" role="dialog">
           <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -174,19 +169,19 @@ $subashan = 'Ideas & Architect';
               <div class="modal-body">
                   <div align="center" class="embed-responsive embed-responsive-16by9">
                 <video class="embed-responsive-item" controls>
-                  <source src="/video/confidence.mp4">
+                  <source src="/video/confi.mp4">
                 Your browser does not support the video tag.
                 </video>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Content -->
-      
 
-       
+
+
        <?php include('../resources/views/menuBar.blade.php');?>
 
 
@@ -204,9 +199,19 @@ $subashan = 'Ideas & Architect';
 
                 <div class="row item">
                   <div class="col-md-4">
-                    <a href="#">
-                    <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
+                    <!-- <a href="#"> -->
+                    <!-- <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal"> -->
+                    <!-- </a> -->
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Seat Selection in Virtual Reality</h4>
@@ -257,9 +262,16 @@ $subashan = 'Ideas & Architect';
 
                 <div class="row item">
                   <div class="col-md-4 ">
-                    <a href="#">
-                    <img src="/img/rideportfolio_play.png" class="img-responsive" alt="ride portfolio" data-toggle="modal" data-target="#videoModal3">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
                   </div>
                   <div class="col-md-6">
               				  <h4 class="title">Ride Your Portfolio VR</h4>
@@ -299,9 +311,16 @@ $subashan = 'Ideas & Architect';
 
               <div class ="row item">
                 <div class ="col-md-4 vert_center">
-                    <a href="#">
-                      <img src="/img/outofband_play.png" class="img-responsive" alt="outofband" data-toggle="modal" data-target="#videoModal4">
-                    </a>
+                  <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                   preload="auto" width="360" height="210" poster="/img/confidence.png"
+                   data-setup='{}'>
+                    <source src="/video/confi.mp4" type="video/mp4">
+                    <source src="really-cool-video.webm" type="video/webm">
+                    <p class="vjs-no-js">
+                      To view this video please enable JavaScript, and consider upgrading to a web browser
+                      that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                  </video>
                   </div>
                 <div class ="col-md-6">
                     <h4 class="title">Out of Band Authentication </h4>
@@ -350,21 +369,20 @@ $subashan = 'Ideas & Architect';
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Out of Band Authentication"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
-
-
-
-
-                
-                
-                
                 <hr>
-                  
 
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
-                    <a href="#">
-                    <img src="/img/sensortag_play.png" class="img-responsive" alt="sensortag" data-toggle="modal" data-target="#videoModal1">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
                   </div>
                 <div class ="col-md-6">
                     <h4 class="title">SensorTag Luggage Tracker</h4>
@@ -421,12 +439,18 @@ $subashan = 'Ideas & Architect';
 
                 <hr>
 
-
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
-                    <a href="#">
-                    <img src="/img/familybanking_play.png" class="img-responsive" alt="familybanking" data-toggle="modal" data-target="#videoModal2">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
                   </div>
                   <div class ="col-md-6">
                     <h4 class="title">IBM Family Financial Advisor</h4>
@@ -474,9 +498,16 @@ $subashan = 'Ideas & Architect';
 
               <div class="row item">
                   <div class="col-md-4">
-                    <a href="#">
-                    <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Innovation Lab Portal</h4>
@@ -491,7 +522,7 @@ $subashan = 'Ideas & Architect';
                    and interns at IBM.</p>
                       </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
-                      <div class="row">     
+                      <div class="row">
                         <div class ="col-xs-5 profile">
                           <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
                           <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
@@ -538,7 +569,7 @@ $subashan = 'Ideas & Architect';
 
                 <hr>
 
-                    <style>
+                    <!-- /*<style>
                     .video img {
                       width:100%;
                       height:auto;
@@ -560,27 +591,34 @@ $subashan = 'Ideas & Architect';
                         background-size: 400%;
                       }
                     }
-                    </style>
+                    </style>*/ -->
 
 
                 <div class="row item">
                   <div class="col-md-4 video">
-                    <a href="#">
-                    <img src="/img/confidence_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal5">
-                    </a>
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     data-setup='{}'>
+                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="really-cool-video.webm" type="video/webm">
+                      <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser
+                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                      </p>
+                    </video>
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Confidence: Identity Verification</h4>
                     <p class="subtitle">Technologies: iOS, OCR</p>
                     <p class="subtitle">Industry: Banking</p>
                     <br>
-                    
+
                     <div class="wrapper">
                       <div class="small_div">
                     <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
                       </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
-                      <div class="row">     
+                      <div class="row">
                         <div class ="col-xs-5 profile">
                           <a href="https://ca.linkedin.com/in/" target="_blank">
                           <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
@@ -648,7 +686,7 @@ $subashan = 'Ideas & Architect';
              Math.max.apply(
                    this, $.map(this, function(e){
                     return $(e).height()
-                   }) 
+                   })
                 )
             );
         }
@@ -667,7 +705,7 @@ $subashan = 'Ideas & Architect';
         $('.wrapper').find('a[href="#"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more"); 
+            $(this).text(this.expand?"Collapse":"Read more");
             $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });
