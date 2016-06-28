@@ -538,10 +538,35 @@ $subashan = 'Ideas & Architect';
 
                 <hr>
 
+                    <style>
+                    .video img {
+                      width:100%;
+                      height:auto;
+                    }
+                    a.video {
+                      float: left;
+                      position: relative;
+                    }
+                    a.video span {
+                      width: 100%;
+                      height: 100%;
+                      position: absolute;
+                      background: url("/img/play.png") no-repeat;
+                      background-position: 50% 50%;
+                      background-size: 300%;
+                    }
+                    @media screen and (max-width: 480px) {
+                      a.video span {
+                        background-size: 400%;
+                      }
+                    }
+                    </style>
+
+
                 <div class="row item">
-                  <div class="col-md-4">
+                  <div class="col-md-4 video">
                     <a href="#">
-                    <img src="/img/icon/.svg" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal5">
+                    <img src="/img/confidence_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal5">
                     </a>
                   </div>
                     <div class="col-md-6">
@@ -549,6 +574,7 @@ $subashan = 'Ideas & Architect';
                     <p class="subtitle">Technologies: iOS, OCR</p>
                     <p class="subtitle">Industry: Banking</p>
                     <br>
+                    
                     <div class="wrapper">
                       <div class="small_div">
                     <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
@@ -558,7 +584,7 @@ $subashan = 'Ideas & Architect';
                         <div class ="col-xs-5 profile">
                           <a href="https://ca.linkedin.com/in/" target="_blank">
                           <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
-                            <img src="/img/.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
+                            <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
                           </div>
                           </a>
                           <a href="https://www.linkedin.com/" target="_blank">
