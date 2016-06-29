@@ -16,7 +16,6 @@ $subashan = 'Ideas & Architect';
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
         <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
-        <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
 
     </head>
     <body>
@@ -198,11 +197,82 @@ $subashan = 'Ideas & Architect';
 
 
                 <div class="row item">
+                    <div class="col-md-4">
+                      <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                       preload="auto" width="360" height="210" poster="/img/confidence.png"
+                       data-setup='{}'>
+                        <source src="/video/confi.mp4" type="video/mp4">
+                        <source src="really-cool-video.webm" type="video/webm">
+                        <p class="vjs-no-js">
+                          To view this video please enable JavaScript, and consider upgrading to a web browser
+                          that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                      </video>
+                    </div>
+                    <div class="col-md-6">
+                    <h4 class="title">Confidence: Identity Verification</h4>
+                    <p class="subtitle">Technologies: iOS, OCR</p>
+                    <p class="subtitle">Industry: Banking</p>
+                    <br>
+                    <div class="wrapper">
+                      <div class="small_div">
+                    <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
+                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                      <div class="row">
+                        <div class ="col-xs-5 profile">
+                          <a href="https://ca.linkedin.com/in/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                            <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
+                          </div>
+                          </a>
+                          <a href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                            <img src="/img/kevin.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Kevin Northrup">
+                          </div>
+                          </a>
+                          <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
+                          </div>
+                          </a>
+                         </div>
+                        <div class ="col-xs-1">
+                           <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                            <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
+                          </div>
+                          </a>
+                          </div>
+                        <div class ="col-xs-5">
+                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
+                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
+                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-md-2 text-center">
+                    <a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                    </a>
+                    <a target="_blank">
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                    </a>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <div class="row item">
                   <div class="col-md-4">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     preload="auto" width="360" height="210" poster="/img/seat.png"
                      data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="/video/seat.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -263,9 +333,9 @@ $subashan = 'Ideas & Architect';
                 <div class="row item">
                   <div class="col-md-4 ">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     preload="auto" width="360" height="210" poster="/img/ride.png"
                      data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="/video/ride.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -312,9 +382,9 @@ $subashan = 'Ideas & Architect';
               <div class ="row item">
                 <div class ="col-md-4 vert_center">
                   <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                   preload="auto" width="360" height="210" poster="/img/confidence.png"
+                   preload="auto" width="360" height="210" poster="/img/oba.png"
                    data-setup='{}'>
-                    <source src="/video/confi.mp4" type="video/mp4">
+                    <source src="/video/oba.mp4" type="video/mp4">
                     <source src="really-cool-video.webm" type="video/webm">
                     <p class="vjs-no-js">
                       To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -374,9 +444,9 @@ $subashan = 'Ideas & Architect';
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     preload="auto" width="360" height="210" poster="/img/sensortag.png"
                      data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="/video/sensortag.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -442,9 +512,9 @@ $subashan = 'Ideas & Architect';
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
+                     preload="auto" width="360" height="210" poster="/img/familybanking.png"
                      data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
+                      <source src="/video/advisor.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
                       <p class="vjs-no-js">
                         To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -498,16 +568,9 @@ $subashan = 'Ideas & Architect';
 
               <div class="row item">
                   <div class="col-md-4">
-                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
-                     data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
-                      <source src="really-cool-video.webm" type="video/webm">
-                      <p class="vjs-no-js">
-                        To view this video please enable JavaScript, and consider upgrading to a web browser
-                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                      </p>
-                    </video>
+                    <a href="#">
+                    <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal">
+                    </a>
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Innovation Lab Portal</h4>
@@ -569,99 +632,7 @@ $subashan = 'Ideas & Architect';
 
                 <hr>
 
-                    <!-- /*<style>
-                    .video img {
-                      width:100%;
-                      height:auto;
-                    }
-                    a.video {
-                      float: left;
-                      position: relative;
-                    }
-                    a.video span {
-                      width: 100%;
-                      height: 100%;
-                      position: absolute;
-                      background: url("/img/play.png") no-repeat;
-                      background-position: 50% 50%;
-                      background-size: 300%;
-                    }
-                    @media screen and (max-width: 480px) {
-                      a.video span {
-                        background-size: 400%;
-                      }
-                    }
-                    </style>*/ -->
 
-
-                <div class="row item">
-                  <div class="col-md-4 video">
-                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/confidence.png"
-                     data-setup='{}'>
-                      <source src="/video/confi.mp4" type="video/mp4">
-                      <source src="really-cool-video.webm" type="video/webm">
-                      <p class="vjs-no-js">
-                        To view this video please enable JavaScript, and consider upgrading to a web browser
-                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                      </p>
-                    </video>
-                  </div>
-                    <div class="col-md-6">
-                    <h4 class="title">Confidence: Identity Verification</h4>
-                    <p class="subtitle">Technologies: iOS, OCR</p>
-                    <p class="subtitle">Industry: Banking</p>
-                    <br>
-
-                    <div class="wrapper">
-                      <div class="small_div">
-                    <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
-                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
-                      </div>
-                      <div class="row">
-                        <div class ="col-xs-5 profile">
-                          <a href="https://ca.linkedin.com/in/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
-                            <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
-                          </div>
-                          </a>
-                          <a href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
-                            <img src="/img/kevin.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Kevin Northrup">
-                          </div>
-                          </a>
-                          <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
-                          </div>
-                          </a>
-                         </div>
-                        <div class ="col-xs-1">
-                           <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
-                          </div>
-                          </a>
-                          </div>
-                        <div class ="col-xs-5">
-                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
-                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
-                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                  </div>
-                    <div class="col-md-2 text-center">
-                    <a>
-                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
-                    </a>
-                    <a target="_blank">
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                    </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
-                    </div>
-                </div>
 
 
 
@@ -675,10 +646,9 @@ $subashan = 'Ideas & Architect';
 
         <div style="height:50px">
         </div>
-
-
-
     </body>
+    <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+
     <script>
     $(document).ready(function(){
         $.fn.setAllToMaxHeight = function(){
