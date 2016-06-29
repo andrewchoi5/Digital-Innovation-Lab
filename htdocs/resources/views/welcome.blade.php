@@ -2,7 +2,13 @@
 $chelsea = 'iOS Developer';
 $chelseaLinkedin = 'https://www.linkedin.com/in/chelsea-thiel-jones-679357a2';
 $andrew = 'Mobile App Developer';
+$andrewEmail = 'achoi@ca.ibm.com';
 $subashan = 'Ideas & Architect';
+$subashanLinkedin = 'Ideas & Architect';
+$mehran = 'Lab Lead';
+$mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
+$oliver = 'Developer & Architect';
+$oliverLinkedin = 'https://www.linkedin.com/in/';
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,14 +36,14 @@ $subashan = 'Ideas & Architect';
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" id ="email-title">Submit Idea</h4>
+                <h4 class="modal-title" id="email-title">Submit Idea</h4>
               </div>
               <div class="modal-body">
+
                   {!! Form::open(array('action' => array('MainController@sendEmail'), 'method' => 'post', 'class' => 'form-horizontal','id' => 'submit-idea','role' => 'form')) !!}
                   <div class = "form-group">
                     <div class = "col-sm-12">
@@ -61,7 +67,6 @@ $subashan = 'Ideas & Architect';
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -103,79 +108,7 @@ $subashan = 'Ideas & Architect';
             </div>
           </div>
         </div>
-        <div id="videoModal2" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Watson Family Banking Demo</h4>
-              </div>
-              <div class="modal-body">
-                  <div align="center" class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" controls>
-                  <source src="/video/Advisor Coop Vid.mov">
-
-                Your browser does not support the video tag.
-                </video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="videoModal3" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Ride Your Portfolio VR</h4>
-              </div>
-              <div class="modal-body">
-                  <div align="center" class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" controls>
-                  <source src="/video/RollercoasterVR_DEMO.mp4">
-                Your browser does not support the video tag.
-                </video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="videoModal4" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Out of Band Authentication </h4>
-              </div>
-              <div class="modal-body">
-                  <div align="center" class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" controls>
-                  <source src="/video/OBA demo video.mp4">
-                Your browser does not support the video tag.
-                </video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="videoModal5" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Confidence </h4>
-              </div>
-              <div class="modal-body">
-                  <div align="center" class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" controls>
-                  <source src="/video/confi.mp4">
-                Your browser does not support the video tag.
-                </video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
+        -->
 
         <!-- Content -->
 
@@ -194,12 +127,10 @@ $subashan = 'Ideas & Architect';
 
                 <hr>
 
-
-
                 <div class="row item">
                     <div class="col-md-4">
                       <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                       preload="auto" width="360" height="210" poster="/img/confidence.png"
+                       preload="none" width="360" height="210" poster="/img/confidence.png"
                        data-setup='{}'>
                         <source src="/video/confi.mp4" type="video/mp4">
                         <source src="really-cool-video.webm" type="video/webm">
@@ -210,49 +141,60 @@ $subashan = 'Ideas & Architect';
                       </video>
                     </div>
                     <div class="col-md-6">
-                    <h4 class="title">Confidence: Identity Verification</h4>
-                    <p class="subtitle">Technologies: iOS, OCR</p>
-                    <p class="subtitle">Industry: Banking</p>
-                    <br>
-                    <div class="wrapper">
-                      <div class="small_div">
-                    <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
-                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      <h4 class="title">Confidence: Identity Verification</h4>
+                      <p class="subtitle">Technologies: iOS, OCR</p>
+                      <p class="subtitle">Industry: Banking</p>
+                      <br>
+                      <div class="wrapper">
+                        <div class="small_div">
+                          <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
+                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
-                      <div class="row">
-                        <div class ="col-xs-5 profile">
-                          <a href="https://ca.linkedin.com/in/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
-                            <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
-                          </div>
-                          </a>
-                          <a href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
-                            <img src="/img/kevin.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Kevin Northrup">
-                          </div>
-                          </a>
-                          <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
-                          </div>
-                          </a>
-                         </div>
-                        <div class ="col-xs-1">
-                           <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
-                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
-                          </div>
-                          </a>
-                          </div>
-                        <div class ="col-xs-5">
-                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
-                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
-                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
-                          </div>
-                          </a>
+                        <div class="row">
+
+                          <div class ="col-xs-8 profile">
+                            <a href="https://ca.linkedin.com/in/" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                              <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
+                            </div>
+                            </a>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
+                              <img src="/img/kevin.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Kevin Northrup">
+                            </div>
+                            </a>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                                <img src="/img/radu.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Radu Bolbcoceanu">
+                              </div>
+                            </a>
+                          <!-- </div> -->
+
+                          <!-- <div class ="col-xs-1"> -->
+                            <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
+                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                                <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
+                              </div>
+                            </a>
+                          <!-- </div> -->
+
+                          <!-- <div class ="col-xs-5"> -->
+                            <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                               <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
+                             </div>
+                           </a>
+                          <!-- </div> -->
+
+                          <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
+                           <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea; ?>" >
+                             <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                           </div>
+                         </a>
                         </div>
-                      </div>
-                  </div>
+
+                       </div>
+                    </div>
                     <div class="col-md-2 text-center">
                     <a>
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
@@ -260,7 +202,7 @@ $subashan = 'Ideas & Architect';
                     <a target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                     </div>
                 </div>
 
@@ -270,7 +212,7 @@ $subashan = 'Ideas & Architect';
                 <div class="row item">
                   <div class="col-md-4">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/seat.png"
+                     preload="none" width="360" height="210" poster="/img/seat.png"
                      data-setup='{}'>
                       <source src="/video/seat.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
@@ -307,8 +249,8 @@ $subashan = 'Ideas & Architect';
                             <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
                           </div>
                           </a>
-                          <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                          <a href="<?php echo $mehranLinkedin; ?>" target="_blank">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran; ?>">
                             <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
                           </a>
@@ -322,7 +264,7 @@ $subashan = 'Ideas & Architect';
                     <a href="/seatselection_presentation" target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
 
@@ -333,7 +275,7 @@ $subashan = 'Ideas & Architect';
                 <div class="row item">
                   <div class="col-md-4 ">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/ride.png"
+                     preload="none" width="360" height="210" poster="/img/ride.png"
                      data-setup='{}'>
                       <source src="/video/ride.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
@@ -361,7 +303,7 @@ $subashan = 'Ideas & Architect';
                             </div>
                             </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
                               </a>
@@ -373,7 +315,7 @@ $subashan = 'Ideas & Architect';
                     <a href="/rideportfolio">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Ride Portfolio VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
 
@@ -382,7 +324,7 @@ $subashan = 'Ideas & Architect';
               <div class ="row item">
                 <div class ="col-md-4 vert_center">
                   <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                   preload="auto" width="360" height="210" poster="/img/oba.png"
+                   preload="none" width="360" height="210" poster="/img/oba.png"
                    data-setup='{}'>
                     <source src="/video/oba.mp4" type="video/mp4">
                     <source src="really-cool-video.webm" type="video/webm">
@@ -391,7 +333,7 @@ $subashan = 'Ideas & Architect';
                       that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                     </p>
                   </video>
-                  </div>
+                </div>
                 <div class ="col-md-6">
                     <h4 class="title">Out of Band Authentication </h4>
                     <p class="subtitle">Technologies: iOS, Web</p>
@@ -408,26 +350,32 @@ $subashan = 'Ideas & Architect';
                           they can verify your identity with TouchID.</p>
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
 
-                        <div class="row profile_margin">
-                          <div class ="col-xs-5 profile">
-                            <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
-                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                                <img src="/img/andrewF.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Frolkin">
-                              </div>
-                            </a>
+                        <div class="row ">
+                          <!-- profile_margin -->
+                          <div class ="col-xs-8 profile">
+                              <a href="<?php echo $oliverLinkedin; ?>" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer & Architect">
+                                  <img src="/img/oliver.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Oliver Merk">
+                                </div>
+                              </a>
+                              <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                                  <img src="/img/andrewF.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Frolkin">
+                                </div>
+                              </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                                <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
                                   <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                                 </div>
                               </a>
                               <a href="https://ca.linkedin.com/in/jeremyaleung" target="_blank">
-                            <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
-                              <img src="/img/jeremy.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Jeremy Leung">
-                            </div>
-                            </a>
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                                  <img src="/img/jeremy.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Jeremy Leung">
+                                </div>
+                              </a>
                           </div>
                         </div>
-                        </div>
+                      </div>
                   </div>
                   <div class ="col-md-2 text-center">
                     <a href="#">
@@ -436,15 +384,16 @@ $subashan = 'Ideas & Architect';
                     <a href="/OBA_presentation" target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Out of Band Authentication"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
+
                 <hr>
 
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/sensortag.png"
+                     preload="none" width="360" height="210" poster="/img/sensortag.png"
                      data-setup='{}'>
                       <source src="/video/sensortag.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
@@ -475,7 +424,7 @@ $subashan = 'Ideas & Architect';
                           of Things (IoT) industry.</p>
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
 
-                          <div class="row profile_margin">
+                          <div class="row">
                             <div class ="col-xs-5 profile">
                               <a href="https://www.linkedin.com/in/a24choi" target="_blank">
                               <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
@@ -483,7 +432,7 @@ $subashan = 'Ideas & Architect';
                               </div>
                               </a>
                                 <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Idea & Architect">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                               </div>
                               </a>
@@ -503,7 +452,7 @@ $subashan = 'Ideas & Architect';
                     <a href="/sensortag_presentation" target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"  data-toggle="modal" data-target="#myModal" data-email="Feedback for SensorTag Luggage Tracker"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"  data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
 
@@ -512,7 +461,7 @@ $subashan = 'Ideas & Architect';
                 <div class ="row item">
                   <div class ="col-md-4 vert_center">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                     preload="auto" width="360" height="210" poster="/img/familybanking.png"
+                     preload="none" width="360" height="210" poster="/img/familybanking.png"
                      data-setup='{}'>
                       <source src="/video/advisor.mp4" type="video/mp4">
                       <source src="really-cool-video.webm" type="video/webm">
@@ -559,7 +508,7 @@ $subashan = 'Ideas & Architect';
                     <a href="/watsonBanking">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px"  ><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Watson Family Banking"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
                 </div>
               </div>
 
@@ -586,37 +535,38 @@ $subashan = 'Ideas & Architect';
                       </div><a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
-                        <div class ="col-xs-5 profile">
+                        <div class ="col-xs-8 profile">
                           <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
-                          </div>
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                            </div>
                           </a>
                           <a href="https://www.linkedin.com/in/a24choi" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Mobile App Developer">
-                            <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Choi">
-                          </div>
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Mobile App Developer">
+                              <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Choi">
+                            </div>
                           </a>
                           <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                          <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
-                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
-                          </div>
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
+                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                            </div>
                           </a>
-                         </div>
-                        <div class ="col-xs-1">
-                           <a class="display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                          <div class="col-xs-0 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
-                            <img src="/img/subashan.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Subashan Maheswaramoorthy">
-                          </div>
+
+                        <!-- <div class ="col-xs-1"> -->
+                           <a class="display: inline;" href="<?php echo $subashanLinkedin; ?>" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
+                              <img src="/img/subashan.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Subashan Maheswaramoorthy">
+                            </div>
                           </a>
-                          </div>
-                        <div class ="col-xs-5">
+                          <!-- </div> -->
+                        <!-- <div class ="col-xs-5"> -->
                            <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
-                          <div class="col-xs-6 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea ?>" >
-                            <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
-                          </div>
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea; ?>" >
+                              <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                            </div>
                           </a>
                         </div>
+                        <!-- </div> -->
                       </div>
                   </div>
                     <div class="col-md-2 text-center">
@@ -626,7 +576,7 @@ $subashan = 'Ideas & Architect';
                     <a target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for Seat selection VR"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                     </div>
                 </div>
 

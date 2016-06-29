@@ -12,7 +12,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="originalStyle.css" />
         <link rel="stylesheet" href="windows8-animations/css/demo-styles.css" />
-        <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css"> 
+        <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css">
         <script src="windows8-animations/js/modernizr-1.5.min.js"></script>
         <style type="text/css">
 
@@ -27,8 +27,8 @@
       </div>
       @endif
       <div class="container">
-       <?php include('../resources/views/menuBar.blade.php');?>  
- 
+       <?php include('../resources/views/menuBar.blade.php');?>
+
  <!--===============================Start Demo====================================================-->
 <div class="demo-wrapper">
   <div class="row">
@@ -52,11 +52,11 @@
 
     <div class="page-content">
       <h2 class="page-title">App Screen</h2>
-      <p>Chew iPad power cord chew iPad power cord attack feet chase mice leave dead animals as gifts and stick butt in face chew iPad power cord. Chase mice. Run in circles use lap as chair why must they do that. Intrigued by the shower destroy couch leave hair everywhere sleep on keyboard chew iPad power cord. Use lap as chair. Missing until dinner time stand in front of the computer screen, intently sniff hand. Find something else more interesting. Destroy couch play time so inspect anything brought into the house hate dog burrow under covers. Sleep on keyboard destroy couch so hate dog so hide when guests come over. Chase mice destroy couch lick butt throwup on your pillow use lap as chair yet intrigued by the shower but climb leg. Stare at ceiling make muffins or hunt anything that moves claw drapes. Intently sniff hand intrigued by the shower. Why must they do that. Cat snacks leave dead animals as gifts or inspect anything brought into the house sweet beast so stare at ceiling give attitude. Flop over claw drapes but sun bathe lick butt, and chase mice. Rub face on everything lick butt leave hair everywhere lick butt, missing until dinner time for use lap as chair lick butt. Make muffins leave dead animals as gifts play time. Chew foot intrigued by the shower stare at ceiling inspect anything brought into the house yet hopped up on goofballs. 
+      <p>Chew iPad power cord chew iPad power cord attack feet chase mice leave dead animals as gifts and stick butt in face chew iPad power cord. Chase mice. Run in circles use lap as chair why must they do that. Intrigued by the shower destroy couch leave hair everywhere sleep on keyboard chew iPad power cord. Use lap as chair. Missing until dinner time stand in front of the computer screen, intently sniff hand. Find something else more interesting. Destroy couch play time so inspect anything brought into the house hate dog burrow under covers. Sleep on keyboard destroy couch so hate dog so hide when guests come over. Chase mice destroy couch lick butt throwup on your pillow use lap as chair yet intrigued by the shower but climb leg. Stare at ceiling make muffins or hunt anything that moves claw drapes. Intently sniff hand intrigued by the shower. Why must they do that. Cat snacks leave dead animals as gifts or inspect anything brought into the house sweet beast so stare at ceiling give attitude. Flop over claw drapes but sun bathe lick butt, and chase mice. Rub face on everything lick butt leave hair everywhere lick butt, missing until dinner time for use lap as chair lick butt. Make muffins leave dead animals as gifts play time. Chew foot intrigued by the shower stare at ceiling inspect anything brought into the house yet hopped up on goofballs.
 
       </p>
     </div>
-    
+
     <div class="close-button r-close-button">x</div>
   </div>
 <!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
@@ -77,7 +77,7 @@
           <div><p class="flaticon-technology" style="position:absolute; bottom: 90px; right: 0px; width:100%;"></p></div>
           <div><p>TV Apps</p></div>
         </li>
-      <!--   
+      <!--
         <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
           <p class="flaticon-technology"> </p>
         </li> -->
@@ -93,21 +93,21 @@
       </div>
 
       <div class="col2 clearfix">
-        
-        
+
+
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/IoT.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center; font-size:25px">IoT</p></div>
           <div><p>#Internet_of_Things</p></div>
         </li>
 
-        
+
         <li class="tile tile-big tile-5 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/smart-car.png" style="width:100px; height:100px; margin-top:22px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 100px; width:100%; text-align: center; font-size:25px">Connected Cars</p></div>
           <div><p>#Mojio</p></div>
         </li>
-       
+
         <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/social-media-cloud.png" style="width:85px; height:85px; margin-top:25px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 100px; width:100%; text-align: center">Social Computing</p></div>
@@ -115,15 +115,15 @@
         </li>
       </div>
 
-      <div class="col3 clearfix">      
-        
+      <div class="col3 clearfix">
+
 
         <li class="tile tile-big tile-5 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/virtual-reality.png" style="width:85px; height:85; margin-top:25px; margin-right:500px; margin-left:10px;"></img>
             <p style="position:absolute; bottom: 40px; right: 115px; width:100%; text-align: center; font-size:25px">AR + VR</p></div>
           <div><p>#Virtual_Reality</p></div>
         </li>
-       
+
 
         <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
           <div><p style="position:absolute; bottom: 44px; right: 85px;  text-align: center">
@@ -131,12 +131,12 @@
           <div><p>#Apple_Watch</p></div>
         </li>
 
-        
 
-        <!-- 
+
+        <!--
           <div><p><span class="icon-skype"></span>Skype</p></div>
           <div><p>Make a Call</p></div> -->
-        
+
 
 
         <!--Tiles with a 3D effect should have the following structure:
@@ -186,7 +186,7 @@
             <p class=" name">Ashek</p>
             <p>Executive Sponsor</p>
             <a href="mailto:mashek@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">mashek@ca.ibm.com</a>
-          </div>          
+          </div>
 
           <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
@@ -194,7 +194,7 @@
             </a>
             <p class="title name">Mehran</p>
             <p class="name">Najafi, PhD</p>
-            <p class="title">Lab Supervisor,</p>
+            <p class="title">Lab Lead,</p>
             <p>Solution Architect</p>
             <a href="mailto:mehranna@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">mehranna@ca.ibm.com</a>
           </div>
@@ -245,6 +245,15 @@
           </div>
 
           <div class="col-md-2 text-center">
+            <a href="https://linkedin.com" target="_blank">
+              <img src="/img/oliver.png" height="150" width="150" alt="profile">
+            </a>
+            <p class=" name">Oliver Merk</p>
+            <p>Developer & Architect</p>
+            <a href="mailto:merko@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">merko@ca.ibm.com</a>
+          </div>
+
+          <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/a24choi" target="_blank">
               <img src="/img/andrew.png" height="150" width="150" alt="profile" >
             </a>
@@ -263,7 +272,7 @@
             <p>iOS Developer</p>
             <a href="mailto:thielj@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">thielj@ca.ibm.com</a>
           </div>
-          
+
             <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/" target="_blank">
               <img src="/img/dylant.png" height="150" width="150" alt="profile" >
@@ -273,6 +282,15 @@
             <p>Developer</p>
             <a href="mailto:dylant@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">dylant@ca.ibm.com</a>
           </div>
+
+
+
+
+        </div>
+
+        <div class="row ">
+          <div class="col-md-1 "></div>
+
 
           <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/sonaleeshah" target="_blank">
@@ -284,18 +302,8 @@
             <a href="mailto:sonalee@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">sonalee@ca.ibm.com</a>
           </div>
 
-          <div class="col-md-2 text-center"></div>
 
-          <div class="col-md-1 "></div>
-        </div>
 
-        <div class="row ">
-          <div class="col-md-1 "></div>
-
-         
-          <div class="col-md-2 text-center"></div>
-
-          <div class="col-md-1 "></div>
         </div>
 
 
