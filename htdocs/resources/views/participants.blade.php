@@ -11,4 +11,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 $oliver = 'Developer & Architect';
 $oliverLinkedin = 'https://www.linkedin.com/in/';
 
+$width = 360;
+$height = 220;
 ?>
