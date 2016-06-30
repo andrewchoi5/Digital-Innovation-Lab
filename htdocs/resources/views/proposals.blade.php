@@ -1,3 +1,4 @@
+   <?php include('../resources/views/participants.blade.php');?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="originalStyle.css" />
-        <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css"> 
+        <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css">
 
 
     </head>
@@ -42,27 +43,27 @@
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Meeting Rooms for Future</h4>
-                    
+
                     <br>
                      <div class="wrapper">
                         <div class="small_div">
                         <p>There are many technologies to improve the productivity of face-to-face and virtual meetings.
                           This proposal recommends a pilot project on adding new features to a physical meeting room such as: Beacons to automatically check-in attendees
-                            Motion/Light sensors to automatically detect cancelled meetings 
-                            Mounted iPad to display availability status of the room 
-                            Audio and Video Recorder + Watson to index meetings data 
+                            Motion/Light sensors to automatically detect cancelled meetings
+                            Mounted iPad to display availability status of the room
+                            Audio and Video Recorder + Watson to index meetings data
                             etc.</p>
                         </div>
                         <a href="#" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
-                         <!--  <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                            <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                          <a href="<?php echo $mehranLinkedin ?>" target="_blank">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
-                          </a> -->
-                          
+                          </a>
+
                         </div>
                       </div>
                   </div>
@@ -70,12 +71,12 @@
                     <a href="/resources/Proposal.MeetingRoom.key">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span>   &nbsp;&nbsp; Download</span>
                     </a>
-                    
+
                   </div>
                 </div>
       </div> <!-- end of container -->
     </body>
-   
+
         <script>
     $(document).ready(function(){
         $.fn.setAllToMaxHeight = function(){
@@ -83,7 +84,7 @@
              Math.max.apply(
                    this, $.map(this, function(e){
                     return $(e).height()
-                   }) 
+                   })
                 )
             );
         }
@@ -102,7 +103,7 @@
         $('.wrapper').find('a[href="#"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more"); 
+            $(this).text(this.expand?"Collapse":"Read more");
             $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });
@@ -123,7 +124,7 @@
     });
     </script>
 
-    
+
 
 
 </html>

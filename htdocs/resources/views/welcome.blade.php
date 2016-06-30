@@ -1,15 +1,5 @@
-<?php
-$chelsea = 'iOS Developer';
-$chelseaLinkedin = 'https://www.linkedin.com/in/chelsea-thiel-jones-679357a2';
-$andrew = 'Mobile App Developer';
-$andrewEmail = 'achoi@ca.ibm.com';
-$subashan = 'Ideas & Architect';
-$subashanLinkedin = 'Ideas & Architect';
-$mehran = 'Lab Lead';
-$mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
-$oliver = 'Developer & Architect';
-$oliverLinkedin = 'https://www.linkedin.com/in/';
-?>
+<?php include('../resources/views/participants.blade.php');?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,9 +9,16 @@ $oliverLinkedin = 'https://www.linkedin.com/in/';
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+
+        <script src = "http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+        <link href = "http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet">
+        <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
-        <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+
+
 
     </head>
     <body>
@@ -132,7 +129,7 @@ $oliverLinkedin = 'https://www.linkedin.com/in/';
                       <video id="really-cool-video" class="video-js vjs-default-skin" controls
                        preload="none" width="360" height="210" poster="/img/confidence.png"
                        data-setup='{}'>
-                        <source src="/video/confi.mp4" type="video/mp4">
+                        <source src="confi.mp4" type="video/mp4">
                         <source src="really-cool-video.webm" type="video/webm">
                         <p class="vjs-no-js">
                           To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -153,7 +150,7 @@ $oliverLinkedin = 'https://www.linkedin.com/in/';
                         <div class="row">
 
                           <div class ="col-xs-8 profile">
-                            <a href="https://ca.linkedin.com/in/" target="_blank">
+                            <a href="https://ca.linkedin.com/" target="_blank">
                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas">
                               <img src="/img/terry.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Terry Hickey">
                             </div>
@@ -587,17 +584,18 @@ $oliverLinkedin = 'https://www.linkedin.com/in/';
 
 
                 <div class="wrapper">
-                  <div class="small_div"><br><br>
+                  <div class="small_div"><br><br> </div>
+                    <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>
+                    <div style="margin-bottom:15px; float: right;">SendGrid</div>
+
                   </div>
-                        <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>
+                 <br><br>
                 </div>
-              <br><br>
-              </div>
 
         <div style="height:50px">
         </div>
     </body>
-    <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+
 
     <script>
     $(document).ready(function(){
