@@ -149,10 +149,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                   <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/confidence.png" style="cursor:pointer" />
+                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/confidence_play.png" style="cursor:pointer" />
                   </div>
                   <div style="display:none" class="class=col-md-4">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/RMnLQNaBjwo?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/RMnLQNaBjwo?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
 
@@ -234,10 +234,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                     <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/seat.png" style="cursor:pointer" />
+                     <img width="<?php echo $width ?>" height="<?php echo $height-20 ?>" src="img/seatselection_play.png" style="cursor:pointer" />
                     </div>
                     <div style="display:none" class="class=col-md-4">
-                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/vL0wgI5eqhU?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/vL0wgI5eqhU?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
 
@@ -294,10 +294,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                     <img width="<?php echo $width ?>" height="<?php echo $height+10 ?>" src="img/ride.png" style="cursor:pointer" />
+                     <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/ride_play.png" style="cursor:pointer" />
                     </div>
                     <div style="display:none" class="class=col-md-4">
-                      <iframe width="<?php echo $width ?>" height="<?php echo $height+10 ?>" src="https://www.youtube.com/embed/i4Enxzp2pCc?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height-10?>" src="https://www.youtube.com/embed/i4Enxzp2pCc?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
 
@@ -344,10 +344,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                   <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/oba.png" style="cursor:pointer" />
+                   <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/oba_play2.png" style="cursor:pointer" />
                   </div>
                   <div style="display:none" class="class=col-md-4">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/VaDH7kfsgBM?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/VaDH7kfsgBM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
 
@@ -413,10 +413,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                     <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag.png" style="cursor:pointer" />
+                     <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag_play.png" style="cursor:pointer" />
                     </div>
                     <div style="display:none" class="class=col-md-4">
-                      <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/CkwGBXC4YIM?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/CkwGBXC4YIM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
 
@@ -481,10 +481,10 @@ $response = $sg->client->mail()->send()->post($mail);
 
                   <div class="col-md-4 vert_center">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                     <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking.png" style="cursor:pointer" />
+                     <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking_play.png" style="cursor:pointer" />
                     </div>
                     <div style="display:none" class="class=col-md-4">
-                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hLx4M7TUj_Q?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hLx4M7TUj_Q?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
 
