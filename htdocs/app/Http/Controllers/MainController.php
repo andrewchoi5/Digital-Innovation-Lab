@@ -1,4 +1,5 @@
-<?php namespace App\Http\Controllers;
+<?php
+namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\URL;
 use Input;
@@ -6,6 +7,7 @@ use App\Course;
 use App\CourseDetails;
 use Session;
 use Mail;
+
 class MainController extends Controller {
 	/*
 	|--------------------------------------------------------------------------
@@ -48,8 +50,11 @@ class MainController extends Controller {
     return view('iamreal');
   }
 
-  public function menuBar(){
+	public function menuBar(){
     return view('menuBar');
+  }
+	public function participants(){
+    return view('participants');
   }
 
   public function seatselection()
@@ -86,22 +91,29 @@ class MainController extends Controller {
     $name = Input::get('name');
     $email = Input::get('email');
     $subject = Input::get('subject');
-    // Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
-    // {
-    //     $message
-		// 		->to('achoi@ca.ibm.com', 'Mehran Najafi')
-		//
-    //     ->subject('IBM Coop Research Lab');
-    // });
+    Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
+    {
+        $message
+				->to('achoi@ca.ibm.com', 'Mehran Najafi')
+
+        ->subject('IBM Co-op Research Laboratory');
+    });
 
 
-		$to      = 'achoi@ca.ibm.com';
-		$message = 'hello from the other side.';
-		$headers = 'From: '.$email. "\r\n" .
-		    'Reply-To: andrewchoi5@hotmail.com' . "\r\n" .
-		    'X-Mailer: PHP/' . phpversion();
-		mail($to, $subject, $message, $headers);
 
+
+
+
+
+
+
+
+		// $to      = 'achoi@ca.ibm.com';
+		// $message = 'hello from the other side.';
+		// $headers = 'From: '.$email. "\r\n" .
+		//     'Reply-To: andrewchoi5@hotmail.com' . "\r\n" .
+		//     'X-Mailer: PHP/' . phpversion();
+		// mail($to, $subject, $message, $headers);
 
 		// $body = "<br><br>Thank You".$email.$name;
 		// // ini_set("SMTP","smtp.rim.net");

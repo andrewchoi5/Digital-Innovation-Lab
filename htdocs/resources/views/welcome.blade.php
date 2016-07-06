@@ -1,4 +1,25 @@
 <?php include('../resources/views/participants.blade.php');?>
+<?php require('../vendor/autoload.php');?>
+<?php
+// If you are using Composer
+// require '../../../vendor/autoload.php';
+
+$from = new SendGrid\Email(null, "a24choi@uwaterloo.ca");
+$subject = "Hello World, from the SendGrid PHP Library";
+$to = new SendGrid\Email(null, "achoi@ca.ibm.com");
+$content = new SendGrid\Content("text/plain", "Hello, some text here");
+$mail = new SendGrid\Mail($from, $subject, $to, $content);
+
+$apiKey = getenv('OBav-xxmTh-hPxASPfGXMA');
+// $apiKey = getenv('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');
+$sg = new \SendGrid($apiKey);
+
+$response = $sg->client->mail()->send()->post($mail);
+// echo $response->statusCode();
+// echo $response->headers();
+// echo $response->body();
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -9,11 +30,11 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+        <!-- <script src="//vjs.zencdn.net/5.8/video.min.js"></script> -->
 
-        <script src = "http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-        <link href = "http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet">
-        <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+        <!-- <script src = "http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+        <!-- <link href = "http://vjs.zencdn.net/5.10.4/video-js.css" rel="stylesheet"> -->
+        <!-- <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet"> -->
 
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
@@ -125,9 +146,16 @@
                 <hr>
 
                 <div class="row item">
-                    <div class="col-md-4">
-                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/RMnLQNaBjwo?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
+
+                <div class="col-md-4">
+                  <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                   <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/confidence.png" style="cursor:pointer" />
+                  </div>
+                  <div style="display:none" class="class=col-md-4">
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/RMnLQNaBjwo?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+
                     <div class="col-md-6">
                       <h4 class="title">Confidence: Identity Verification</h4>
                       <p class="subtitle">Technologies: iOS, OCR</p>
@@ -198,12 +226,22 @@
 
 
                 <div class="row item">
-                  <div class="col-md-4">
-                    <iframe width="<?php echo $width; ?>" height="<?php echo $height; ?>" src="https://www.youtube.com/embed/vL0wgI5eqhU?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
                     <!-- <a href="#"> -->
                     <!-- <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal"> -->
                     <!-- </a> -->
+
+
+                  <div class="col-md-4">
+                    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                     <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/seat.png" style="cursor:pointer" />
+                    </div>
+                    <div style="display:none" class="class=col-md-4">
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/vL0wgI5eqhU?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
+
+
                     <div class="col-md-6">
                     <h4 class="title">Seat Selection in Virtual Reality</h4>
                     <p class="subtitle">Technologies: Virtual Reality, Unity, Android</p>
@@ -252,10 +290,18 @@
 
 
                 <div class="row item">
-                  <div class="col-md-4 ">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/i4Enxzp2pCc?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
-                    <!--  560 315 // 360 220 -->
+
+
+                  <div class="col-md-4">
+                    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                     <img width="<?php echo $width ?>" height="<?php echo $height+10 ?>" src="img/ride.png" style="cursor:pointer" />
+                    </div>
+                    <div style="display:none" class="class=col-md-4">
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height+10 ?>" src="https://www.youtube.com/embed/i4Enxzp2pCc?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
+
+
                   <div class="col-md-6">
               				  <h4 class="title">Ride Your Portfolio VR</h4>
                         <p class="subtitle">Technologies: Virtual Reality, Unity, Android</p>
@@ -293,10 +339,19 @@
                 <hr>
 
               <div class ="row item">
-                <div class ="col-md-4 vert_center">
-                  <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/VaDH7kfsgBM?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
 
+
+
+                <div class="col-md-4">
+                  <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                   <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/oba.png" style="cursor:pointer" />
+                  </div>
+                  <div style="display:none" class="class=col-md-4">
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/VaDH7kfsgBM?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
                 </div>
+
+
                 <div class ="col-md-6">
                     <h4 class="title">Out of Band Authentication </h4>
                     <p class="subtitle">Technologies: iOS, Web</p>
@@ -354,9 +409,18 @@
                 <hr>
 
                 <div class ="row item">
-                  <div class ="col-md-4 vert_center">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/CkwGBXC4YIM?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
+
+                  <div class="col-md-4">
+                    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                     <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag.png" style="cursor:pointer" />
+                    </div>
+                    <div style="display:none" class="class=col-md-4">
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/CkwGBXC4YIM?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
+
+
                 <div class ="col-md-6">
                     <h4 class="title">SensorTag Luggage Tracker</h4>
                     <p class="subtitle">Technologies: Android, IoT, SensorTag</p>
@@ -413,10 +477,18 @@
                 <hr>
 
                 <div class ="row item">
-                  <div class ="col-md-4 vert_center">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hLx4M7TUj_Q?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
 
+
+                  <div class="col-md-4 vert_center">
+                    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                     <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking.png" style="cursor:pointer" />
+                    </div>
+                    <div style="display:none" class="class=col-md-4">
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hLx4M7TUj_Q?autoplay=1&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
+
+
                   <div class ="col-md-6">
                     <h4 class="title">IBM Family Financial Advisor</h4>
                     <p class="subtitle">Technologies: iOS, Web, Watson</p>
@@ -527,10 +599,6 @@
                 </div>
 
                 <hr>
-
-
-
-
 
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>
