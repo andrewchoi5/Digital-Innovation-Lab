@@ -121,16 +121,16 @@ padding: 20px;" bgcolor="#f6f6f6">
 					<td>
 
 						<h3>From: <?php echo $name; ?></h3>
-						<p>Email: {!!$name !!}</p>
+						<p>Email: {!! $email !!}</p>
             <br>
 
-            <p>{!! $subject !!}</p>
+            <p>Description: {!! $subject !!}</p>
 
             <br>
 
             <br>
 
-						<p>Submitted Idea from Coop Rearch Lab Website</p>
+						<p>A submitted idea from the Digital Innovation Lab. </p>
 					</td>
 				</tr>
 			</table>
@@ -156,7 +156,7 @@ clear: both!important;">
 					<tr>
 						<td align="center">
 							<p style="	font-size: 12px;
-              	color: #666;">This is an automated message, please do not reply to this email.
+              	color: #666;">This is an automated message; please do not reply to this email.
 							</p>
 						</td>
 					</tr>
