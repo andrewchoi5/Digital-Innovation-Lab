@@ -44,7 +44,7 @@ return [
 
     'port' => env('MAIL_PORT', 587),
 
-    /*
+    /* 587
     |--------------------------------------------------------------------------
     | Global "From" Address
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'support@coop-web.herokuapp.com', 'name' => 'Coop Lab Idea'],
+    'from' => ['address' => 'support@coop-web.herokuapp.com', 'name' => 'Coop Lab'],
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'username' =>'andrewchoi5',
+    'username' => 'innovations.that.matter@gmail.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -94,7 +94,7 @@ return [
     |
     */
 
-    'password' => '123Digitalinnovation',
+    'password' => 'innovationlab',
 
     /*
     |--------------------------------------------------------------------------

@@ -88,46 +88,34 @@ class MainController extends Controller {
 
   //send email
   public function sendEmail(){
-    $name = Input::get('name');
-    $email = Input::get('email');
-    $subject = Input::get('subject');
-    Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
-    {
-        $message
-				->to('achoi@ca.ibm.com', 'Mehran Najafi')
-
-        ->subject('IBM Co-op Research Laboratory');
-    });
-
-
+    // $name = Input::get('name');
+    // $email = Input::get('email');
+    // $subject = Input::get('subject');
+    // Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
+    // {
+    //     $message
+		// 		->to('achoi@ca.ibm.com', 'Mehran Najafi')
+		//
+    //     ->subject('IBM Co-op Research Laboratory');
+    // });
 
 
 
-
-
-
-
-
-		// $to      = 'achoi@ca.ibm.com';
-		// $message = 'hello from the other side.';
-		// $headers = 'From: '.$email. "\r\n" .
-		//     'Reply-To: andrewchoi5@hotmail.com' . "\r\n" .
-		//     'X-Mailer: PHP/' . phpversion();
-		// mail($to, $subject, $message, $headers);
-
-		// $body = "<br><br>Thank You".$email.$name;
-		// // ini_set("SMTP","smtp.rim.net");
-		// $to = 'achoi@ca.ibm.com';
-		// // $subject = "Approved";
-		// $headers = "From: Andrew\r\n";//$headers.="Reply-To: no-reply@blackberry.com\r\n";//$headers .= "CC: susan@example.com\r\n";
-		// $headers .= "MIME-Version: 1.0\r\n";
-		// $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-		// mail($to, $subject, $body, $headers);
+		    $data = array(
+					'name' => "Learning Laravel",
+		        'subject' => "Learning Laravel",
+		    );
+		    Mail::send('emails.demo', $data, function ($message) {
+		        $message->from('digital_innovation_lab@donotreply.ibm.com', 'Learning Laravel');
+		        $message->to('achoi@ca.ibm.com; andrewchoi5@hotmail.com')->subject('Learning Laravel test email');
+		    });
+		  return redirect('/')->with('message', 'Email has been sent!');
 
 
 
 
-    return redirect('/')->with('message', 'Email has been sent!');
+
+
   }
 
   //download files

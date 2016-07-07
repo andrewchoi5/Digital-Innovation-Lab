@@ -121,7 +121,7 @@ padding: 20px;" bgcolor="#f6f6f6">
 					<td>
 
 						<h3>From: <?php echo $name; ?></h3>
-						<p>Email: {!!$email !!}</p>
+						<p>Email: {!!$name !!}</p>
             <br>
 
             <p>{!! $subject !!}</p>
