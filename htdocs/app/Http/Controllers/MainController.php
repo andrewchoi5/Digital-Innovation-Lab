@@ -95,9 +95,10 @@ class MainController extends Controller {
     {
         // $message->to('achoi@ca.ibm.com', 'Mehran Najafi')->subject('IBM Co-op Research Laboratory');
 				// $message->from('digital_innovation_lab@donotreply.ibm.com', 'Innovation Lab Admin');
-					 $message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab');
-				   $message->bcc('achoi@ca.ibm.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
-				   $message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
+				$message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab');
+				// $message->to('subashan@ca.ibm.com', 'Subashan M')->subject('IBM Digital Innovation Lab');
+				$message->bcc('achoi@ca.ibm.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
+				$message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
     });
 
 
