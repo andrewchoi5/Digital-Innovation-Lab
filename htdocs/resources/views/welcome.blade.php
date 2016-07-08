@@ -1,5 +1,10 @@
 <?php include('../resources/views/participants.blade.php');?>
 <?php
+
+$mehran = 'Idea & Architect';
+$mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
+
+
 // require("sendgrid-php/sendgrid-php.php");
 // $sendgrid = new SendGrid("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");
 // // $sendgrid = new SendGrid("OBav-xxmTh-hPxASPfGXMA");
@@ -210,7 +215,7 @@
                     <!-- </a> -->
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
-                     <img width="<?php echo $width ?>" height="<?php echo $height-20 ?>" src="img/seatselection_play.png" style="cursor:pointer" />
+                     <img width="<?php echo $width ?>" height="<?php echo $height-30 ?>" src="img/seatselection_play.png" style="cursor:pointer" />
                      <!--  to fix, img file-->
                     </div>
                     <div style="display:none" class="class=col-md-4">
@@ -295,7 +300,7 @@
                             </div>
                             </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
+                            <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
                               </a>
@@ -357,7 +362,7 @@
                                 </div>
                               </a>
                               <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
                                   <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                                 </div>
                               </a>
@@ -425,7 +430,7 @@
                               </div>
                               </a>
                                 <a href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                               </div>
                               </a>
@@ -543,7 +548,7 @@
                             </div>
                           </a>
                           <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Lab Lead">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                             </div>
                           </a>
@@ -576,7 +581,67 @@
                     </div>
                 </div>
 
+
                 <hr>
+
+                <div class="row item">
+
+
+                    <div class="col-md-4 vert_center">
+                      <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                       <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/newIdea_play.png" style="cursor:pointer" />
+                      </div>
+                      <div style="display:none" class="class=col-md-4">
+                        <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/03lcTPnKLVI?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+
+
+
+
+                      <div class="col-md-6">
+                      <h4 class="title">New Idea Submission Powered by IBM Watson</h4>
+                      <p class="subtitle">Technologies: Watson API, iOS</p>
+                      <p class="subtitle">Industry: Technology</p>
+
+                      <br>
+                      <div class="wrapper">
+                        <div class="small_div">
+                      <p>The New Idea Submission by Watson mobilizes the Digital Innovation Lab idea submission using the
+                      Watson Dialog, TextToSpeech and SpeechToText. The user is able to converse with Watson and provide
+                      answers to the questions related to their idea. After the conversation, the user’s mail automatically appears
+                      and is populated with the responses provided to send to the Digital Innovation Lab.</p>
+                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div>
+                        <div class="row">
+                          <div class ="col-xs-4 profile">
+                            <a href="<?php echo $chelseaLinkedin ?>" target="_blank">
+                              <div class="col-xs-4 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                                <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                              </div>
+                            </a>
+                            <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
+                              <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
+                                <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                              </div>
+                            </a>
+
+                          </div>
+                        </div>
+                    </div>
+                      <div class="col-md-2 text-center">
+                      <a>
+                          <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                      </a>
+                      <a target="_blank">
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                      </a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                      </div>
+                  </div>
+
+                  <hr>
+
 
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>
