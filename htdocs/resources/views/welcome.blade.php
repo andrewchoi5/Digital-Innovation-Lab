@@ -59,7 +59,12 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                   </div>
                   <div class ="form-group">
                     <div class = "col-sm-12">
-                      {!! Form::textarea('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                      {!! Form::text('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::textarea('body', null, array('class' => 'form-control', 'id' => 'body','rows' => '4', 'placeholder' => "Description", 'required')) !!}
                     </div>
                   </div>
               </div>

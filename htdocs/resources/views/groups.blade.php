@@ -270,6 +270,7 @@
             <p class="title name">Chelsea Thiel-Jones</p>
             <p>Co-op</p>
             <p>iOS Developer</p>
+            <!-- <p>Side role: Washroom Management</p> -->
             <a href="mailto:thielj@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">thielj@ca.ibm.com</a>
           </div>
 
@@ -279,7 +280,7 @@
             </a>
             <p class="title name">Dylan Trachsel</p>
             <p>Co-op</p>
-            <p>Developer</p>
+            <p>iOS Developer</p>
             <a href="mailto:dylant@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">dylant@ca.ibm.com</a>
           </div>
 
@@ -298,7 +299,7 @@
             </a>
             <p class="title name">Sonalee</p>
             <p>UBC, Co-op</p>
-            <p>Developer</p>
+            <p>iOS Developer</p>
             <a href="mailto:sonalee@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">sonalee@ca.ibm.com</a>
           </div>
 

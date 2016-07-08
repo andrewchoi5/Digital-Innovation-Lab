@@ -9,19 +9,9 @@ use Session;
 use Mail;
 
 class MainController extends Controller {
-	/*
-	|--------------------------------------------------------------------------
-	| Welcome Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders the "marketing page" for the application and
-	| is configured to only allow guests. Like most of the other sample
-	| controllers, you are free to modify or remove it as you desire.
-	|
-	*/
+
 	/**
-	 * Create a new controller instance.
-	 *
+
 	 * @return void
 	 */
 	public function __construct()
@@ -90,38 +80,19 @@ class MainController extends Controller {
   public function sendEmail(){
     $name = Input::get('name');
     $email = Input::get('email');
-    $subject = Input::get('subject');
-    Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject], function($message)
-    {
-    
-				// $message->from('digital_innovation_lab@donotreply.ibm.com', 'Innovation Lab Admin');
+		$subject = Input::get('subject');
+    $body = Input::get('body');
+    Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject, 'body' => $body], function($message) {
+
+
+				$subject = Input::get('subject');
 				$message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab');
 				$message->to('subashan@ca.ibm.com', 'Subashan M')->subject('IBM Digital Innovation Lab');
-
-				$message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
+				$message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab: '.$subject);
     });
 
 
-
-		    // $data = array(
-				// 	  'name' => Input::get('name'),
-		    //     'email' => Input::get('email'),
-				// 		'subject' => Input::get('subject');
-		    // );
-		    // Mail::send('emails.demo', $data, function ($message) {
-		    //     $message->from('digital_innovation_lab@donotreply.ibm.com', 'Innovation Lab Admin');
-				// 		$message->to('achoi@ca.ibm.com')->subject('IBM Digital Innovation Lab');
-				// 		$message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab');
-				//
-		    //     // $message->to('mehranna@ca.ibm.com')->subject('IBM Digital Innovation Lab');
-		    // });
 		  return redirect('/')->with('message', 'Successful: An email has been sent!');
-
-
-
-
-
-
   }
 
   //download files

@@ -122,9 +122,9 @@ padding: 20px;" bgcolor="#f6f6f6">
 
 						<h3>From: <?php echo $name; ?></h3>
 						<p>Email: {!! $email !!}</p>
-            <br>
-
-            <p>Description: {!! $subject !!}</p>
+            <!-- <br> -->
+						<!-- <p>Title: {!! $subject !!}</p> -->
+            <p>Description: {!! $body !!}</p>
 
             <br>
 
