@@ -1,4 +1,4 @@
-   <?php include('../resources/views/participants.blade.php');?>
+ <?php include('../resources/views/participants.blade.php');?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -34,7 +34,9 @@
                   <div class="col-md-6"></div>
                   <!-- <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div> -->
                 </div>
+
                 <hr>
+
                 <div class="row item">
                   <div class="col-md-4">
                     <a href="#">
@@ -43,7 +45,6 @@
                   </div>
                     <div class="col-md-6">
                     <h4 class="title">Meeting Rooms for Future</h4>
-
                     <br>
                      <div class="wrapper">
                         <div class="small_div">
@@ -63,7 +64,6 @@
                             <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Mehran Najafi">
                           </div>
                           </a>
-
                         </div>
                       </div>
                   </div>
@@ -71,9 +71,85 @@
                     <a href="/resources/Proposal.MeetingRoom.key">
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span>   &nbsp;&nbsp; Download</span>
                     </a>
-
                   </div>
                 </div>
+
+                <hr>
+
+                <div class="row item">
+                  <div class="col-md-4">
+                    <a href="#">
+                    <img src="/img/nest.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
+                    </a>
+                  </div>
+                    <div class="col-md-6">
+                    <h4 class="title">Nest-like Fuel Consumption App</h4>
+                    <br>
+                     <div class="wrapper">
+                        <div class="small_div">
+                        <p>
+                        A mobile app and AppLink APIs will work together to find the driver’s commute habits per day/week/month and let the user to edit them if necessary. The app calculates how much the car can go with the current fuel level. Based on the traffic hours, gas price at different gas stations as well as different hours a day it suggests the driver when and where to ask for fuel.
+
+                        by: Mehran Najafi (similar to Meeting Rooms for Future)</p>
+                        </div>
+                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                      <div class="row">
+                        <div class ="col-xs-4 profile">
+                          <a href="<?php echo $mehranLinkedin ?>" target="_blank">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Mehran Najafi">
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-md-2 text-center">
+                    <a href="/resources/nest.pptx" target="_blank" download>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span>   &nbsp;&nbsp; Download</span>
+                    </a>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row item">
+                  <div class="col-md-4">
+                    <a href="#">
+                    <img src="/img/guest.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
+                    </a>
+                  </div>
+                    <div class="col-md-6">
+                    <h4 class="title">Guest Check-in iPad App</h4>
+                    <br>
+                     <div class="wrapper">
+                        <div class="small_div">
+                        <p>IBM employees can register their guests using an iPhone application by providing their name, company. Meeting info is also required. IBM visitors will check in using an iPad app by providing their name. The iPad is connected to a printer which prints their badge including the meeting info and how to get to the meeting room. The iPad app also sends a push notification/sms/email to the inviting IBMer to come to lobby and welcome their guest.
+
+                        by: Mehran Najafi (similar to Meeting Rooms for Future)</p>
+                        </div>
+                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                      <div class="row">
+                        <div class ="col-xs-4 profile">
+                          <a href="<?php echo $mehranLinkedin ?>" target="_blank">
+                          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
+                            <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Mehran Najafi">
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="col-md-2 text-center">
+                    <a href="/resources/guest.key" target="_blank">
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span>   &nbsp;&nbsp; Download</span>
+                    </a>
+                  </div>
+                </div>
+
+
+
+
       </div> <!-- end of container -->
     </body>
 

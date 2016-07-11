@@ -89,7 +89,12 @@
                   </div>
                   <div class ="form-group">
                     <div class = "col-sm-12">
-                      {!! Form::textarea('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                      {!! Form::text('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::textarea('body', null, array('class' => 'form-control', 'id' => 'body','rows' => '4', 'placeholder' => "Description", 'required')) !!}
                     </div>
                   </div>
               </div>
@@ -105,7 +110,7 @@
 
 
         <!-- Content -->
-         
+
        <?php include('../resources/views/menuBar.blade.php');?>
 
         <div class="row">
@@ -119,7 +124,7 @@
 
         <hr>
 
-    
+
         <div class="row item">
           <div class="col-md-4">
             <a target="_blank" href="https://www.moj.io/"><img src="/img/mojio.png" class="img-responsive" alt="img" style="height:200px; "></a>
@@ -246,7 +251,7 @@
              Math.max.apply(
                    this, $.map(this, function(e){
                     return $(e).height()
-                   }) 
+                   })
                 )
             );
         }
@@ -265,7 +270,7 @@
         $('.wrapper').find('a[href="#"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more"); 
+            $(this).text(this.expand?"Collapse":"Read more");
             $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
             $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
         });

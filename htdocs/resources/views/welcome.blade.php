@@ -134,6 +134,86 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <hr>
 
+
+                <div class="row item">
+
+                <div class="col-md-4">
+                  <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/newsboard_play.png" style="cursor:pointer" />
+                  </div>
+                  <div style="display:none" class="class=col-md-4">
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/ad5IJ1Jr2Mo?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+
+                    <div class="col-md-6">
+                      <h4 class="title">IBM News Board App</h4>
+                      <p class="subtitle">Technologies: iOS, appleTV</p>
+                      <p class="subtitle">Industry: News</p>
+                      <br>
+                      <div class="wrapper">
+                        <div class="small_div">
+                          <p>
+                                The News Board app is intended as a way to replace a traditional non-digital newsboard with a digital solution using an appleTV and an iPhone. User’s post content on the iPhone app which is then displayed in real time on an appleTV connected TV. News articles, interesting videos, announcements and more can be posted and viewed using the app.
+                          </p>
+                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                        <div class="row">
+
+                          <div class ="col-xs-8 profile">
+                            <a href="https://ca.linkedin.com/" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
+                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Mehran Najafi">
+                            </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank">
+                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                                <img src="/img/radu.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Radu Bolbcoceanu">
+                              </div>
+                            </a>
+                          <!-- </div> -->
+
+                          <!-- <div class ="col-xs-1"> -->
+                            <a class= "display: inline;" href="https://www.linkedin.com/" target="_blank">
+                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
+                                <img src="/img/dylant.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Dylan Trachsel">
+                              </div>
+                            </a>
+                          <!-- </div> -->
+
+                          <!-- <div class ="col-xs-5"> -->
+                            <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
+                               <img src="/img/engineer.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Zamiul Haque">
+                             </div>
+                           </a>
+                          <!-- </div> -->
+
+                          <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                           <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer" >
+                             <img src="/img/andrewF.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Frolkin">
+                           </div>
+                         </a>
+                        </div>
+
+                       </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                    <a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                    </a>
+                    <a target="_blank">
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                    </a>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                    </div>
+                </div>
+
+
+                <hr>
+
+
                 <div class="row item">
 
                 <div class="col-md-4">
@@ -590,8 +670,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                 <hr>
 
                 <div class="row item">
-
-
                     <div class="col-md-4 vert_center">
                       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                        <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/newIdea_play.png" style="cursor:pointer" />
@@ -600,15 +678,10 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                         <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/03lcTPnKLVI?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                       </div>
                     </div>
-
-
-
-
                       <div class="col-md-6">
-                      <h4 class="title">New Idea Submission Powered by IBM Watson</h4>
+                      <h4 class="title">New Idea Submission Powered by Watson</h4>
                       <p class="subtitle">Technologies: Watson API, iOS</p>
                       <p class="subtitle">Industry: Technology</p>
-
                       <br>
                       <div class="wrapper">
                         <div class="small_div">
@@ -630,7 +703,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                                 <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
                               </div>
                             </a>
-
                           </div>
                         </div>
                     </div>
@@ -647,11 +719,75 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                   <hr>
 
+                  <div class="row item">
+                      <div class="col-md-4 vert_center">
+                        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                         <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/family_play.png" style="cursor:pointer" />
+                        </div>
+                        <div style="display:none" class="class=col-md-4">
+                          <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/9ObtbyM1QvM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                        <div class="col-md-6">
+                        <h4 class="title">Family Banking TV app Powered by Watson</h4>
+                        <p class="subtitle">Technologies: Watson API, iOS</p>
+                        <p class="subtitle">Industry: Banking, Financial</p>
+                        <br>
+                        <div class="wrapper">
+                          <div class="small_div">
+                        <p>The Family Banking TV app helps families create and track their financial goals. Family members can have individual or joint accounts. For each account, a list of financial goals is displayed. After creating a goal, family members can track their progress with the app. We used IBM Watson Alchemy APIs to collect news relevant to family financial goals to provide them update on their goals. Family Banking app is also using IBM Watson Trade-off analytics to find and suggest the best goal options for each family's deposit.
+                        </p>
+                          </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                          </div>
+                          <div class="row">
+                            <div class ="col-xs-8 profile">
+
+                              <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
+                                  <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                                </div>
+                              </a>
+                              <a href="" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Graphic Designer">
+                                  <img src="/img/jeremy.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Jeremy Leung">
+                                </div>
+                              </a>
+                              <a href="" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="TV App Developer">
+                                  <img src="/img/engineer.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Zal Machado">
+                                </div>
+                              </a>
+                              <a href="" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Watson Developer">
+                                  <img src="/img/asim.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Asim Raoof">
+                                </div>
+                              </a>
+                              <a href="" target="_blank">
+                                <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                                  <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Sonalee Shah">
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+
+                      </div>
+                        <div class="col-md-2 text-center">
+                        <a>
+                            <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                        </a>
+                        <a target="_blank">
+                          <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                        </a>
+                          <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                        </div>
+                    </div>
+
+                    <hr>
 
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>
                     <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>
-                    <div style="margin-bottom:15px; float: right;">SendGrid</div>
+                    <!-- <div style="margin-bottom:15px; float: right;">SendGid</div> -->
 
                   </div>
                  <br><br>
