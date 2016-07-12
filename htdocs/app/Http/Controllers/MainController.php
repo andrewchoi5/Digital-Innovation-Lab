@@ -86,9 +86,9 @@ class MainController extends Controller {
 
 
 				$subject = Input::get('subject');
-				$message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab');
-				$message->to('subashan@ca.ibm.com', 'Subashan M')->subject('IBM Digital Innovation Lab');
-				$message->bcc('andrewchoi5@hotmail.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab: '.$subject);
+				$message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab'.$subject);
+				$message->to('subashan@ca.ibm.com', 'Subashan M')->subject('IBM Digital Innovation Lab'.$subject);
+				$message->bcc('achoi@ca.ibm.com', 'Andrew Choi')->subject('IBM Digital Innovation Lab: '.$subject);
     });
 
 

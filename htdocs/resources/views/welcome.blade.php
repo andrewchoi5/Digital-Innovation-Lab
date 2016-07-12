@@ -185,7 +185,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           <!-- <div class ="col-xs-5"> -->
                             <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
-                               <img src="/img/engineer.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Zamiul Haque">
+                               <img src="/img/zamiul.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Zamiul Haque">
                              </div>
                            </a>
                           <!-- </div> -->
@@ -754,7 +754,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                               </a>
                               <a href="" target="_blank">
                                 <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="TV App Developer">
-                                  <img src="/img/engineer.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Zal Machado">
+                                  <img src="/img/zal.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Zal Machado">
                                 </div>
                               </a>
                               <a href="" target="_blank">
