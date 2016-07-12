@@ -116,7 +116,7 @@
                 <div class="row item">
                   <div class="col-md-4">
                     <a href="#">
-                    <img src="/img/guest.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
+                    <img src="/img/guest_checkin.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal">
                     </a>
                   </div>
                     <div class="col-md-6">
@@ -147,6 +147,8 @@
                   </div>
                 </div>
 
+                <hr>
+                <br><br><br>
 
 
 
