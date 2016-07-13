@@ -297,6 +297,28 @@
           </div>
         </div>
 
+        <hr>
+
+        <div class="row item">
+          <div class="col-md-4">
+            <img src="/img/viewerAware.png" class="img-responsive" alt="img" style="height:200px; width:340px">
+          </div>
+            <div class="col-md-6">
+            <h4 class="title">Viewer Aware Apple TV App</h4>
+
+            <br>
+            <div class="wrapper">
+              <p>Using Multipeer Connectivity in tvOS 10 or turning the tvOS into an iBeacon (<a target="_blank" href="https://waynehartman.com/posts/turn-apple-tv-into-an-ibeacon.html">https://waynehartman.com/posts/turn-apple-tv-into-an-ibeacon.html</a>) would allow
+                for the rich interaction of proximity detection between the system and users.</p> <p>An example would be if a user enters the room, a tvOS/iOS device will recognize him/her as well as provide relevant information for them and when he/she leaves the room, the device would clean up information on the screen.</p>
+                  <p>Another example would be for physical security verification, the iOS/tvOS device would prompt a user to tap their device (ios/watch) to
+                verify that they are present in the room as part of a 2 factor authentication scheme.</p>
+            </div>
+
+          </div>
+          <div class="col-md-2 text-center">
+            <p>Ryan Moniz &nbsp <a href="pbeliav@ca.ibm.com">ryanm@ca.ibm.com</a></p>
+          </div>
+        </div>
 
 
 

@@ -5,15 +5,6 @@ $mehran = 'Idea & Architect';
 $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
 
-// require("sendgrid-php/sendgrid-php.php");
-// $sendgrid = new SendGrid("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");
-// // $sendgrid = new SendGrid("OBav-xxmTh-hPxASPfGXMA");
-// $email = new SendGrid\Email();
-// $email->addTo("test@sendgrid.com")
-//       ->setFrom("you@youremail.com")
-//       ->setSubject("Sending with SendGrid is Fun")
-//       ->setHtml("and easy to do anywhere, even with PHP");
-// $sendgrid->send($email);
 ?>
 <!DOCTYPE html>
 <html>

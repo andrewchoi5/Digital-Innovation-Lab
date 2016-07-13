@@ -11,13 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="originalStyle.css" />
+        <link rel="stylesheet" href="css/groupsBlade.css" />
         <link rel="stylesheet" href="windows8-animations/css/demo-styles.css" />
         <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css">
         <script src="windows8-animations/js/modernizr-1.5.min.js"></script>
+        <script src="jquery.js"></script>
         <style type="text/css">
-
-
-
         </style>
     </head>
     <body>
@@ -45,16 +44,14 @@
   </div>
 
   <div class="s-page custom-page">
-    <h2 class="page-title">Thank You!</h2>
+    <h2 class="page-title">Type 2 </h2>
     <div class="close-button s-close-button">x</div>
   </div>
   <div class="r-page random-r-page">
 
     <div class="page-content">
       <h2 class="page-title">App Screen</h2>
-      <p>Chew iPad power cord chew iPad power cord attack feet chase mice leave dead animals as gifts and stick butt in face chew iPad power cord. Chase mice. Run in circles use lap as chair why must they do that. Intrigued by the shower destroy couch leave hair everywhere sleep on keyboard chew iPad power cord. Use lap as chair. Missing until dinner time stand in front of the computer screen, intently sniff hand. Find something else more interesting. Destroy couch play time so inspect anything brought into the house hate dog burrow under covers. Sleep on keyboard destroy couch so hate dog so hide when guests come over. Chase mice destroy couch lick butt throwup on your pillow use lap as chair yet intrigued by the shower but climb leg. Stare at ceiling make muffins or hunt anything that moves claw drapes. Intently sniff hand intrigued by the shower. Why must they do that. Cat snacks leave dead animals as gifts or inspect anything brought into the house sweet beast so stare at ceiling give attitude. Flop over claw drapes but sun bathe lick butt, and chase mice. Rub face on everything lick butt leave hair everywhere lick butt, missing until dinner time for use lap as chair lick butt. Make muffins leave dead animals as gifts play time. Chew foot intrigued by the shower stare at ceiling inspect anything brought into the house yet hopped up on goofballs.
-
-      </p>
+      <p>Chew iPad power co</p>
     </div>
 
     <div class="close-button r-close-button">x</div>
@@ -62,14 +59,18 @@
 <!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
   <div class="dashboard clearfix">
     <ul class="tiles">
-
       <div class="col1 clearfix">
         <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
-          <div><img src="/img/icon/robot-design.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px;" align="left"></img>
+          <div>
+            <img src="/img/icon/robot-design.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center">AI</p></div>
-          <div><p>#Artificial_Intelligence</p></div>
+          <div><p><a class="noUnderline" href="/" target="_blank">  <?php
+             echo "<a href='#' id='AI' title='Click to explore' style='text-decoration: none;' onclick='deleteManager(this.id);'> &#10006; Explore AI</a>".'<br>';
+             ?></a></p></div>
+
+
         </li>
-        <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="" data-page-name ="">
+        <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="r-page" data-page-name="random-r-page">
           <div><p class="flaticon-education-chart"></p></div>
           <div><p>API Economy</p></div>
         </li>
@@ -77,11 +78,6 @@
           <div><p class="flaticon-technology" style="position:absolute; bottom: 90px; right: 0px; width:100%;"></p></div>
           <div><p>TV Apps</p></div>
         </li>
-      <!--
-        <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
-          <p class="flaticon-technology"> </p>
-        </li> -->
-
 
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/fingerprints.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
@@ -315,12 +311,8 @@
                 <h3 class="subtitle">Past</h3>
             </div>
         </div>
-
         <div class="row ">
-
           <div class="col-md-1 "></div>
-
-
                 <div class="col-md-2 text-center">
             <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
               <img src="/img/david.png" height="150" width="150" alt="profile" >
@@ -330,7 +322,6 @@
             <p>Virtual Reality</p>
             <a href="mailto:davidp@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">davidp@ca.ibm.com</a>
           </div>
-
           <div class="col-md-2 text-center">
             <a href="https://www.linkedin.com/in/andrewfrolkin" target="_blank">
               <img src="/img/andrewF.png" height="150" width="150" alt="profile" >
@@ -340,39 +331,35 @@
             <p>iOS</p>
             <a href="mailto:andrewf@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">andrewf@ca.ibm.com</a>
           </div>
-
-
-
-
           <div class="col-md-2 text-center">
-
           </div>
-
           <div class="col-md-2 text-center">
-
           </div>
-
           <div class="col-md-2 text-center">
-
           </div>
-
           <div class="col-md-2 text-center">
-
           </div>
-
           <div class="col-md-1 "></div>
-
         </div>
-
       </div>
       </div>
-
     </body>
      <script src="windows8-animations/js/jquery-1.8.2.min.js"></script>
+     <script src="windows8-animations/js/scripts.js"></script>
     <script src="windows8-animations/js/scripts.js"></script>
     <script>
-    $(document).ready(function(){
-
-    });
+    $function deleteManager(passedID){
+      // document.getElementById(passedID).className = "hidden";
+      $.ajax({
+        type: 'POST',
+        url: 'deleteManager.php',
+        data:{
+          'passedID' : passedID
+        },
+        success: function(msg){
+          location.reload(true);
+        }
+      });
+    }
     </script>
 </html>
