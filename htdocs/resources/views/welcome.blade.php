@@ -17,14 +17,46 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="//platform.linkedin.com/in.js">
+          api_key:   75fhpukbgoh5hm
+          onLoad:    OnLinkedInFrameworkLoad
+          authorize: true
+          // credentials_cookie: true
+          // credentials_cookie_crc: true
+          // lang:      [LANG_LOCALE]
+        </script>
+        <script>
+          function OnLinkedInFrameworkLoad() {
+            // IN.ENV.js.scope = new Array();
+            // IN.ENV.js.scope[0] = "r_emailaddress";
+            // IN.ENV.js.scope[1] = "r_contactinfo";
+            // IN.User.authorize();
+            IN.Event.on(IN, "auth", OnLinkedInAuth);
+          }
+          function OnLinkedInAuth() {
+            IN.API.Profile("me").result(ShowProfileData);
+          }
+          function ShowProfileData(profiles) {
+            var member = profiles.values[0];
+            var id = member.id;
+            var firstName = member.firstName;
+            var lastName = member.lastName;
+            var photo = member.pictureUrl;
+            var headline = member.headline;
+            console.log(headline + "\n" + member + "\n"+ id + "\n"+ firstName +"\n"+ lastName + "\n"+photo);
+            // console.log(headline);
+         }
+      </script>
     </head>
     <body>
+      <script type=”IN/Login”></script>
+      <div id=”profiles”></div>
+      <div id=”connections”></div>
       @if (Session::has('message'))
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
       </div>
       @endif
-
       <div class="container">
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
@@ -68,7 +100,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
           </div>
         </div>
 
-
         <!-- <div id="videoModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -87,37 +118,15 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
             </div>
           </div>
         </div>
-        <div id="videoModal1" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Sensor Tag Demo</h4>
-              </div>
-              <div class="modal-body">
-                  <div align="center" class="embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item" controls>
-                  <source src="/video/Tracker Vid.mp4">
-
-                Your browser does not support the video tag.
-                </video>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         -->
-
-        <!-- Content -->
-
-
 
        <?php include('../resources/views/menuBar.blade.php');?>
 
 
                 <div class="row">
                   <div class="col-md-4">
-                    <h3 class="subtitle">Featured Projects</h3>
+                    <h3 class="subtitle">Featured Projects <script type="in/Login"></script> </h3>
+
                   </div>
                   <div class="col-md-6"></div>
                   <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div>
@@ -126,7 +135,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                 <hr>
 
 
-                <div class="row item">
+                <div class="row item social_computing tv"><br>
 
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
@@ -205,8 +214,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                 <hr>
 
 
-                <div class="row item">
-
+                <div class="row item auth"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/confidence_play.png" style="cursor:pointer" />
@@ -215,7 +223,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                     <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/RMnLQNaBjwo?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
-
                     <div class="col-md-6">
                       <h4 class="title">Confidence: Identity Verification</h4>
                       <p class="subtitle">Technologies: iOS, OCR</p>
@@ -285,7 +292,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                 <hr>
 
 
-                <div class="row item">
+                <div class="row item ar_vr"><br>
                     <!-- <a href="#"> -->
                     <!-- <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal"> -->
                     <!-- </a> -->
@@ -345,7 +352,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                 <hr>
 
 
-                <div class="row item">
+                <div class="row item ar_vr"><br>
 
 
                   <div class="col-md-4">
@@ -394,10 +401,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <hr>
 
-              <div class ="row item">
-
-
-
+              <div class ="row item auth"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/oba_play2.png" style="cursor:pointer" />
@@ -406,8 +410,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                     <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/VaDH7kfsgBM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
-
-
                 <div class ="col-md-6">
                     <h4 class="title">Out of Band Authentication </h4>
                     <p class="subtitle">Technologies: iOS, Web</p>
@@ -464,9 +466,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <hr>
 
-                <div class ="row item">
-
-
+                <div class ="row item iot"><br>
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag_play.png" style="cursor:pointer" />
@@ -475,8 +475,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       <iframe width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="https://www.youtube.com/embed/CkwGBXC4YIM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
-
-
                 <div class ="col-md-6">
                     <h4 class="title">SensorTag Luggage Tracker</h4>
                     <p class="subtitle">Technologies: Android, IoT, SensorTag</p>
@@ -497,7 +495,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           The SensorTag Luggage Tracker is also an example of development within the Internet
                           of Things (IoT) industry.</p>
                         </div><a href="#" style="margin-bottom:15px;">Read more</a>
-
                           <div class="row">
                             <div class ="col-xs-5 profile">
                               <a href="https://www.linkedin.com/in/a24choi" target="_blank">
@@ -532,9 +529,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <hr>
 
-                <div class ="row item">
-
-
+                <div class ="row item cognitive" data-index="3"><br>
                   <div class="col-md-4 vert_center">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking_play.png" style="cursor:pointer" />
@@ -543,8 +538,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hLx4M7TUj_Q?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
-
-
                   <div class ="col-md-6">
                     <h4 class="title">IBM Family Financial Advisor</h4>
                     <p class="subtitle">Technologies: iOS, Web, Watson</p>
@@ -586,11 +579,11 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope" ></span> Feedback</span>
                 </div>
               </div>
+<hr>
 
-              <hr>
 
 
-              <div class="row item">
+              <div class="row item"><br>
                   <div class="col-md-4">
                     <a href="#">
                     <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal">
@@ -660,13 +653,13 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <hr>
 
-                <div class="row item">
+                <div class="row item cognitive" data-index="2"><br>
                     <div class="col-md-4 vert_center">
                       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                        <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/newIdea_play.png" style="cursor:pointer" />
                       </div>
                       <div style="display:none" class="class=col-md-4">
-                        <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/03lcTPnKLVI?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/Gax_lKvA0Kk?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                       </div>
                     </div>
                       <div class="col-md-6">
@@ -708,9 +701,9 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       </div>
                   </div>
 
-                  <hr>
+<hr>
 
-                  <div class="row item">
+                  <div class="row item cognitive tv" data-index='1'><br>
                       <div class="col-md-4 vert_center">
                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                          <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/family_play.png" style="cursor:pointer" />
@@ -773,7 +766,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                         </div>
                     </div>
 
-                    <hr>
+  <hr>
 
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>

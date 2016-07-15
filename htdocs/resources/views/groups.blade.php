@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="originalStyle.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -14,12 +14,12 @@
         <link rel="stylesheet" href="css/groupsBlade.css" />
         <link rel="stylesheet" href="windows8-animations/css/demo-styles.css" />
         <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css">
-        <script src="windows8-animations/js/modernizr-1.5.min.js"></script>
-        <script src="jquery.js"></script>
+        <!-- <script src="windows8-animations/js/modernizr-1.5.min.js"></script> -->
+        <!-- <script src="jquery.js"></script> -->
         <style type="text/css">
         </style>
     </head>
-    <body>
+    <body id="body">
       @if (Session::has('message'))
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
@@ -27,15 +27,45 @@
       @endif
       <div class="container">
        <?php include('../resources/views/menuBar.blade.php');?>
+       <script>
+       function onSelectCategory(passedID){
+            $('#demo-wrapper').load('index.php .' + passedID);
+            // $('index.php .' + passedID).each(function(i, obj) {
+                // console.log(i);
+            // });
 
+            document.getElementById("container").innerHTML = "";
+
+            // document.getElementById("returnCategories").innerHTML = "Show";
+            document.getElementById("returnCategories").style.display = "";
+
+            document.getElementById("returnCategories").innerHTML = "Reopen Categories";
+            // document.getElementById("returnCategories").href = "/groups";
+            // a = document.getElementById("returnCategories");
+            // a.setAttribute("href", "/");
+       }
+
+
+       </script>
+
+
+       <!-- <div class="row"> -->
+           <!-- <div class="col-md-12"> -->
+             <a href="/groups" style="text-align:left; font-size:140%; display: none" id="returnCategories">Show</a>
+           <!-- </div> -->
+       <!-- </div> -->
  <!--===============================Start Demo====================================================-->
-<div class="demo-wrapper">
+<!-- <a href = "/" id="returnCategories" style="display: none">Display / Hide</a> -->
+<div class="demo-wrapper" id="demo-wrapper">
+
+
   <div class="row">
-            <div class="col-md-12">
-              <p style="text-align:left; font-size:180%">Category<span style="float:right; font-size:54%"></span></p>
-            </div>
-        </div>
-        <hr>
+      <div class="col-md-12">
+        <p style="text-align:left; font-size:180%">Category<span style="float:right; font-size:54%"></span></p>
+
+      </div>
+  </div>
+  <hr>
 
 <!-- classnames for the pages should include: 1) type of page 2) page name-->
   <div class="s-page random-restored-page">
@@ -64,37 +94,39 @@
           <div>
             <img src="/img/icon/robot-design.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center">AI</p></div>
-          <div><p><a class="noUnderline" href="/" target="_blank">  <?php
-             echo "<a href='#' id='AI' title='Click to explore' style='text-decoration: none;' onclick='deleteManager(this.id);'> &#10006; Explore AI</a>".'<br>';
-             ?></a></p></div>
-
-
+           <div><p><a class="noUnderline" href="/" target="_blank">
+              <a href='#' id='ai' title='Click to explore' style='text-decoration: none;' >Explore AI</a>
+            </a></p>
+          </div>
         </li>
         <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="r-page" data-page-name="random-r-page">
           <div><p class="flaticon-education-chart"></p></div>
           <div><p>API Economy</p></div>
         </li>
         <li class="tile tile-small last tile-2 slideTextRight" data-page-type="" data-page-name="">
-          <div><p class="flaticon-technology" style="position:absolute; bottom: 90px; right: 0px; width:100%;"></p></div>
+          <div>
+
+            <a href='#' id='tv' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>
+              <p class="flaticon-technology" style="position:absolute; bottom: 90px; right: 0px; width:100%;"></p>
+            </a>
+          </div>
           <div><p>TV Apps</p></div>
         </li>
 
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/fingerprints.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 105px; width:100%; text-align: center; font-size:25px">Authentication</p></div>
-          <div><p>#Authentication</p></div>
+          <div><p><a href='#' id='auth' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Authentication</a></p></div>
         </li>
-
-
       </div>
-
       <div class="col2 clearfix">
-
 
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/IoT.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center; font-size:25px">IoT</p></div>
-          <div><p>#Internet_of_Things</p></div>
+          <div><p>
+            <a href='#' id='iot' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Internet of Things</a>
+          </p></div>
         </li>
 
 
@@ -107,33 +139,32 @@
         <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/social-media-cloud.png" style="width:85px; height:85px; margin-top:25px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 100px; width:100%; text-align: center">Social Computing</p></div>
-          <div><p>#Social_Computing</p></div>
+          <div><p>
+            <a href='#' id='social_computing' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Social Computing</a>
+          </p></div>
         </li>
       </div>
 
       <div class="col3 clearfix">
 
-
         <li class="tile tile-big tile-5 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/virtual-reality.png" style="width:85px; height:85; margin-top:25px; margin-right:500px; margin-left:10px;"></img>
             <p style="position:absolute; bottom: 40px; right: 115px; width:100%; text-align: center; font-size:25px">AR + VR</p></div>
-          <div><p>#Virtual_Reality</p></div>
+          <div><p>
+            <a href='#' id='ar_vr' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore AR + VR</a>
+          </p></div>
         </li>
-
 
         <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
           <div><p style="position:absolute; bottom: 44px; right: 85px;  text-align: center">
             <span class="flaticon-smartwatch"  ></span>Wearables</p></div>
-          <div><p>#Apple_Watch</p></div>
+          <div><p>
+            <a href='#' id='wearables' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Wearables</a>
+          </p></div>
         </li>
-
-
-
         <!--
           <div><p><span class="icon-skype"></span>Skype</p></div>
           <div><p>Make a Call</p></div> -->
-
-
 
         <!--Tiles with a 3D effect should have the following structure:
             1) a container inside the tile with class of .faces
@@ -141,19 +172,15 @@
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
           <div><img src="/img/icon/Cognitive.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 122px; width:100%; text-align: center; font-size:25px">Cognitive</p></div>
-          <div><p>#Cognitive</p></div>
+          <div><p><a href='#' id='cognitive' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Cognitive</a></p></div>
         </li>
-
-
       </div>
     </ul>
-
   </div><!--end dashboard-->
-
 </div><!--====================================end demo wrapper================================================-->
 
-      <div class="container">
-        <div class="row">
+      <div class="container" id="container">
+        <div class="row" id="people">
             <div class="col-md-12">
                 <!-- <p class="subtitle alighleft">People  </p> -->
                 <!-- <p class="subtitle alignright" align="right">Click on the profile image to get redirected to LinkedIn profile.</p> -->
@@ -344,22 +371,8 @@
       </div>
       </div>
     </body>
-     <script src="windows8-animations/js/jquery-1.8.2.min.js"></script>
-     <script src="windows8-animations/js/scripts.js"></script>
-    <script src="windows8-animations/js/scripts.js"></script>
-    <script>
-    $function deleteManager(passedID){
-      // document.getElementById(passedID).className = "hidden";
-      $.ajax({
-        type: 'POST',
-        url: 'deleteManager.php',
-        data:{
-          'passedID' : passedID
-        },
-        success: function(msg){
-          location.reload(true);
-        }
-      });
-    }
-    </script>
+     <!-- <script src="windows8-animations/js/jquery-1.8.2.min.js"></script> -->
+     <!-- <script src="windows8-animations/js/scripts.js"></script> -->
+    <!-- <script src="windows8-animations/js/scripts.js"></script> -->
+
 </html>
