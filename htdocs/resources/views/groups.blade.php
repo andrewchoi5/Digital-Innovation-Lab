@@ -33,13 +33,19 @@
             // $('index.php .' + passedID).each(function(i, obj) {
                 // console.log(i);
             // });
-
+            var title = "";
+            if(passedID == "tv") title = "TV Applications";
+            if(passedID == "auth") title = "Authentication";
+            if(passedID == "iot") title = "Internet of Things";
+            if(passedID == "social_computing") title = "Social Computing";
+            if(passedID == "ar_vr") title = "Artificial Reality + Virtual Reality";
+            if(passedID == "wearables") title = "Wearables";
+            if(passedID == "cognitive") title = "Cognitive";
             document.getElementById("container").innerHTML = "";
-
-            // document.getElementById("returnCategories").innerHTML = "Show";
             document.getElementById("returnCategories").style.display = "";
-
-            document.getElementById("returnCategories").innerHTML = "Reopen Categories";
+            document.getElementById("returnCategories").innerHTML = "Other Projects";
+            document.getElementById("categoryTitle").style.display = "";
+            document.getElementById("categoryTitle").innerHTML = title;
             // document.getElementById("returnCategories").href = "/groups";
             // a = document.getElementById("returnCategories");
             // a.setAttribute("href", "/");
@@ -52,6 +58,7 @@
        <!-- <div class="row"> -->
            <!-- <div class="col-md-12"> -->
              <a href="/groups" style="text-align:left; font-size:140%; display: none" id="returnCategories">Show</a>
+             <strong><p style="text-align:center; font-size:140%; display: none" id="categoryTitle">categoryTitle</p></strong>
            <!-- </div> -->
        <!-- </div> -->
  <!--===============================Start Demo====================================================-->
@@ -103,7 +110,7 @@
           <div><p class="flaticon-education-chart"></p></div>
           <div><p>API Economy</p></div>
         </li>
-        <li class="tile tile-small last tile-2 slideTextRight" data-page-type="" data-page-name="">
+        <li class="tile tile-small last tile-2 slideTextRight" data-page-type="" data-page-name="" id='tv' onclick='onSelectCategory(thid.id);'>
           <div>
 
             <a href='#' id='tv' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>
@@ -113,7 +120,7 @@
           <div><p>TV Apps</p></div>
         </li>
 
-        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="" id='auth' onclick='onSelectCategory("auth");'>
           <div><img src="/img/icon/fingerprints.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 105px; width:100%; text-align: center; font-size:25px">Authentication</p></div>
           <div><p><a href='#' id='auth' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Authentication</a></p></div>
@@ -121,7 +128,7 @@
       </div>
       <div class="col2 clearfix">
 
-        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="" id='iot' onclick='onSelectCategory("iot");'>
           <div><img src="/img/icon/IoT.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center; font-size:25px">IoT</p></div>
           <div><p>
@@ -136,7 +143,7 @@
           <div><p>#Mojio</p></div>
         </li>
 
-        <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="" id='' onclick='onSelectCategory("social_computing");'>
           <div><img src="/img/icon/social-media-cloud.png" style="width:85px; height:85px; margin-top:25px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 100px; width:100%; text-align: center">Social Computing</p></div>
           <div><p>
@@ -147,7 +154,7 @@
 
       <div class="col3 clearfix">
 
-        <li class="tile tile-big tile-5 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-5 slideTextLeft" data-page-type="" data-page-name="" id='' onclick='onSelectCategory("ar_vr");'>
           <div><img src="/img/icon/virtual-reality.png" style="width:85px; height:85; margin-top:25px; margin-right:500px; margin-left:10px;"></img>
             <p style="position:absolute; bottom: 40px; right: 115px; width:100%; text-align: center; font-size:25px">AR + VR</p></div>
           <div><p>
@@ -155,7 +162,7 @@
           </p></div>
         </li>
 
-        <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-1 slideTextLeft" data-page-type="" data-page-name="" id='' onclick='onSelectCategory("wearables");'>
           <div><p style="position:absolute; bottom: 44px; right: 85px;  text-align: center">
             <span class="flaticon-smartwatch"  ></span>Wearables</p></div>
           <div><p>
@@ -169,7 +176,7 @@
         <!--Tiles with a 3D effect should have the following structure:
             1) a container inside the tile with class of .faces
             2) 2 figure elements, one with class .front and the other with class .back-->
-        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="">
+        <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="" id='cognitive' onclick='onSelectCategory("cognitive");'>
           <div><img src="/img/icon/Cognitive.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 122px; width:100%; text-align: center; font-size:25px">Cognitive</p></div>
           <div><p><a href='#' id='cognitive' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Cognitive</a></p></div>
@@ -368,6 +375,8 @@
           </div>
           <div class="col-md-1 "></div>
         </div>
+        <hr>
+        <br><br>
       </div>
       </div>
     </body>
