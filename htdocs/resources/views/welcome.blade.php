@@ -1,55 +1,20 @@
 <?php include('../resources/views/participants.blade.php');?>
-<?php
-
-$mehran = 'Idea & Architect';
-$mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
-
-
-?>
+<?php $mehran = 'Idea & Architect';
+$mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>IBM Digital Innovation Lab</title>
-
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link href='originalStyle.css' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="//platform.linkedin.com/in.js">
-          api_key:   75fhpukbgoh5hm
-          onLoad:    OnLinkedInFrameworkLoad
-          authorize: true
-          // credentials_cookie: true
-          // credentials_cookie_crc: true
-          // lang:      [LANG_LOCALE]
-        </script>
-        <script>
-          function OnLinkedInFrameworkLoad() {
-            // IN.ENV.js.scope = new Array();
-            // IN.ENV.js.scope[0] = "r_emailaddress";
-            // IN.ENV.js.scope[1] = "r_contactinfo";
-            // IN.User.authorize();
-            IN.Event.on(IN, "auth", OnLinkedInAuth);
-          }
-          function OnLinkedInAuth() {
-            IN.API.Profile("me").result(ShowProfileData);
-          }
-          function ShowProfileData(profiles) {
-            var member = profiles.values[0];
-            var id = member.id;
-            var firstName = member.firstName;
-            var lastName = member.lastName;
-            var photo = member.pictureUrl;
-            var headline = member.headline;
-            console.log(headline + "\n" + member + "\n"+ id + "\n"+ firstName +"\n"+ lastName + "\n"+photo);
-            // console.log(headline);
-         }
-      </script>
+
     </head>
     <body>
-      <script type=”IN/Login”></script>
+
       <div id=”profiles”></div>
       <div id=”connections”></div>
       @if (Session::has('message'))
@@ -125,7 +90,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
                 <div class="row">
                   <div class="col-md-4">
-                    <h3 class="subtitle">Featured Projects <script type="in/Login"></script> </h3>
+                    <h3 class="subtitle">Featured Projects  </h3>
 
                   </div>
                   <div class="col-md-6"></div>
@@ -136,7 +101,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
 
 
                 <div class="row item social_computing tv"><br>
-
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/newsboard_play.png" style="cursor:pointer" />
@@ -156,7 +120,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           <p>
                                 The News Board app is intended as a way to replace a traditional non-digital newsboard with a digital solution using an appleTV and an iPhone. User’s post content on the iPhone app which is then displayed in real time on an appleTV connected TV. News articles, interesting videos, announcements and more can be posted and viewed using the app.
                           </p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                         <div class="row">
 
@@ -231,7 +195,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       <div class="wrapper">
                         <div class="small_div">
                           <p>Confidence is an iOS app that uses OCR technology to read data from Ontario Driver’s Licenses. Based on the information gathered from the license, the app performs a series of license validation tests and analyzes the user’s social media footprint and geolocation data to generate a score that indicates the confidence the app has in the user’s identity. The score consists of four components: core, enhanced, government and social.</p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                         <div class="row">
 
@@ -320,7 +284,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                          The application starts from the Android app and you have an option
                           to go into virtual reality to reserve a seat. </p>
                         </div>
-                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                        <a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
@@ -373,7 +337,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                         <div class="wrapper">
                           <div class="small_div">
                             <p style="white-space: pre-wrap;">Check your stock info on your Android phone real time.  Add stock with symbol from US equities: AMEX, NASDAQ, NYSE.  Ride rollercoaster in virtual reality using Gear VR with your portfolio.  If the stock price goes up you go up with it or go down with it.  When the stock martket is closed, you have the option to choose demo version which loads 1 year worth of data.  It is a fun virtual reality experience in banking.</p>
-                          </div><a href="#">Read more</a>
+                          </div><a href="#readMore">Read more</a>
                         </div>
                         <div class="row">
                           <div class ="col-xs-4 profile">
@@ -424,7 +388,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                         An additional use case presented in this application is call centre identity verification.
                           Instead of having a call centre agent ask you verbal questions to verify your identity,
                           they can verify your identity with TouchID.</p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
 
                         <div class="row ">
                           <!-- profile_margin -->
@@ -494,7 +458,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
                           The SensorTag Luggage Tracker is also an example of development within the Internet
                           of Things (IoT) industry.</p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                           <div class="row">
                             <div class ="col-xs-5 profile">
                               <a href="https://www.linkedin.com/in/a24choi" target="_blank">
@@ -555,7 +519,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                          as Watson's Dialog API, Watson engages in a conversation with you to fulfil your
                          financial management needs. It is built on Bluemix, utilizing the Cloud Foundry,
                           an open source cloud service (PaaS).</p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                         </div>
                         <div class="row">
                           <div class ="col-xs-4 profile">
@@ -602,7 +566,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                     as well as full-time IBMers. Projects section displays all the projects that are in completion stage. People section lists current and past IBMers
                     as well as co-ops who have had contributions to any of the projects. Ideas section contains all the upcoming exciting projects as proposed by full-time employees
                    and interns at IBM.</p>
-                      </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                 </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-8 profile">
@@ -673,7 +637,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                       Watson Dialog, TextToSpeech and SpeechToText. The user is able to converse with Watson and provide
                       answers to the questions related to their idea. After the conversation, the user’s mail automatically appears
                       and is populated with the responses provided to send to the Digital Innovation Lab.</p>
-                        </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                    </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                         </div>
                         <div class="row">
                           <div class ="col-xs-4 profile">
@@ -721,7 +685,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           <div class="small_div">
                         <p>The Family Banking TV app helps families create and track their financial goals. Family members can have individual or joint accounts. For each account, a list of financial goals is displayed. After creating a goal, family members can track their progress with the app. We used IBM Watson Alchemy APIs to collect news relevant to family financial goals to provide them update on their goals. Family Banking app is also using IBM Watson Trade-off analytics to find and suggest the best goal options for each family's deposit.
                         </p>
-                          </div><a href="#" style="margin-bottom:15px;">Read more</a>
+                      </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                           </div>
                           <div class="row">
                             <div class ="col-xs-8 profile">
@@ -765,67 +729,67 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi';
                           <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                         </div>
                     </div>
-
-  <hr>
-
+                <hr>
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>
                     <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>
                     <!-- <div style="margin-bottom:15px; float: right;">SendGid</div> -->
-
                   </div>
                  <br><br>
                 </div>
-
         <div style="height:50px">
         </div>
     </body>
-
-
     <script>
-    $(document).ready(function(){
-        $.fn.setAllToMaxHeight = function(){
-          return this.height(
-             Math.max.apply(
-                   this, $.map(this, function(e){
-                    return $(e).height()
-                   })
-                )
-            );
-        }
-        $('[data-toggle="tooltip"]').tooltip();
-        $('#myModal').on('shown.bs.modal', function (e) {
-          var $invoker = $(e.relatedTarget);
-          $('#email-title').html($invoker.data('email'));
-        });
-        $('#myModal').on('hidden.bs.modal', function (e) {
+        $(document).ready(function(){
+            $.fn.setAllToMaxHeight = function(){
+              return this.height(
+                 Math.max.apply(
+                       this, $.map(this, function(e){
+                        return $(e).height()
+                       })
+                    )
+                );
+            }
+            $('[data-toggle="tooltip"]').tooltip();
+            $('#myModal').on('shown.bs.modal', function (e) {
+              var $invoker = $(e.relatedTarget);
+              $('#email-title').html($invoker.data('email'));
+            });
+            $('#myModal').on('hidden.bs.modal', function (e) {
 
-          $('#email-title').html("Submit Idea");
+              $('#email-title').html("Submit Idea");
+            });
+            $('a[href="#"]').on('click', function (e) {
+                e.preventDefault();
+            });
+
+            // $('.wrapper').find('a[href="#"]').on('click', function (e) {
+            //     e.preventDefault();
+            //     this.expand = !this.expand;
+            //     $(this).text(this.expand?"Collapse":"Read more");
+            //     $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+            //     $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+            // });
+            $('.wrapper').find('a[href="#readMore"]').on('click', function (e) {
+                e.preventDefault();
+                this.expand = !this.expand;
+                $(this).text(this.expand?"Collapse":"Read More");
+                $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+                $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+            });
+            $('.wrapper').find('a[href="#moreProjects"]').on('click', function (e) {
+                e.preventDefault();
+                this.expand = !this.expand;
+                $(this).text(this.expand?"Show Less Projects":"Display More Projects");
+                $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+                $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+            });
         });
-        $('a[href="#"]').on('click', function (e) {
-            e.preventDefault();
+
+        $('.expand-one').click(function(){
+            $('.content-one').slideToggle('slow');
         });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
-            e.preventDefault();
-            this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more");
-            $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
-            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
-        });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
-            e.preventDefault();
-            this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more");
-            $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
-            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
-        });
-        $('.wrapper').find('a[href="#moreProjects"]').on('click', function (e) {
-            e.preventDefault();
-            this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Display More Projects");
-            $(this).closest('.wrapper').find('.small_div, .big_div').toggleClass('small_div big_div');
-            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
-        });
-    });
+
     </script>
 </html>
