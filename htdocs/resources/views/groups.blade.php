@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" type="text/css" href="originalStyle.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -17,20 +20,66 @@
         </style>
     </head>
     <body id="body">
+
+
+
       @if (Session::has('message'))
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
       </div>
       @endif
       <div class="container">
-       <?php include('../resources/views/menuBar.blade.php');?>
-             <a href="/groups" style="text-align:left; font-size:140%; display: none" id="returnCategories">Show</a>
-             <strong><p style="text-align:center; font-size:140%; display: none" id="categoryTitle">categoryTitle</p></strong>
+
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="email-title">Submit Idea</h4>
+              </div>
+              <div class="modal-body">
+
+                  {!! Form::open(array('action' => array('MainController@sendEmail'), 'method' => 'post', 'class' => 'form-horizontal','id' => 'submit-idea','role' => 'form')) !!}
+                  <div class = "form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::text('name', null, array('class' => 'form-control', 'id' => 'name', 'placeholder' => "Name", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::text('email', null, array('class' => 'form-control', 'id' => 'email', 'placeholder' => "Email", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::text('subject', null, array('class' => 'form-control', 'id' => 'detail','rows' => '4', 'placeholder' => "Subject", 'required')) !!}
+                    </div>
+                  </div>
+                  <div class ="form-group">
+                    <div class = "col-sm-12">
+                      {!! Form::textarea('body', null, array('class' => 'form-control', 'id' => 'body','rows' => '4', 'placeholder' => "Description", 'required')) !!}
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                {!! Form::submit('Submit', array('class' => 'btn btn-success')) !!}
+                {!! Form::close() !!}
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <?php include('../resources/views/menuBar.blade.php');?>
+      <a href="/groups" style="text-align:left; font-size:140%; display: none" id="returnCategories">Show</a>
+      <strong><p style="text-align:center; font-size:140%; display: none" id="categoryTitle">categoryTitle</p></strong>
 
 <div class="demo-wrapper" id="demo-wrapper"><!--===============================Start Demo====================================================-->
   <div class="row">
       <div class="col-md-12">
         <p style="text-align:left; font-size:180%">Category  <span style="float:right; font-size:54%"><script type="in/Login"></script></span></p>
+
       </div>
   </div>
   <hr>
@@ -72,7 +121,7 @@
         <li class="tile tile-small last tile-2 slideTextRight" data-page-type="" data-page-name="" id='tv' onclick='onSelectCategory("tv");'>
           <div>
 
-            <a href='#' id='tv' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>
+            <a href='#' id='tv' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>
               <p class="flaticon-technology" style="position:absolute; bottom: 90px; right: 0px; width:100%;"></p>
             </a>
           </div>
@@ -82,7 +131,7 @@
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="" id='auth' onclick='onSelectCategory("auth");'>
           <div><img src="/img/icon/fingerprints.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 105px; width:100%; text-align: center; font-size:25px">Authentication</p></div>
-          <div><p><a href='#' id='auth' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Authentication</a></p></div>
+          <div><p><a href='#' id='auth' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>Explore Authentication</a></p></div>
         </li>
       </div>
       <div class="col2 clearfix">
@@ -91,7 +140,7 @@
           <div><img src="/img/icon/IoT.png" style="width:90px; height:90px; margin-top:27px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 120px; width:100%; text-align: center; font-size:25px">IoT</p></div>
           <div><p>
-            <a href='#' id='iot' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Internet of Things</a>
+            <a href='#' id='iot' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>Internet of Things</a>
           </p></div>
         </li>
 
@@ -106,7 +155,7 @@
           <div><img src="/img/icon/social-media-cloud.png" style="width:85px; height:85px; margin-top:25px; margin-right:500px;" align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 100px; width:100%; text-align: center">Social Computing</p></div>
           <div><p>
-            <a href='#' id='social_computing' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore Social Computing</a>
+            <a href='#' id='social_computing' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>Explore Social Computing</a>
           </p></div>
         </li>
       </div>
@@ -117,7 +166,7 @@
           <div><img src="/img/icon/virtual-reality.png" style="width:85px; height:85; margin-top:25px; margin-right:500px; margin-left:10px;"></img>
             <p style="position:absolute; bottom: 40px; right: 115px; width:100%; text-align: center; font-size:25px">AR + VR</p></div>
           <div><p>
-            <a href='#' id='ar_vr' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Explore AR + VR</a>
+            <a href='#' id='ar_vr' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>Explore AR + VR</a>
           </p></div>
         </li>
 
@@ -138,7 +187,7 @@
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="" data-page-name="" id='cognitive' onclick='onSelectCategory("cognitive");'>
           <div><img src="/img/icon/Cognitive.png" style="width:110px; height:110px; margin-top:15px; margin-right:500px; " align="left"></img>
             <p style="position:absolute; bottom: 40px; right: 122px; width:100%; text-align: center; font-size:25px">Cognitive</p></div>
-          <div><p><a href='#' id='cognitive' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory(this.id);'>Cognitive</a></p></div>
+          <div><p><a href='#' id='cognitive' title='Click to explore' style='text-decoration: none;' onclick='onSelectCategory("");'>Cognitive</a></p></div>
         </li>
       </div>
     </ul>
@@ -341,11 +390,12 @@
       </div>
       </div>
     </body>
-    <script src="collapse.js"></script>
+    <script src="collapse.js"></script> <!-- justl eave it -->
+
     <script>
     function onSelectCategory(passedID){
          $("#demo-wrapper").load("index.php ." + passedID, function() {
-           $.getScript('collapse.js', function() {
+           $.getScript('collapse.js', function() { //leave it
               console.log('Load was performed.');
             });
          });

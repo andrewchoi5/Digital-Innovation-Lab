@@ -23,7 +23,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
       </div>
       @endif
       <div class="container">
-        <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
             <!-- Modal content-->
@@ -232,14 +231,12 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                              </div>
                            </a>
                           <!-- </div> -->
-
                           <a class="display: inline;" href="https://www.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $chelsea; ?>" >
                              <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
                            </div>
                          </a>
                         </div>
-
                        </div>
                     </div>
                     <div class="col-md-2 text-center">
@@ -252,10 +249,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                     </div>
                 </div>
-
                 <hr>
-
-
                 <div class="row item ar_vr"><br>
                     <!-- <a href="#"> -->
                     <!-- <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal"> -->
@@ -263,7 +257,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height-30 ?>" src="img/seatselection_play.png" style="cursor:pointer" />
-                     <!--  to fix, img file-->
                     </div>
                     <div style="display:none" class="class=col-md-4">
                       <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/vL0wgI5eqhU?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
@@ -311,14 +304,8 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                   </div>
                 </div>
-
-
                 <hr>
-
-
                 <div class="row item ar_vr"><br>
-
-
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/ride_play.png" style="cursor:pointer" />
