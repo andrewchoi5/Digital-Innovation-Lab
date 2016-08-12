@@ -78,6 +78,10 @@
 <div class="demo-wrapper" id="demo-wrapper"><!--===============================Start Demo====================================================-->
   <div class="row">
       <div class="col-md-12">
+        <!-- <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/jeffweiner08" data-format="inline"></script>
+        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/a24choi" data-format="inline"></script>
+        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/mehrannajafi" data-format="inline"></script> -->
+
         <p style="text-align:left; font-size:180%">Category  <span style="float:right; font-size:54%"><script type="in/Login"></script></span></p>
 
       </div>
@@ -396,18 +400,14 @@
     function onSelectCategory(passedID){
          $("#demo-wrapper").load("index.php ." + passedID, function() {
            $.getScript('collapse.js', function() { //leave it
-              console.log('Load was performed.');
             });
          });
         // $("#demo-wrapper").load("index.php ." + passedID);
         // $.getScript('collapse.js');
 
-
         // $("#demo-wrapper").on("load", function() {
             // console.log('OKEY DOKEY');
         // });
-
-
          var title = "";
          if(passedID == "tv") title = "TV Applications";
          if(passedID == "auth") title = "Authentication";
@@ -423,10 +423,12 @@
          document.getElementById("categoryTitle").innerHTML = title;
     }
     </script>
-    <script type="text/javascript" src="//platform.linkedin.com/in.js">
-      api_key:   75fhpukbgoh5hm
+    <script type="text/javascript" src="">
+      api_key:   abcdefg
       onLoad:    OnLinkedInFrameworkLoad
       authorize: true
+      scope: r_basicprofile r_emailaddress w_share rw_company_admin
+
       // credentials_cookie: true
       // credentials_cookie_crc: true
       // lang:      [LANG_LOCALE]
@@ -435,22 +437,24 @@
       function OnLinkedInFrameworkLoad() {
         // IN.ENV.js.scope = new Array();
         // IN.ENV.js.scope[0] = "r_emailaddress";
-        // IN.ENV.js.scope[1] = "r_contactinfo";
         // IN.User.authorize();
         IN.Event.on(IN, "auth", OnLinkedInAuth);
       }
       function OnLinkedInAuth() {
-        IN.API.Profile("me").result(ShowProfileData);
+        // IN.API.Profile("me").fields("firstName", "lastName", "industry", "location:(name)", "picture-url", "headline", "summary", "num-connections", "public-profile-url", "distance", "positions", "email-address", "educations", "date-of-birth").result(ShowProfileData);
       }
       function ShowProfileData(profiles) {
         var member = profiles.values[0];
-        var id = member.id;
+        // var id = member.id;
+        var id = member.emailAddress;
+        var id = member.summary;
+        var id = member.positions.values[0].summary;
+        console.log(profiles);
         var firstName = member.firstName;
         var lastName = member.lastName;
         var photo = member.pictureUrl;
         var headline = member.headline;
-        console.log(headline + "\n" + member + "\n"+ id + "\n"+ firstName +"\n"+ lastName + "\n"+photo);
-        // console.log(headline);
+        // document.getElementById("").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName + "<br>" + photo;
      }
   </script>
 

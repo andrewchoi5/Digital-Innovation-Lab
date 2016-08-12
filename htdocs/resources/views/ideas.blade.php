@@ -137,46 +137,43 @@
 
 
 
-                    <p>The idea is to create a peer to peer system for awarding points/credits for helping
-                      fellow IBMers with small tasks. It could be as simple as helping build a slide or writing a white-paper or helping with an RFP.
-                      If it's above and beyond their daily tasks, people should get rewards. The solution at a glance is to leverage Bluemix, Blockchain and BitCoin technologies (B3) to create an application that can allow the peer-to-peer transactions.</p>
+                                  <p>The idea is to create a peer to peer system for awarding points/credits for helping
+                                    fellow IBMers with small tasks. It could be as simple as helping build a slide or writing a white-paper or helping with an RFP.
+                                    If it's above and beyond their daily tasks, people should get rewards. The solution at a glance is to leverage Bluemix, Blockchain and BitCoin technologies (B3) to create an application that can allow the peer-to-peer transactions.</p>
 
-<p><strong>Discussion Notes</strong>: This new tool can be a ledger of value exchanged between IBMers.
-  <ul>
-    <li> The tool should support conversion of the reward currency to real dollars or logoware.</li>
-    <li> The solution would need a report to that shows how many valuable transactions made through the year. </li>
-  </ul>
-   This would help employees track contributions and requests.</p>
+              <p><strong>Discussion Notes</strong>: This new tool can be a ledger of value exchanged between IBMers.
+                <ul>
+                  <li> The tool should support conversion of the reward currency to real dollars or logoware.</li>
+                  <li> The solution would need a report to that shows how many valuable transactions made through the year. </li>
+                </ul>
+                 This would help employees track contributions and requests.</p>
 
-<p><strong>Building the PoC</strong>: David mentioned that we could Create a new blockchain BlueCoin in BlueWallet -> ThankYouCoins or ThxCoins. This would allow us to leverage the existing IBM BlueWallet mobile app to facilitate the transactions and to distribute currency:
-<ul>
-<li>Use existing BlueWallet to anyone you want. Get a notification for receiving the coins (could we get integration with BlueThx for people to get an email when a transaction happens) </li>
-<li>Basic infrastructure is already used </li>
-<li>Source code is a modification of BitCoin source code </li>
-<li>Need to update BlueWallet to support it. Already supports it. You can transfer and put a comment on what the transaction is for. </li>
-</ul>
-</p>
+              <p><strong>Building the PoC</strong>: David mentioned that we could Create a new blockchain BlueCoin in BlueWallet -> ThankYouCoins or ThxCoins. This would allow us to leverage the existing IBM BlueWallet mobile app to facilitate the transactions and to distribute currency:
+              <ul>
+              <li>Use existing BlueWallet to anyone you want. Get a notification for receiving the coins (could we get integration with BlueThx for people to get an email when a transaction happens) </li>
+              <li>Basic infrastructure is already used </li>
+              <li>Source code is a modification of BitCoin source code </li>
+              <li>Need to update BlueWallet to support it. Already supports it. You can transfer and put a comment on what the transaction is for. </li>
+              </ul>
+              </p>
 
-<p><strong>For the Co-ops</strong>, they could build a responsive a web page that can generate the report per user on all the transactions done per quarter/year/years. This can then be used for Checkpoint reviews.
-  <ul>
-    <li>There are a set of REST API's for the BlueWallet to access the blockchain of ThxCoins.</li>
-    <li>For Production, we would need to think about using the IBM Blockchain (hyper-ledger)</li>
-    <li>Will need a logo for the solution.</li>
-  </ul>
-  </p>
+              <p><strong>For the Co-ops</strong>, they could build a responsive a web page that can generate the report per user on all the transactions done per quarter/year/years. This can then be used for Checkpoint reviews.
+                <ul>
+                  <li>There are a set of REST API's for the BlueWallet to access the blockchain of ThxCoins.</li>
+                  <li>For Production, we would need to think about using the IBM Blockchain (hyper-ledger)</li>
+                  <li>Will need a logo for the solution.</li>
+                </ul>
+                </p>
 
-<p><strong>Reference links</strong>:
-  <ul>
-<li>BlueWallet (Web Wallet): <a href="https://tap.innovate.ibm.com/app/3473">https://tap.innovate.ibm.com/app/3473 </a></li>
-<li>BlueWallet Mobile (Mobile Wallet Apps for iOS & Android): <a href="https://tap.innovate.ibm.com/app/3510">https://tap.innovate.ibm.com/app/3510</a> </li>
-<li>BlueCoin Faucet (Place to get free test coins): <a href="https://tap.innovate.ibm.com/app/3483">https://tap.innovate.ibm.com/app/3483</a></li>
-<li>BlueCoin Exchange (Place to support trading of different BlueCoins): <a href="https://tap.innovate.ibm.com/app/3756">https://tap.innovate.ibm.com/app/3756</a> On-It (Basically IFTTT for IBM). </li>
-<li>Supports BlueWallet as well as a bunch of other services including BlueThx. <a href="https://tap.innovate.ibm.com/app/3687">https://tap.innovate.ibm.com/app/3687</a> API Docs for BlueWallet are here: <a href="https://bluewallet.innovate.ibm.com/api-docs">https://bluewallet.innovate.ibm.com/api-docs</a></li>
-</ul>
-</p>
-
-
-
+              <p><strong>Reference links</strong>:
+                <ul>
+              <li>BlueWallet (Web Wallet): <a href="https://tap.innovate.ibm.com/app/3473">https://tap.innovate.ibm.com/app/3473 </a></li>
+              <li>BlueWallet Mobile (Mobile Wallet Apps for iOS & Android): <a href="https://tap.innovate.ibm.com/app/3510">https://tap.innovate.ibm.com/app/3510</a> </li>
+              <li>BlueCoin Faucet (Place to get free test coins): <a href="https://tap.innovate.ibm.com/app/3483">https://tap.innovate.ibm.com/app/3483</a></li>
+              <li>BlueCoin Exchange (Place to support trading of different BlueCoins): <a href="https://tap.innovate.ibm.com/app/3756">https://tap.innovate.ibm.com/app/3756</a> On-It (Basically IFTTT for IBM). </li>
+              <li>Supports BlueWallet as well as a bunch of other services including BlueThx. <a href="https://tap.innovate.ibm.com/app/3687">https://tap.innovate.ibm.com/app/3687</a> API Docs for BlueWallet are here: <a href="https://bluewallet.innovate.ibm.com/api-docs">https://bluewallet.innovate.ibm.com/api-docs</a></li>
+              </ul>
+              </p>
 
               </div>
               <a href="#" style="margin-bottom:50px;">Read more</a>
@@ -319,13 +316,6 @@
             <p>Ryan Moniz &nbsp <a href="pbeliav@ca.ibm.com">ryanm@ca.ibm.com</a></p>
           </div>
         </div>
-
-
-
-
-
-
-
 
 
 <hr>
