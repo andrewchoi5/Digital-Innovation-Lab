@@ -301,7 +301,7 @@
             </a>
             <p class="title name">Andrew Choi </p>
             <p>uWaterloo, Co-op</p>
-            <p>iOS, Internet of Things</p>
+            <p>iOS, Android, IoT</p>
             <a href="mailto:achoi@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">achoi@ca.ibm.com</a>
           </div>
 
@@ -310,7 +310,7 @@
               <img src="/img/chelsea.jpg" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">Chelsea Thiel-Jones</p>
-            <p>Co-op</p>
+            <p>uWaterloo, Co-op</p>
             <p>iOS Developer</p>
             <!-- <p>Side role: Washroom Management</p> -->
             <a href="mailto:thielj@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">thielj@ca.ibm.com</a>
@@ -321,12 +321,10 @@
               <img src="/img/dylant.png" height="150" width="150" alt="profile" >
             </a>
             <p class="title name">Dylan Trachsel</p>
-            <p>Co-op</p>
+            <p>uWaterloo, Co-op</p>
             <p>iOS Developer</p>
             <a href="mailto:dylant@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">dylant@ca.ibm.com</a>
           </div>
-
-
 
 
         </div>
