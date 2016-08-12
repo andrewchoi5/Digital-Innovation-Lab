@@ -98,7 +98,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                 <div class="row item social_computing"><br>
                 <div class="col-md-4">
                   <div >
-                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/ODIN_play.png" style="cursor:pointer" />
+                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/odin_play.png" style="cursor:pointer" />
                   </div>
                   <div style="display:none" class="class=col-md-4">
                     <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="" frameborder="0" allowfullscreen></iframe>
