@@ -12,6 +12,11 @@ Route::get('/iamreal', 'MainController@iamreal');
 Route::get('/menuBar', 'MainController@menuBar');
 Route::get('/participants', 'MainController@participants');
 
+Route::get('/andrewchoi', 'MainController@andrewchoi');
+Route::get('/sonalee', 'MainController@sonalee');
+Route::get('/dylantrachsel', 'MainController@dylantrachsel');
+Route::get('/chelseathieljones', 'MainController@chelseathieljones');
+
 
 Route::get('/seatselection', 'MainController@seatselection');
 Route::get('/rideportfolio', 'MainController@rideportfolio');

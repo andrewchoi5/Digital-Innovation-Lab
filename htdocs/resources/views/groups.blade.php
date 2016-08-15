@@ -6,9 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
         <link rel="stylesheet" type="text/css" href="originalStyle.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -20,9 +18,6 @@
         </style>
     </head>
     <body id="body">
-
-
-
       @if (Session::has('message'))
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{ Session::get('message') }}
@@ -287,7 +282,7 @@
           </div>
 
           <div class="col-md-2 text-center">
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://ca.linkedin.com/in/olivermerk" target="_blank">
               <img src="/img/oliver.png" height="150" width="150" alt="profile">
             </a>
             <p class=" name">Oliver Merk</p>
@@ -410,7 +405,7 @@
          if(passedID == "tv") title = "TV Applications";
          if(passedID == "auth") title = "Authentication";
          if(passedID == "iot") title = "Internet of Things";
-         if(passedID == "social_computing") title = "Social Computing";
+           if(passedID == "social_computing") title = "Social Computing";
          if(passedID == "ar_vr") title = "Artificial Reality + Virtual Reality";
          if(passedID == "wearables") title = "Wearables";
          if(passedID == "cognitive") title = "Cognitive";

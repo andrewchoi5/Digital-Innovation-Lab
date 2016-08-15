@@ -95,7 +95,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                   <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div>
                 </div>
                 <hr>
-                <div class="row item social_computing"><br>
+                <div class="row item social_computing andrewchoi"><br>
                 <div class="col-md-4">
                   <div >
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/odin_play.png" style="cursor:pointer" />
@@ -113,7 +113,6 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                         <div class="small_div">
                           <p>
                             IBM wants to find the perfect candidates for the Consulting by Degrees program. It wants better visibility into their profiles and the feedback provided by other members on the team throughout the recruiting process. Overall, IBM managers and recruiters seek for a better experience in smart recruitment.
-
                           </p>
                                           <p><strong>Existing System's Problems</strong>: This new tool can be a ledger of value exchanged between IBMers.
                                             <ul>
@@ -206,7 +205,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                     </div>
                 </div>
                 <hr>
-                <div class="row item social_computing tv"><br>
+                <div class="row item social_computing tv dylantrachsel"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/newsboard_play.png" style="cursor:pointer" />
@@ -283,7 +282,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                 <hr>
 
 
-                <div class="row item auth"><br>
+                <div class="row item auth dylantrachsel sonalee chelseathieljones"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/confidence_play.png" style="cursor:pointer" />
@@ -523,7 +522,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class ="row item iot"><br>
+                <div class ="row item iot andrewchoi"><br>
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag_play.png" style="cursor:pointer" />
@@ -586,7 +585,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class ="row item cognitive" data-index="3"><br>
+                <div class ="row item cognitive andrewchoi" data-index="3"><br>
                   <div class="col-md-4 vert_center">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking_play.png" style="cursor:pointer" />
@@ -640,7 +639,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
 
 
-              <div class="row item"><br>
+              <div class="row item social_computing andrewchoi chelseathieljones"><br>
                   <div class="col-md-4">
                     <a href="#">
                     <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal">
@@ -663,16 +662,17 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                       </div>
                       <div class="row">
                         <div class ="col-xs-8 profile">
-                          <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
-                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
-                              <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
-                            </div>
-                          </a>
                           <a href="https://www.linkedin.com/in/a24choi" target="_blank">
                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Mobile App Developer">
                               <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Andrew Choi">
                             </div>
                           </a>
+                          <a href="https://ca.linkedin.com/in/david-park-13728b89" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Developer">
+                              <img src="/img/david.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="David Park">
+                            </div>
+                          </a>
+
                           <a class= "display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo $mehran ?>">
                               <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
@@ -710,7 +710,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class="row item cognitive" data-index="2"><br>
+                <div class="row item cognitive chelseathieljones" data-index="2"><br>
                     <div class="col-md-4 vert_center">
                       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                        <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/newIdea_play.png" style="cursor:pointer" />
@@ -760,7 +760,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
 <hr>
 
-                  <div class="row item cognitive tv" data-index='1'><br>
+                  <div class="row item cognitive tv sonalee" data-index='1'><br>
                       <div class="col-md-4 vert_center">
                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                          <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/family_play.png" style="cursor:pointer" />

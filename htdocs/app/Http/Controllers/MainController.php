@@ -7,11 +7,8 @@ use App\Course;
 use App\CourseDetails;
 use Session;
 use Mail;
-
 class MainController extends Controller {
-
 	/**
-
 	 * @return void
 	 */
 	public function __construct()
@@ -47,6 +44,19 @@ class MainController extends Controller {
     return view('participants');
   }
 
+	public function andrewchoi(){
+		return view('andrewchoi');
+	}
+	public function sonalee(){
+		return view('sonalee');
+	}
+	public function dylantrachsel(){
+		return view('dylantrachsel');
+	}
+	public function chelseathieljones(){
+		return view('chelseathieljones');
+	}
+
   public function seatselection()
   {
     return view('seatselection');
@@ -77,14 +87,12 @@ class MainController extends Controller {
   }
 
   //send email
-  public function sendEmail(){
+  public function sendEmail(){ //mail //email
     $name = Input::get('name');
     $email = Input::get('email');
 		$subject = Input::get('subject');
     $body = Input::get('body');
     Mail::send('emails.demo', ['name' => $name, 'email' => $email, 'subject' =>$subject, 'body' => $body], function($message) {
-
-
 				$subject = Input::get('subject');
 				$message->to('mehranna@ca.ibm.com', 'Mehran Najafi')->subject('IBM Digital Innovation Lab'.$subject);
 				$message->to('subashan@ca.ibm.com', 'Subashan M')->subject('IBM Digital Innovation Lab'.$subject);
