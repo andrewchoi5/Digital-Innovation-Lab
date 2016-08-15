@@ -302,7 +302,7 @@
             <p class="title name">Andrew Choi </p>
             <p>uWaterloo, Co-op</p>
             <p>iOS, Android, IoT</p>
-            <a href="mailto:achoi@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">achoi@ca.ibm.com</a>
+            <a href="mailto:andrewchoi5@hotmail.com?Subject=IBM%20Innovation%20Lab" target="_blank">andrewchoi5@hotmail.com</a>
           </div>
 
           <div class="col-md-2 text-center">
@@ -323,7 +323,7 @@
             <p class="title name">Dylan Trachsel</p>
             <p>uWaterloo, Co-op</p>
             <p>iOS Developer</p>
-            <a href="mailto:dylant@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">dylant@ca.ibm.com</a>
+            <a href="mailto:dylantrachsel@gmail.com?Subject=IBM%20Innovation%20Lab" target="_blank">dylantrachsel@gmail.com</a>
           </div>
 
 
@@ -340,7 +340,7 @@
             <p class="title name">Sonalee</p>
             <p>UBC, Co-op</p>
             <p>iOS Developer</p>
-            <a href="mailto:sonalee@ca.ibm.com?Subject=IBM%20Innovation%20Lab" target="_blank">sonalee@ca.ibm.com</a>
+            <a href="mailto:sonaleeshah1@gmail.com?Subject=IBM%20Innovation%20Lab" target="_blank">sonaleeshah1@gmail.com</a>
           </div>
 
 
