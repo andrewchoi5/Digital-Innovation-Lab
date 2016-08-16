@@ -114,14 +114,14 @@
         $('a[href="#"]').on('click', function (e) {
             e.preventDefault();
         });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
-            e.preventDefault();
-            this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more");
-            $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
-            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
-        });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
+        // $('.wrapper').find('a[href="#"]').on('click', function (e) {
+        //     e.preventDefault();
+        //     this.expand = !this.expand;
+        //     $(this).text(this.expand?"Collapse":"Read more");
+        //     $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+        //     $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        // });
+        $('.wrapper').find('a[href="#readMore"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
             $(this).text(this.expand?"Collapse":"Read more");
