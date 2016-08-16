@@ -199,7 +199,7 @@
                 <!-- <p class="subtitle alighleft">People  </p> -->
                 <!-- <p class="subtitle alignright" align="right">Click on the profile image to get redirected to LinkedIn profile.</p> -->
 
-              <p style="text-align:left; font-size:180%">People<span style="float:right; font-size:54%">*Click on the profile image to get redirected to LinkedIn profile.</span></p>
+              <p style="text-align:left; font-size:180%">People<span style="float:right; font-size:54%">*Click on the profile image to get redirected to their projects.</span></p>
             </div>
         </div>
 

@@ -13,10 +13,6 @@
         <link rel="stylesheet" href="originalStyle.css" />
         <link rel="stylesheet" type="text/css" href="my-icons-collection/font/flaticon.css">
     </head>
-
-
-
-
     <body>
       @if (Session::has('message'))
       <div class="alert alert-success alert-dismissable">
@@ -34,7 +30,6 @@
                 <h4 class="modal-title" id="email-title">Submit Idea</h4>
               </div>
               <div class="modal-body">
-
                   {!! Form::open(array('action' => array('MainController@sendEmail'), 'method' => 'post', 'class' => 'form-horizontal','id' => 'submit-idea','role' => 'form')) !!}
                   <div class = "form-group">
                     <div class = "col-sm-12">
@@ -67,12 +62,9 @@
         </div>
 
        <?php include('../resources/views/menuBar.blade.php');?>
-
-
        <strong><p style="text-align:center; font-size:140%; display" id="categoryTitle"></p></strong>
-                <div class="demo-wrapper" id="demo-wrapper"><!--===============================Start Demo====================================================-->
-                </div><!--====================================end demo wrapper================================================-->
-
+                <div class="demo-wrapper" id="demo-wrapper-proposals"></div>
+                <div class="demo-wrapper" id="demo-wrapper"></div>
                   <br><br>
       </div>
 </body>
@@ -82,11 +74,17 @@
 <script src="collapse.js"></script> <!-- justl eave it -->
 <script>
      $("#demo-wrapper").load("index.php ." + "andrewchoi", function() {
-       $.getScript('collapse.js', function() { //leave it
-        });
+      //  $.getScript('collapse.js', function() { //leave it
+        // });
      });
+     $("#demo-wrapper-proposals").load("index.php/proposals ." + "andrewchoi", function() {
+      //  $.getScript('collapse.js', function() {
+         //leave it
+        // });
+     });
+     $.getScript('collapse.js', function() { //leave it
+      });
      var title = "Andrew Choi Projects";
-
      document.getElementById("categoryTitle").style.display = "";
      document.getElementById("categoryTitle").innerHTML = title;
 

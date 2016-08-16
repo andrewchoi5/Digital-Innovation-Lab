@@ -455,17 +455,6 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                   </div>
                 </div>
 
-<!-- <hr>
-
-Family Banking Advisor by Watson
-
-
-he family huddles around the Apple TV or iPad and launches the FamilyBanking app to have an overview of its financial standing, change allocations and apply for new services. Watson helps guide them through the process of finding the adequate products for their needs (e.g.,  right type of credit cards, line of credits, mortgages, etc). Through a dialog, Watson determines what the client is looking for and then collects specifics which will be used by the Tradeoff analytics algorithm to centre in on the right products. The user can also see relevant social media (e.g., Twitter feeds, Facebook, etc) on each of the service providers. Moreover, sentiment analysis from Alchemy will help users rank service providers from user satisfaction's point of view.
-The goal of the solution is to improve financial literacy of family members from kids to the elders.
-
-To show you that we mean business, check out our MVP and feel free to use it:
-https://ixmcognitivebuild.mybluemix.net/ -->
-
 
                 <hr>
 
@@ -782,7 +771,7 @@ https://ixmcognitivebuild.mybluemix.net/ -->
                         </div>
                       </div>
                         <div class="col-md-6">
-                        <h4 class="title">Family Banking TV app Powered by Watson</h4>
+                        <h4 class="title">Family Banking TV App Powered by Watson</h4>
                         <p class="subtitle">Technologies: Watson API, iOS</p>
                         <p class="subtitle">Industry: Banking, Financial</p>
                         <br>

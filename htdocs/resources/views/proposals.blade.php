@@ -37,6 +37,58 @@
 
                 <hr>
 
+      <div class="row item imadobeid andrewchoi"><br>
+      <div class="col-md-4">
+        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+         <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/familybanking_cognitive.png" style="cursor:pointer" />
+        </div>
+        <div style="display:none" class="class=col-md-4">
+          <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/hRv5E87Zsyg?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+          <div class="col-md-6">
+            <h4 class="title">Family Banking Advisor By Watson</h4>
+    <br>
+     <div class="wrapper">
+        <div class="small_div">
+        <p>
+          The family huddles around the Apple TV or iPad and launches the FamilyBanking app to have an overview of its financial standing, change allocations and apply for new services.
+      Watson helps guide them through the process of finding the adequate products for their needs (e.g, right type of credit cards, line of credits, mortgages, etc).</p>
+          <p>Through a dialog, Watson determines what the client is looking for and then collects specifics which will be used by the Tradeoff analytics algorithm to centre in on the right products. The user can also see relevant social media (e.g., Twitter feeds, Facebook, etc) on each of the service providers.</p>
+        <p>Moreover, sentiment analysis from Alchemy will help users rank service providers from user satisfaction's point of view. The goal of the solution is to improve financial literacy of family members from kids to the elders.
+          To show you that we mean business, check out our MVP and feel free to use it:</p>
+          <a href="https://ixmcognitivebuild.mybluemix.net/" target="_blank">https://ixmcognitivebuild.mybluemix.net/</a>
+            <br><br>
+
+        </div>
+        <a href="#readMore" style="margin-bottom:15px;">Read more</a>
+      </div>
+      <div class="row">
+        <div class ="col-xs-4 profile">
+          <a href="<?php echo 'https://www.linkedin.com/in/a24choi' ?>" target="_blank">
+          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo 'iOS Developer' ?>">
+            <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
+          </div>
+          </a>
+          <a target="_blank">
+          <div class="col-xs-5 text-center" data-placement="bottom" data-toggle="tooltip"  title="<?php echo 'Solution Architect' ?>">
+            <img src="/img/imad.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Imad Obeid">
+          </div>
+          </a>
+        </div>
+      </div>
+  </div>
+    <div class="col-md-2 text-center">
+    <a >
+        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span>   &nbsp;&nbsp; Download</span>
+    </a>
+  </div>
+</div>
+
+
+
+                <hr>
+
                 <div class="row item">
                   <div class="col-md-4">
                     <a href="#">
@@ -55,7 +107,7 @@
                             Audio and Video Recorder + Watson to index meetings data
                             etc.</p>
                         </div>
-                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                        <a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
@@ -92,7 +144,7 @@
 
                         by: Mehran Najafi (similar to Meeting Rooms for Future)</p>
                         </div>
-                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                        <a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
@@ -128,7 +180,7 @@
 
                         by: Mehran Najafi (similar to Meeting Rooms for Future)</p>
                         </div>
-                        <a href="#" style="margin-bottom:15px;">Read more</a>
+                        <a href="#readMore" style="margin-bottom:15px;">Read more</a>
                       </div>
                       <div class="row">
                         <div class ="col-xs-4 profile">
@@ -178,14 +230,14 @@
         $('a[href="#"]').on('click', function (e) {
             e.preventDefault();
         });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
-            e.preventDefault();
-            this.expand = !this.expand;
-            $(this).text(this.expand?"Collapse":"Read more");
-            $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
-            $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
-        });
-        $('.wrapper').find('a[href="#"]').on('click', function (e) {
+        // $('.wrapper').find('a[href="#"]').on('click', function (e) {
+        //     e.preventDefault();
+        //     this.expand = !this.expand;
+        //     $(this).text(this.expand?"Collapse":"Read more");
+        //     $(this).closest('.wFapper').find('.small_div, .big_div').toggleClass('small_div big_div');
+        //     $(this).closest('.wrapper').find('.profile_margin, .no_profile_margin').toggleClass('profile_margin no_profile_margin');
+        // });
+        $('.wrapper').find('a[href="#readMore"]').on('click', function (e) {
             e.preventDefault();
             this.expand = !this.expand;
             $(this).text(this.expand?"Collapse":"Read more");
