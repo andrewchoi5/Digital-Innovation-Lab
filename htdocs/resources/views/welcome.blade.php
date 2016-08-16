@@ -95,7 +95,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                   <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div>
                 </div>
                 <hr>
-                <div class="row item social_computing andrewchoi"><br>
+                <div class="row item social_computing andrewchoi sonaleeshah chelseathieljones mehrannajafi"><br>
                 <div class="col-md-4">
                   <div >
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/odin_play.png" style="cursor:pointer" />
@@ -129,7 +129,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
 This year, Ingrid and her team will be using a mobile application to capture feedback and status of candidates and keep up-to-date with all news related to recruitment.
 </p>
 
-                                          <p><strong>For the Co-ops: Andrew, Chelsea, and Sonalee</strong> collaborate to construct an iOS application end-to-end (Frontend + Backend) on IBM Bluemix that is capable of all these new functionalities for the CbD program.
+                                          <!-- <p><strong>For the Co-ops: Andrew, Chelsea, and Sonalee</strong> collaborate to construct an iOS application end-to-end (Frontend + Backend) on IBM Bluemix that is capable of all these new functionalities for the CbD program.
                                             <ul>
                                               <li>Ingrid will use the mobile application to create profiles for candidates who are referred by other IBMers. By capturing their basic information and LinkedIn profile, she can later provide feedback and follow the status of referrals through the recruitment process in one location,</li>
                                               <li>Ingrid will go to several campus events to promote the Consulting by Degrees program. At each event, candidates will be welcomed by IBM volunteers and asked to “check-in” using the application. Ingrid benefits is twofold: on one side she takes attendance for the event and on the other side, profiles are created for all the candidates attending the event.</li>
@@ -144,21 +144,21 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                                               <li>Managers can see top candidates for each Service Line. They discuss and agree on a final decision.</li>
                                               <li>Ingrid feels confident in their choice and looks forward to welcoming the 2017 cohort to the IBM family.</li>
                                             </ul>
-                                            </p>
+                                            </p> -->
 
-                                          <p><strong>Reference links</strong>:
+                                          <!-- <p><strong>Reference links</strong>:
                                             <ul>
                                           <li>Consulting by Degrees: <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html">http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html </a></li>
                                           <li>Consulting by Degrees Videos: <a target="_blank" href="http://www-05.ibm.com/employment/emea/consultingbydegrees/">http://www-05.ibm.com/employment/emea/consultingbydegrees/</a> </li>
                                           <li>Consulting by Degrees (Global Business Services): <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/">http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/</a></li>
                                           </ul>
-                                          </p>
-                                          <p>
+                                          </p> -->
+                                          <!-- <p>
                                             Odin is a widely revered god in Norse mythology. People associated Odin to knowledge, battle and death. Even though he wears a patch, his mystical eye allows him to see beyond time and space.
                                           </p>
 <p>
   Just like Odin’s crows who bring him information from all around the realm, the app will empower hiring managers with the knowledge needed to make the right decisions, allowing them to hire the best talent available!
-                                          </p>
+                                          </p> -->
 
                           </p>
                         </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
@@ -198,14 +198,14 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                     <a>
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                    <a target="_blank">
+                    <a href="/odin_presentation" target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
                     </div>
                 </div>
                 <hr>
-                <div class="row item social_computing tv dylantrachsel"><br>
+                <div class="row item social_computing tv dylantrachsel mehrannajafi radubolboceanu andrewfrolkin"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/newsboard_play.png" style="cursor:pointer" />
@@ -282,7 +282,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                 <hr>
 
 
-                <div class="row item auth dylantrachsel sonalee chelseathieljones"><br>
+                <div class="row item auth dylantrachsel sonaleeshah chelseathieljones radubolboceanu"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/confidence_play.png" style="cursor:pointer" />
@@ -355,7 +355,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                     </div>
                 </div>
                 <hr>
-                <div class="row item ar_vr"><br>
+                <div class="row item ar_vr davidpark mehrannajafi"><br>
                     <!-- <a href="#"> -->
                     <!-- <img src="/img/seatselection_play.png" class="img-responsive" alt="seatselection" data-toggle="modal" data-target="#videoModal"> -->
                     <!-- </a> -->
@@ -410,7 +410,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                   </div>
                 </div>
                 <hr>
-                <div class="row item ar_vr"><br>
+                <div class="row item ar_vr davidpark mehrannajafi"><br>
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/ride_play.png" style="cursor:pointer" />
@@ -455,9 +455,21 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                   </div>
                 </div>
 
+<!-- <hr>
+
+Family Banking Advisor by Watson
+
+
+he family huddles around the Apple TV or iPad and launches the FamilyBanking app to have an overview of its financial standing, change allocations and apply for new services. Watson helps guide them through the process of finding the adequate products for their needs (e.g.,  right type of credit cards, line of credits, mortgages, etc). Through a dialog, Watson determines what the client is looking for and then collects specifics which will be used by the Tradeoff analytics algorithm to centre in on the right products. The user can also see relevant social media (e.g., Twitter feeds, Facebook, etc) on each of the service providers. Moreover, sentiment analysis from Alchemy will help users rank service providers from user satisfaction's point of view.
+The goal of the solution is to improve financial literacy of family members from kids to the elders.
+
+To show you that we mean business, check out our MVP and feel free to use it:
+https://ixmcognitivebuild.mybluemix.net/ -->
+
+
                 <hr>
 
-              <div class ="row item auth"><br>
+              <div class ="row item auth olivermerk andrewfrolkin mehrannajafi jeremyleung"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                    <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/oba_play2.png" style="cursor:pointer" />
@@ -522,7 +534,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class ="row item iot andrewchoi"><br>
+                <div class ="row item iot andrewchoi mehrannajafi jeremyleung"><br>
                   <div class="col-md-4">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height+70 ?>" src="img/sensortag_play.png" style="cursor:pointer" />
@@ -585,7 +597,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class ="row item cognitive andrewchoi" data-index="3"><br>
+                <div class ="row item cognitive andrewchoi imadobeid" data-index="3"><br>
                   <div class="col-md-4 vert_center">
                     <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                      <img width="<?php echo $width ?>" height="<?php echo $height ?>" src="img/familybanking_play.png" style="cursor:pointer" />
@@ -639,7 +651,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
 
 
-              <div class="row item social_computing andrewchoi chelseathieljones"><br>
+              <div class="row item social_computing andrewchoi chelseathieljones davidpark mehrannajafi subashan"><br>
                   <div class="col-md-4">
                     <a href="#">
                     <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal">
@@ -710,7 +722,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
                 <hr>
 
-                <div class="row item cognitive chelseathieljones" data-index="2"><br>
+                <div class="row item cognitive chelseathieljones mehrannajafi" data-index="2"><br>
                     <div class="col-md-4 vert_center">
                       <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                        <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/newIdea_play.png" style="cursor:pointer" />
@@ -760,7 +772,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
 
 <hr>
 
-                  <div class="row item cognitive tv sonalee" data-index='1'><br>
+                  <div class="row item cognitive tv sonaleeshah mehrannajafi jeremyleung" data-index='1'><br>
                       <div class="col-md-4 vert_center">
                         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                          <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/family_play.png" style="cursor:pointer" />

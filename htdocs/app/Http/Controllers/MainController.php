@@ -44,11 +44,12 @@ class MainController extends Controller {
     return view('participants');
   }
 
+
 	public function andrewchoi(){
 		return view('andrewchoi');
 	}
-	public function sonalee(){
-		return view('sonalee');
+	public function sonaleeshah(){
+		return view('sonaleeshah');
 	}
 	public function dylantrachsel(){
 		return view('dylantrachsel');
@@ -56,6 +57,34 @@ class MainController extends Controller {
 	public function chelseathieljones(){
 		return view('chelseathieljones');
 	}
+	public function mahmoodashek(){
+		return view('mahmoodashek');
+	}
+	public function mehrannajafi(){
+		return view('mehrannajafi');
+	}
+	public function subashan(){
+		return view('subashan');
+	}
+	public function imadobeid(){
+		return view('imadobeid');
+	}
+	public function radubolboceanu(){
+		return view('radubolboceanu');
+	}
+	public function jeremyleung(){
+		return view('jeremyleung');
+	}
+	public function olivermerk(){
+		return view('olivermerk');
+	}
+	public function davidpark(){
+		return view('davidpark');
+	}
+	public function andrewfrolkin(){
+		return view('andrewfrolkin');
+	}
+
 
   public function seatselection()
   {
@@ -84,6 +113,10 @@ class MainController extends Controller {
 	public function sensortag_presentation()
   {
     return view('sensortag_presentation');
+  }
+	public function odin_presentation()
+  {
+    return view('odin_presentation');
   }
 
   //send email
