@@ -94,117 +94,9 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                   <div class="col-md-6"></div>
                   <div class="col-md-2 text-center"><button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal" style="width:150px;text-align:left"><span class="glyphicon glyphicon-plus"></span> Submit Idea</button></div>
                 </div>
-                <hr>
-                <div class="row item social_computing andrewchoi sonaleeshah chelseathieljones mehrannajafi"><br>
-                <div class="col-md-4">
-                  <div >
-                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/odin_play.png" style="cursor:pointer" />
-                  </div>
-                  <div style="display:none" class="class=col-md-4">
-                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                </div>
-                    <div class="col-md-6">
-                      <h4 class="title">ODIN: Hiring Managers' Candidate Recruitment App</h4>
-                      <p class="subtitle">Technologies: iOS, Node.js, CloudantDB</p>
-                      <p class="subtitle">Industry: Consulting by Degrees, Technology, Recruitment</p>
-                      <br>
-                      <div class="wrapper">
-                        <div class="small_div">
-                          <p>
-                            IBM wants to find the perfect candidates for the Consulting by Degrees program. It wants better visibility into their profiles and the feedback provided by other members on the team throughout the recruiting process. Overall, IBM managers and recruiters seek for a better experience in smart recruitment.
-                          </p>
-                                          <p><strong>Existing System's Problems</strong>: This new tool can be a ledger of value exchanged between IBMers.
-                                            <ul>
-                                              <li>Disjointed multi-channels pre-selection of candidates for interview (social event/web application/employee referral)</li>
-                                              <li> Unclear selection criteria after social and networking events</li>
-                                              <li>Candidates that don’t fit core competencies, resulting in a low success rate of interviews </li>
-                                              <li> Communication loss between hiring managers and volunteers attending the recruitment events even for the same candidate</li>
-                                              <li> Inconsistent and inaccurate feedback</li>
-                                              <li> Loss of employee time constantly seeking updates</li>
-                                            </ul></p>
 
-                                          <p>
-                                            An IBM recruitment manager, Ingrid is excited, this week is the official kick-off for CbD recruitment for the 2017 cohort. She wants to hire the best and brightest that fit with the IBM culture and will become great assets on client projects.
-This year, Ingrid and her team will be using a mobile application to capture feedback and status of candidates and keep up-to-date with all news related to recruitment.
-</p>
 
-                                          <!-- <p><strong>For the Co-ops: Andrew, Chelsea, and Sonalee</strong> collaborate to construct an iOS application end-to-end (Frontend + Backend) on IBM Bluemix that is capable of all these new functionalities for the CbD program.
-                                            <ul>
-                                              <li>Ingrid will use the mobile application to create profiles for candidates who are referred by other IBMers. By capturing their basic information and LinkedIn profile, she can later provide feedback and follow the status of referrals through the recruitment process in one location,</li>
-                                              <li>Ingrid will go to several campus events to promote the Consulting by Degrees program. At each event, candidates will be welcomed by IBM volunteers and asked to “check-in” using the application. Ingrid benefits is twofold: on one side she takes attendance for the event and on the other side, profiles are created for all the candidates attending the event.</li>
-                                              <li>At each campus event, Ingrid can easily keep track of candidates she was interested in by searching for their name. The application will pop up the candidate profile where Ingrid can add tags and feedback that will be visible to other IBM team members. She can also quickly “Favorite” a candidate to follow their progression through the recruitment process.</li>
-                                              <li>At the social event, Ingrid and the local team are focusing on assessing the fit of candidates. She is able to see the profiles of invited candidates before the social event. She is impressed with the quality of profiles.</li>
-                                              <li>Using the mobile application during the IBM social, Ingrid can easily record her feedback into the application.</li>
-                                              <li>She can choose to add tags to a profile or leave more detailed feedback where she assesses each candidate based on the core competencies desired for the Consulting by Degrees program.</li>
-                                              <li>She can review the tags and rating added to a candidate profile as a they progress in the process.</li>
-                                              <li>Interview time is valuable. To make the most of it, Ingrid looks at the candidates profile with notes from the their information session and social event. As part of the SAP practice, Ingrid is interviewing candidates that showed interest in joining the SAP team.</li>
-                                              <li>In her mobile application she can see how a candidate was rated according to the list of pre-defined criteria. She can rate each candidate on those criteria and add notes directly in her app.</li>
-                                              <li>After interviews, Ingrid and other interviewers have to make a selection. With the wealth of information they’ve collected throughout the process, they feel confident they will make informed choices .</li>
-                                              <li>Managers can see top candidates for each Service Line. They discuss and agree on a final decision.</li>
-                                              <li>Ingrid feels confident in their choice and looks forward to welcoming the 2017 cohort to the IBM family.</li>
-                                            </ul>
-                                            </p> -->
 
-                                          <!-- <p><strong>Reference links</strong>:
-                                            <ul>
-                                          <li>Consulting by Degrees: <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html">http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html </a></li>
-                                          <li>Consulting by Degrees Videos: <a target="_blank" href="http://www-05.ibm.com/employment/emea/consultingbydegrees/">http://www-05.ibm.com/employment/emea/consultingbydegrees/</a> </li>
-                                          <li>Consulting by Degrees (Global Business Services): <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/">http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/</a></li>
-                                          </ul>
-                                          </p> -->
-                                          <!-- <p>
-                                            Odin is a widely revered god in Norse mythology. People associated Odin to knowledge, battle and death. Even though he wears a patch, his mystical eye allows him to see beyond time and space.
-                                          </p>
-<p>
-  Just like Odin’s crows who bring him information from all around the realm, the app will empower hiring managers with the knowledge needed to make the right decisions, allowing them to hire the best talent available!
-                                          </p> -->
-
-                          </p>
-                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
-                      </div>
-                        <div class="row">
-
-                          <div class ="col-xs-8 profile">
-                            <a href="https://ca.linkedin.com/in/a24choi" target="_blank">
-                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Node.js Developer">
-                              <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
-                            </div>
-                            </a>
-                            <a class= "display: inline;" href="https://ca.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
-                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
-                                <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
-                              </div>
-                            </a>
-                          <!-- </div> -->
-
-                          <!-- <div class ="col-xs-5"> -->
-                            <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
-                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
-                               <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
-                             </div>
-                           </a>
-                           <a class="display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
-                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
-                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
-                            </div>
-                          </a>
-
-                        </div>
-
-                       </div>
-                    </div>
-                    <div class="col-md-2 text-center">
-                    <a>
-                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
-                    </a>
-                    <a href="/odin_presentation" target="_blank">
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
-                    </a>
-                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
-                    </div>
-                </div>
-                <hr>
                 <div class="row item social_computing tv dylantrachsel mehrannajafi radubolboceanu andrewfrolkin"><br>
                 <div class="col-md-4">
                   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
@@ -824,6 +716,120 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                         </div>
                     </div>
                 <hr>
+
+                <div class="row item social_computing andrewchoi sonaleeshah chelseathieljones mehrannajafi"><br>
+                <div class="col-md-4">
+                  <div >
+                   <img width="<?php echo $width ?>" height="<?php echo $height-10 ?>" src="img/odin_play.png" style="cursor:pointer" />
+                  </div>
+                  <div style="display:none" class="class=col-md-4">
+                    <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                    <div class="col-md-6">
+                      <h4 class="title">ODIN: Hiring Managers' Candidate Recruitment App</h4>
+                      <p class="subtitle">Technologies: iOS, Node.js, CloudantDB</p>
+                      <p class="subtitle">Industry: Consulting by Degrees, Technology, Recruitment</p>
+                      <br>
+                      <div class="wrapper">
+                        <div class="small_div">
+                          <p>
+                            IBM wants to find the perfect candidates for the Consulting by Degrees program. It wants better visibility into their profiles and the feedback provided by other members on the team throughout the recruiting process. Overall, IBM managers and recruiters seek for a better experience in smart recruitment.
+                          </p>
+                                          <p><strong>Existing System's Problems</strong>: This new tool can be a ledger of value exchanged between IBMers.
+                                            <ul>
+                                              <li>Disjointed multi-channels pre-selection of candidates for interview (social event/web application/employee referral)</li>
+                                              <li> Unclear selection criteria after social and networking events</li>
+                                              <li>Candidates that don’t fit core competencies, resulting in a low success rate of interviews </li>
+                                              <li> Communication loss between hiring managers and volunteers attending the recruitment events even for the same candidate</li>
+                                              <li> Inconsistent and inaccurate feedback</li>
+                                              <li> Loss of employee time constantly seeking updates</li>
+                                            </ul></p>
+
+                                          <p>
+                                            An IBM recruitment manager, Ingrid is excited, this week is the official kick-off for CbD recruitment for the 2017 cohort. She wants to hire the best and brightest that fit with the IBM culture and will become great assets on client projects.
+This year, Ingrid and her team will be using a mobile application to capture feedback and status of candidates and keep up-to-date with all news related to recruitment.
+</p>
+
+                                          <!-- <p><strong>For the Co-ops: Andrew, Chelsea, and Sonalee</strong> collaborate to construct an iOS application end-to-end (Frontend + Backend) on IBM Bluemix that is capable of all these new functionalities for the CbD program.
+                                            <ul>
+                                              <li>Ingrid will use the mobile application to create profiles for candidates who are referred by other IBMers. By capturing their basic information and LinkedIn profile, she can later provide feedback and follow the status of referrals through the recruitment process in one location,</li>
+                                              <li>Ingrid will go to several campus events to promote the Consulting by Degrees program. At each event, candidates will be welcomed by IBM volunteers and asked to “check-in” using the application. Ingrid benefits is twofold: on one side she takes attendance for the event and on the other side, profiles are created for all the candidates attending the event.</li>
+                                              <li>At each campus event, Ingrid can easily keep track of candidates she was interested in by searching for their name. The application will pop up the candidate profile where Ingrid can add tags and feedback that will be visible to other IBM team members. She can also quickly “Favorite” a candidate to follow their progression through the recruitment process.</li>
+                                              <li>At the social event, Ingrid and the local team are focusing on assessing the fit of candidates. She is able to see the profiles of invited candidates before the social event. She is impressed with the quality of profiles.</li>
+                                              <li>Using the mobile application during the IBM social, Ingrid can easily record her feedback into the application.</li>
+                                              <li>She can choose to add tags to a profile or leave more detailed feedback where she assesses each candidate based on the core competencies desired for the Consulting by Degrees program.</li>
+                                              <li>She can review the tags and rating added to a candidate profile as a they progress in the process.</li>
+                                              <li>Interview time is valuable. To make the most of it, Ingrid looks at the candidates profile with notes from the their information session and social event. As part of the SAP practice, Ingrid is interviewing candidates that showed interest in joining the SAP team.</li>
+                                              <li>In her mobile application she can see how a candidate was rated according to the list of pre-defined criteria. She can rate each candidate on those criteria and add notes directly in her app.</li>
+                                              <li>After interviews, Ingrid and other interviewers have to make a selection. With the wealth of information they’ve collected throughout the process, they feel confident they will make informed choices .</li>
+                                              <li>Managers can see top candidates for each Service Line. They discuss and agree on a final decision.</li>
+                                              <li>Ingrid feels confident in their choice and looks forward to welcoming the 2017 cohort to the IBM family.</li>
+                                            </ul>
+                                            </p> -->
+
+                                          <!-- <p><strong>Reference links</strong>:
+                                            <ul>
+                                          <li>Consulting by Degrees: <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html">http://www-935.ibm.com/services/us/gbs/consulting/careers/cbd/opportunities.html </a></li>
+                                          <li>Consulting by Degrees Videos: <a target="_blank" href="http://www-05.ibm.com/employment/emea/consultingbydegrees/">http://www-05.ibm.com/employment/emea/consultingbydegrees/</a> </li>
+                                          <li>Consulting by Degrees (Global Business Services): <a target="_blank" href="http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/">http://www-935.ibm.com/services/us/gbs/consulting/careers/consultingbydegrees/</a></li>
+                                          </ul>
+                                          </p> -->
+                                          <!-- <p>
+                                            Odin is a widely revered god in Norse mythology. People associated Odin to knowledge, battle and death. Even though he wears a patch, his mystical eye allows him to see beyond time and space.
+                                          </p>
+<p>
+  Just like Odin’s crows who bring him information from all around the realm, the app will empower hiring managers with the knowledge needed to make the right decisions, allowing them to hire the best talent available!
+                                          </p> -->
+
+                          </p>
+                        </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
+                      </div>
+                        <div class="row">
+
+                          <div class ="col-xs-8 profile">
+                            <a href="https://ca.linkedin.com/in/a24choi" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Node.js Developer">
+                              <img src="/img/andrew.png"  height="50" width="50" alt="profile" data-placement="top" data-toggle="tooltip"  title="Andrew Choi">
+                            </div>
+                            </a>
+                            <a class= "display: inline;" href="https://ca.linkedin.com/in/chelsea-thiel-jones-679357a2" target="_blank">
+                              <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
+                                <img src="/img/chelsea.jpg"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Chelsea Thiel-Jones">
+                              </div>
+                            </a>
+                          <!-- </div> -->
+
+                          <!-- <div class ="col-xs-5"> -->
+                            <a class="display: inline;" href="https://www.linkedin.com/" target="_blank">
+                             <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="iOS Developer">
+                               <img src="/img/sonalee.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Sonalee Shah">
+                             </div>
+                           </a>
+                           <a class="display: inline;" href="https://www.linkedin.com/in/mehrannajafi" target="_blank">
+                            <div class="col-xs-2 text-center" data-placement="bottom" data-toggle="tooltip"  title="Ideas & Architect">
+                              <img src="/img/mehran.png"  height="50" width="50" alt="profile" data-toggle="tooltip"  title="Mehran Najafi">
+                            </div>
+                          </a>
+
+                        </div>
+
+                       </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                    <a>
+                        <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
+                    </a>
+                    <a href="/odin_presentation" target="_blank">
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
+                    </a>
+                      <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
+                    </div>
+                </div>
+
+                <hr>
+
+
                 <div class="wrapper">
                   <div class="small_div"><br><br> </div>
                     <a href="#moreProjects" style="margin-bottom:15px;">Display More Projects</a>

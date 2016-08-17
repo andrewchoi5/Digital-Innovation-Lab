@@ -73,17 +73,19 @@
 
 <script src="collapse.js"></script> <!-- justl eave it -->
 <script>
-     $("#demo-wrapper").load("index.php ." + "andrewchoi", function() {
-      //  $.getScript('collapse.js', function() { //leave it
-        // });
-     });
-     $("#demo-wrapper-proposals").load("index.php/proposals ." + "andrewchoi", function() {
-      //  $.getScript('collapse.js', function() {
-         //leave it
-        // });
-     });
-     $.getScript('collapse.js', function() { //leave it
+    $("#demo-wrapper-proposals").load("index.php/proposals ." + "andrewchoi", function() {
+      $("#demo-wrapper").load("index.php ." + "andrewchoi", function() {
+        $.getScript('collapse.js', function() {
+          //leave it
+         });
       });
+
+    });
+
+
+    //  $.getScript('collapse.js', function() {
+       //leave it
+      // });
      var title = "Andrew Choi Projects";
      document.getElementById("categoryTitle").style.display = "";
      document.getElementById("categoryTitle").innerHTML = title;
