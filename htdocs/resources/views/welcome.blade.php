@@ -435,14 +435,13 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                        and can't wait to take a good couple hours of nap at your hotel.
                        You are so exhausted that you cannot stand in front the carousel,
                         searching for your baggages the old style. Why not just sit down
-                        and let the SensorTag Luggage Tracker show you where they are?
-                        Utilizing Texas Instrument's TI CC2650 SensorTag model, this small_div,
-                        Android prototype of this feature is built for airline customers.
+                        and let the SensorTag Luggage Tracker show you where they are?</p>
+                        <p>Utilizing Texas Instrument's TI CC2650 SensorTag model, Android prototype of this feature is built for airline customers.
                         For this PoC, we've used experimented with many different sensors and algorithms within
                          this powerful chip from Texas Instrument. The concluding product is an ad hoc application
                           that delivers GPS-like tracking system, but using RSSI value of a bluetooth device.
                           The SensorTag Luggage Tracker is also an example of development within the Internet
-                          of Things (IoT) industry.</p>
+                          of Things industry.</p>
                         </div><a href="#readMore" style="margin-bottom:15px;">Read more</a>
                           <div class="row">
                             <div class ="col-xs-5 profile">
@@ -736,7 +735,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                           <p>
                             IBM wants to find the perfect candidates for the Consulting by Degrees program. It wants better visibility into their profiles and the feedback provided by other members on the team throughout the recruiting process. Overall, IBM managers and recruiters seek for a better experience in smart recruitment.
                           </p>
-                                          <p><strong>Existing System's Problems</strong>: This new tool can be a ledger of value exchanged between IBMers.
+                                          <!-- <p><strong>Existing System's Problems</strong>: This new tool can be a ledger of value exchanged between IBMers.
                                             <ul>
                                               <li>Disjointed multi-channels pre-selection of candidates for interview (social event/web application/employee referral)</li>
                                               <li> Unclear selection criteria after social and networking events</li>
@@ -744,7 +743,8 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                                               <li> Communication loss between hiring managers and volunteers attending the recruitment events even for the same candidate</li>
                                               <li> Inconsistent and inaccurate feedback</li>
                                               <li> Loss of employee time constantly seeking updates</li>
-                                            </ul></p>
+                                            </ul>
+                                          </p> -->
 
                                           <p>
                                             An IBM recruitment manager, Ingrid is excited, this week is the official kick-off for CbD recruitment for the 2017 cohort. She wants to hire the best and brightest that fit with the IBM culture and will become great assets on client projects.
