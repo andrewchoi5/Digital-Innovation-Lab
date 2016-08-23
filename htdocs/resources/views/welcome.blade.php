@@ -490,7 +490,7 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
                     <h4 class="title">IBM Family Financial Advisor</h4>
                     <p class="subtitle">Technologies: iOS, Web, Watson</p>
                     <p class="subtitle">Industry: Finance, Banking</p>
-                    <p class="url"> Demo URL: <a href="http://con-achoi.mybluemix.net/" target="_blank"> http://con-achoi.mybluemix.net/ </a> </p>
+
                     <br>
                     <div class="wrapper">
                       <div class="small_div">
@@ -532,11 +532,21 @@ $mehranLinkedin = 'https://www.linkedin.com/in/mehrannajafi'; ?>
 
 
               <div class="row item social_computing andrewchoi chelseathieljones davidpark mehrannajafi subashan"><br>
-                  <div class="col-md-4">
-                    <a href="#">
-                    <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal">
-                    </a>
+                  <!-- <div class="col-md-4"> -->
+                    <!-- <a href="#"> -->
+                    <!-- <img src="/img/icon/dil.svg" class="img-responsive" alt="seatselection" data-toggle="modal"> -->
+                    <!-- </a> -->
+                  <!-- </div> -->
+
+                  <div class="col-md-4 vert_center">
+                    <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                     <img width="<?php echo $width ?>" height="<?php echo $height+0 ?>" src="img/dil_play.png" style="cursor:pointer" />
+                    </div>
+                    <div style="display:none" class="class=col-md-4">
+                      <iframe width="<?php echo $width ?>" height="<?php echo $height ?>" src="https://www.youtube.com/embed/jVnLdoNVIxM?autoplay=0&showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
+
                     <div class="col-md-6">
                     <h4 class="title">Innovation Lab Portal</h4>
                     <p class="subtitle">Technologies: Web, PHP, Laravel</p>
@@ -820,7 +830,7 @@ This year, Ingrid and her team will be using a mobile application to capture fee
                     <a>
                         <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-pencil"></span> Installation Guide</span>
                     </a>
-                    <a href="/odin_presentation" target="_blank">
+                    <a target="_blank">
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left"><span class="glyphicon glyphicon-list-alt"></span> Presentation</span>
                     </a>
                       <span class="btn btn-md btn-info" style="margin-bottom:15px;width:150px;text-align:left" data-toggle="modal" data-target="#myModal" data-email="Feedback for this Application"><span class="glyphicon glyphicon-envelope"></span> Feedback</span>
